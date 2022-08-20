@@ -2,6 +2,7 @@
   "navigationBarTitleText": "uni-app",
   "usingComponents": {
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     "u-picker": "/uni_modules/uview-ui/components/u-picker/u-picker",
     "u-swiper": "/uni_modules/uview-ui/components/u-swiper/u-swiper",
@@ -13,6 +14,8 @@
     "u-cell": "/uni_modules/uview-ui/components/u-cell/u-cell",
     "u-tag": "/uni_modules/uview-ui/components/u-tag/u-tag",
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+>>>>>>> newMedical
     "u-button": "/uni_modules/uview-ui/components/u-button/u-button"
   }
 }

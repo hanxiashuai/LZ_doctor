@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 (global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/PersonCenter/PersonCenter"],{
 
 <<<<<<< HEAD
@@ -356,3 +357,6 @@ __webpack_require__.r(__webpack_exports__);
 },[[156,"common/runtime","common/vendor"]]]);
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
 //# sourceMappingURL=../../../.sourcemap/mp-weixin/pages/PersonCenter/PersonCenter.js.map
+=======
+Component({})
+>>>>>>> newMedical

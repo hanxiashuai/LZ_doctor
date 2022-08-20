@@ -1431,10 +1431,14 @@ function initData(vueOptions, context) {
       data = data.call(context); // 支持 Vue.prototype 上挂的数据
     } catch (e) {
 <<<<<<< HEAD
+<<<<<<< HEAD
       if (Object({"NODE_ENV":"development","VUE_APP_NAME":"LZ_doctor","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
 =======
       if (Object({"VUE_APP_NAME":"LZ_doctor","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+      if (Object({"VUE_APP_NAME":"LZ_doctor","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+>>>>>>> newMedical
         console.warn('根据 Vue 的 data 函数初始化小程序 data 失败，请尽量确保 data 函数中不访问 vm 对象，否则可能影响首次数据渲染速度。', data);
       }
     }
@@ -8523,10 +8527,14 @@ function type(obj) {
 function flushCallbacks$1(vm) {
     if (vm.__next_tick_callbacks && vm.__next_tick_callbacks.length) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (Object({"NODE_ENV":"development","VUE_APP_NAME":"LZ_doctor","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
 =======
         if (Object({"VUE_APP_NAME":"LZ_doctor","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+        if (Object({"VUE_APP_NAME":"LZ_doctor","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+>>>>>>> newMedical
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:flushCallbacks[' + vm.__next_tick_callbacks.length + ']');
@@ -8548,10 +8556,14 @@ function nextTick$1(vm, cb) {
     //2.nextTick 之前存在 render watcher
     if (!vm.__next_tick_pending && !hasRenderWatcher(vm)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         if(Object({"NODE_ENV":"development","VUE_APP_NAME":"LZ_doctor","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
 =======
         if(Object({"VUE_APP_NAME":"LZ_doctor","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+        if(Object({"VUE_APP_NAME":"LZ_doctor","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
+>>>>>>> newMedical
             var mpInstance = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
                 ']:nextVueTick');
@@ -8559,10 +8571,14 @@ function nextTick$1(vm, cb) {
         return nextTick(cb, vm)
     }else{
 <<<<<<< HEAD
+<<<<<<< HEAD
         if(Object({"NODE_ENV":"development","VUE_APP_NAME":"LZ_doctor","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
 =======
         if(Object({"VUE_APP_NAME":"LZ_doctor","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+        if(Object({"VUE_APP_NAME":"LZ_doctor","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG){
+>>>>>>> newMedical
             var mpInstance$1 = vm.$scope;
             console.log('[' + (+new Date) + '][' + (mpInstance$1.is || mpInstance$1.route) + '][' + vm._uid +
                 ']:nextMPTick');
@@ -8649,10 +8665,14 @@ var patch = function(oldVnode, vnode) {
     var diffData = this.$shouldDiffData === false ? data : diff(data, mpData);
     if (Object.keys(diffData).length) {
 <<<<<<< HEAD
+<<<<<<< HEAD
       if (Object({"NODE_ENV":"development","VUE_APP_NAME":"LZ_doctor","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
 =======
       if (Object({"VUE_APP_NAME":"LZ_doctor","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+      if (Object({"VUE_APP_NAME":"LZ_doctor","VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+>>>>>>> newMedical
         console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + this._uid +
           ']差量更新',
           JSON.stringify(diffData));
@@ -9063,6 +9083,7 @@ internalMixin(Vue);
 /***/ }),
 /* 5 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!***********************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/pages.json ***!
   \***********************************************/
@@ -9071,6 +9092,11 @@ internalMixin(Vue);
   !*** D:/桌面文件夹/LZ_doctor/pages.json ***!
   \*************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*******************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/pages.json ***!
+  \*******************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -9212,6 +9238,7 @@ function normalizeComponent (
 /***/ }),
 /* 12 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!******************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/index.js ***!
   \******************************************************************/
@@ -9220,6 +9247,11 @@ function normalizeComponent (
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/index.js ***!
   \********************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!**************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/index.js ***!
+  \**************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9307,6 +9339,7 @@ var install = function install(Vue) {
 /***/ }),
 /* 13 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!*****************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/mixin/mixin.js ***!
   \*****************************************************************************/
@@ -9315,6 +9348,11 @@ var install = function install(Vue) {
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/mixin/mixin.js ***!
   \*******************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/mixin/mixin.js ***!
+  \*************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9482,6 +9520,7 @@ var install = function install(Vue) {
 /***/ }),
 /* 14 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!*******************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/mixin/mpMixin.js ***!
   \*******************************************************************************/
@@ -9490,6 +9529,11 @@ var install = function install(Vue) {
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/mixin/mpMixin.js ***!
   \*********************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!***************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/mixin/mpMixin.js ***!
+  \***************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9503,6 +9547,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 15 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/luch-request/index.js ***!
   \************************************************************************************/
@@ -9511,6 +9556,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/luch-request/index.js ***!
   \**************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/luch-request/index.js ***!
+  \********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9522,6 +9572,7 @@ _Request.default;exports.default = _default;
 /***/ }),
 /* 16 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!*******************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/Request.js ***!
   \*******************************************************************************************/
@@ -9530,6 +9581,11 @@ _Request.default;exports.default = _default;
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/Request.js ***!
   \*********************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!***************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/Request.js ***!
+  \***************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9736,6 +9792,7 @@ Request = /*#__PURE__*/function () {
 /***/ }),
 /* 17 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!***************************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/dispatchRequest.js ***!
   \***************************************************************************************************/
@@ -9744,6 +9801,11 @@ Request = /*#__PURE__*/function () {
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/dispatchRequest.js ***!
   \*****************************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!***********************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/dispatchRequest.js ***!
+  \***********************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9755,6 +9817,7 @@ function _default(config) {return (0, _index.default)(config);};exports.default 
 /***/ }),
 /* 18 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!*********************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/luch-request/adapters/index.js ***!
   \*********************************************************************************************/
@@ -9763,6 +9826,11 @@ function _default(config) {return (0, _index.default)(config);};exports.default 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/luch-request/adapters/index.js ***!
   \***********************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*****************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/luch-request/adapters/index.js ***!
+  \*****************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9869,6 +9937,7 @@ function _default(config) {return new Promise(function (resolve, reject) {
 /***/ }),
 /* 19 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!***********************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/luch-request/helpers/buildURL.js ***!
   \***********************************************************************************************/
@@ -9877,6 +9946,11 @@ function _default(config) {return new Promise(function (resolve, reject) {
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/luch-request/helpers/buildURL.js ***!
   \*************************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*******************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/luch-request/helpers/buildURL.js ***!
+  \*******************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9954,6 +10028,7 @@ function buildURL(url, params) {
 /***/ }),
 /* 20 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/luch-request/utils.js ***!
   \************************************************************************************/
@@ -9962,6 +10037,11 @@ function buildURL(url, params) {
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/luch-request/utils.js ***!
   \**************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/luch-request/utils.js ***!
+  \********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10101,6 +10181,7 @@ function isUndefined(val) {
 /***/ }),
 /* 21 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!*************************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/buildFullPath.js ***!
   \*************************************************************************************************/
@@ -10109,6 +10190,11 @@ function isUndefined(val) {
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/buildFullPath.js ***!
   \***************************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*********************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/buildFullPath.js ***!
+  \*********************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10137,6 +10223,7 @@ function buildFullPath(baseURL, requestedURL) {
 /***/ }),
 /* 22 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!****************************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/luch-request/helpers/isAbsoluteURL.js ***!
   \****************************************************************************************************/
@@ -10145,6 +10232,11 @@ function buildFullPath(baseURL, requestedURL) {
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/luch-request/helpers/isAbsoluteURL.js ***!
   \******************************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!************************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/luch-request/helpers/isAbsoluteURL.js ***!
+  \************************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10167,6 +10259,7 @@ function isAbsoluteURL(url) {
 /***/ }),
 /* 23 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!**************************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/luch-request/helpers/combineURLs.js ***!
   \**************************************************************************************************/
@@ -10175,6 +10268,11 @@ function isAbsoluteURL(url) {
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/luch-request/helpers/combineURLs.js ***!
   \****************************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!**********************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/luch-request/helpers/combineURLs.js ***!
+  \**********************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10197,6 +10295,7 @@ function combineURLs(baseURL, relativeURL) {
 /***/ }),
 /* 24 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!******************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/settle.js ***!
   \******************************************************************************************/
@@ -10205,6 +10304,11 @@ function combineURLs(baseURL, relativeURL) {
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/settle.js ***!
   \********************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!**************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/settle.js ***!
+  \**************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10229,6 +10333,7 @@ function settle(resolve, reject, response) {var
 /***/ }),
 /* 25 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!******************************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/InterceptorManager.js ***!
   \******************************************************************************************************/
@@ -10237,6 +10342,11 @@ function settle(resolve, reject, response) {var
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/InterceptorManager.js ***!
   \********************************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!**************************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/InterceptorManager.js ***!
+  \**************************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10295,6 +10405,7 @@ InterceptorManager;exports.default = _default;
 /***/ }),
 /* 26 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!***********************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/mergeConfig.js ***!
   \***********************************************************************************************/
@@ -10303,6 +10414,11 @@ InterceptorManager;exports.default = _default;
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/mergeConfig.js ***!
   \*************************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*******************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/mergeConfig.js ***!
+  \*******************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10414,6 +10530,7 @@ function _default(globalsConfig) {var config2 = arguments.length > 1 && argument
 /***/ }),
 /* 27 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!********************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/defaults.js ***!
   \********************************************************************************************/
@@ -10422,6 +10539,11 @@ function _default(globalsConfig) {var config2 = arguments.length > 1 && argument
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/defaults.js ***!
   \**********************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!****************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/defaults.js ***!
+  \****************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10458,6 +10580,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 28 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!******************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/luch-request/utils/clone.js ***!
   \******************************************************************************************/
@@ -10466,6 +10589,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/luch-request/utils/clone.js ***!
   \********************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!**************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/luch-request/utils/clone.js ***!
+  \**************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10735,10 +10863,14 @@ var clone = function () {
 
 clone;exports.default = _default;
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../../HBuilderX.3.5.3.20220729/HBuilderX/plugins/uniapp-cli/node_modules/buffer/index.js */ 29).Buffer))
 =======
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/buffer/index.js */ 29).Buffer))
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../../../网页下载地址/HBuilderX.3.5.3.20220729/HBuilderX/plugins/uniapp-cli/node_modules/buffer/index.js */ 29).Buffer))
+>>>>>>> newMedical
 
 /***/ }),
 /* 29 */
@@ -12816,6 +12948,7 @@ module.exports = Array.isArray || function (arr) {
 /***/ }),
 /* 33 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!****************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/util/route.js ***!
   \****************************************************************************/
@@ -12824,11 +12957,17 @@ module.exports = Array.isArray || function (arr) {
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/util/route.js ***!
   \******************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/util/route.js ***!
+  \************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 34));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;} /**
+<<<<<<< HEAD
 <<<<<<< HEAD
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          * 路由跳转方法，该方法相对于直接使用uni.xxx的好处是使用更加简单快捷
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          * 并且带有路由拦截功能
@@ -12838,6 +12977,11 @@ module.exports = Array.isArray || function (arr) {
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               * 并且带有路由拦截功能
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               */var
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              * 路由跳转方法，该方法相对于直接使用uni.xxx的好处是使用更加简单快捷
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              * 并且带有路由拦截功能
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              */var
+>>>>>>> newMedical
 
 Router = /*#__PURE__*/function () {
   function Router() {_classCallCheck(this, Router);
@@ -13751,6 +13895,7 @@ if (hadRuntime) {
 /***/ }),
 /* 37 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!****************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/function/colorGradient.js ***!
   \****************************************************************************************/
@@ -13759,6 +13904,11 @@ if (hadRuntime) {
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/function/colorGradient.js ***!
   \******************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/function/colorGradient.js ***!
+  \************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13900,6 +14050,7 @@ function colorToRgba(color, alpha) {
 /***/ }),
 /* 38 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!*******************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/function/test.js ***!
   \*******************************************************************************/
@@ -13908,6 +14059,11 @@ function colorToRgba(color, alpha) {
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/function/test.js ***!
   \*********************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!***************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/function/test.js ***!
+  \***************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14203,6 +14359,7 @@ function regExp(o) {
 /***/ }),
 /* 39 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!***********************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/function/debounce.js ***!
   \***********************************************************************************/
@@ -14211,6 +14368,11 @@ function regExp(o) {
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/function/debounce.js ***!
   \*************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*******************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/function/debounce.js ***!
+  \*******************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14248,6 +14410,7 @@ debounce;exports.default = _default;
 /***/ }),
 /* 40 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!***********************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/function/throttle.js ***!
   \***********************************************************************************/
@@ -14256,6 +14419,11 @@ debounce;exports.default = _default;
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/function/throttle.js ***!
   \*************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*******************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/function/throttle.js ***!
+  \*******************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14294,6 +14462,7 @@ throttle;exports.default = _default;
 /***/ }),
 /* 41 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!********************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/function/index.js ***!
   \********************************************************************************/
@@ -14302,6 +14471,11 @@ throttle;exports.default = _default;
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/function/index.js ***!
   \**********************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!****************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/function/index.js ***!
+  \****************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15015,6 +15189,7 @@ function setConfig(_ref3)
 /***/ }),
 /* 42 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!********************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/function/digit.js ***!
   \********************************************************************************/
@@ -15023,6 +15198,11 @@ function setConfig(_ref3)
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/function/digit.js ***!
   \**********************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!****************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/function/digit.js ***!
+  \****************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15196,6 +15376,7 @@ function enableBoundaryChecking() {var flag = arguments.length > 0 && arguments[
 /***/ }),
 /* 43 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!*******************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/config.js ***!
   \*******************************************************************************/
@@ -15204,6 +15385,11 @@ function enableBoundaryChecking() {var flag = arguments.length > 0 && arguments[
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/config.js ***!
   \*********************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!***************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/config.js ***!
+  \***************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15245,6 +15431,7 @@ if (true) {
 /***/ }),
 /* 44 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!******************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props.js ***!
   \******************************************************************************/
@@ -15253,6 +15440,11 @@ if (true) {
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props.js ***!
   \********************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!**************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props.js ***!
+  \**************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15450,6 +15642,7 @@ _upload.default);exports.default = _default;
 /***/ }),
 /* 45 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!******************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/actionSheet.js ***!
   \******************************************************************************************/
@@ -15458,6 +15651,11 @@ _upload.default);exports.default = _default;
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/actionSheet.js ***!
   \********************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!**************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/actionSheet.js ***!
+  \**************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15489,6 +15687,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 46 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/album.js ***!
   \************************************************************************************/
@@ -15497,6 +15696,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/album.js ***!
   \**************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/album.js ***!
+  \********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15528,6 +15732,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 47 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/alert.js ***!
   \************************************************************************************/
@@ -15536,6 +15741,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/alert.js ***!
   \**************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/alert.js ***!
+  \********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15564,6 +15774,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 48 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!*************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/avatar.js ***!
   \*************************************************************************************/
@@ -15572,6 +15783,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/avatar.js ***!
   \***************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/avatar.js ***!
+  \*********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15606,6 +15822,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 49 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!******************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/avatarGroup.js ***!
   \******************************************************************************************/
@@ -15614,6 +15831,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/avatarGroup.js ***!
   \********************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!**************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/avatarGroup.js ***!
+  \**************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15643,6 +15865,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 50 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!**************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/backtop.js ***!
   \**************************************************************************************/
@@ -15651,6 +15874,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/backtop.js ***!
   \****************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!**********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/backtop.js ***!
+  \**********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15683,6 +15911,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 51 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/badge.js ***!
   \************************************************************************************/
@@ -15691,6 +15920,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/badge.js ***!
   \**************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/badge.js ***!
+  \********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15724,6 +15958,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 52 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!*************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/button.js ***!
   \*************************************************************************************/
@@ -15732,6 +15967,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/button.js ***!
   \***************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/button.js ***!
+  \*********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15780,6 +16020,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 53 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!***************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/calendar.js ***!
   \***************************************************************************************/
@@ -15788,6 +16029,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/calendar.js ***!
   \*****************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!***********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/calendar.js ***!
+  \***********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15836,6 +16082,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 54 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!******************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/carKeyboard.js ***!
   \******************************************************************************************/
@@ -15844,6 +16091,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/carKeyboard.js ***!
   \********************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!**************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/carKeyboard.js ***!
+  \**************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15865,6 +16117,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 55 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!***********************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/cell.js ***!
   \***********************************************************************************/
@@ -15873,6 +16126,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/cell.js ***!
   \*************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*******************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/cell.js ***!
+  \*******************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15914,6 +16172,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 56 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!****************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/cellGroup.js ***!
   \****************************************************************************************/
@@ -15922,6 +16181,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/cellGroup.js ***!
   \******************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/cellGroup.js ***!
+  \************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15945,6 +16209,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 57 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!***************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/checkbox.js ***!
   \***************************************************************************************/
@@ -15953,6 +16218,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/checkbox.js ***!
   \*****************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!***********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/checkbox.js ***!
+  \***********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15986,6 +16256,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 58 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!********************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/checkboxGroup.js ***!
   \********************************************************************************************/
@@ -15994,6 +16265,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/checkboxGroup.js ***!
   \**********************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!****************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/checkboxGroup.js ***!
+  \****************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16029,6 +16305,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 59 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!*********************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/circleProgress.js ***!
   \*********************************************************************************************/
@@ -16037,6 +16314,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/circleProgress.js ***!
   \***********************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*****************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/circleProgress.js ***!
+  \*****************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16058,6 +16340,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 60 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!***********************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/code.js ***!
   \***********************************************************************************/
@@ -16066,6 +16349,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/code.js ***!
   \*************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*******************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/code.js ***!
+  \*******************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16093,6 +16381,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 61 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!****************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/codeInput.js ***!
   \****************************************************************************************/
@@ -16101,6 +16390,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/codeInput.js ***!
   \******************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/codeInput.js ***!
+  \************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16136,6 +16430,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 62 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!**********************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/col.js ***!
   \**********************************************************************************/
@@ -16144,6 +16439,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/col.js ***!
   \************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!******************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/col.js ***!
+  \******************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16169,6 +16469,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 63 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!***************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/collapse.js ***!
   \***************************************************************************************/
@@ -16177,6 +16478,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/collapse.js ***!
   \*****************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!***********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/collapse.js ***!
+  \***********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16200,6 +16506,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 64 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!*******************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/collapseItem.js ***!
   \*******************************************************************************************/
@@ -16208,6 +16515,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/collapseItem.js ***!
   \*********************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!***************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/collapseItem.js ***!
+  \***************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16239,6 +16551,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 65 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!*******************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/columnNotice.js ***!
   \*******************************************************************************************/
@@ -16247,6 +16560,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/columnNotice.js ***!
   \*********************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!***************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/columnNotice.js ***!
+  \***************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16277,6 +16595,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 66 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!****************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/countDown.js ***!
   \****************************************************************************************/
@@ -16285,6 +16604,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/countDown.js ***!
   \******************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/countDown.js ***!
+  \************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16309,6 +16633,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 67 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!**************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/countTo.js ***!
   \**************************************************************************************/
@@ -16317,6 +16642,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/countTo.js ***!
   \****************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!**********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/countTo.js ***!
+  \**********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16348,6 +16678,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 68 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!*********************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/datetimePicker.js ***!
   \*********************************************************************************************/
@@ -16356,6 +16687,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/datetimePicker.js ***!
   \***********************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*****************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/datetimePicker.js ***!
+  \*****************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16398,6 +16734,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 69 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!**************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/divider.js ***!
   \**************************************************************************************/
@@ -16406,6 +16743,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/divider.js ***!
   \****************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!**********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/divider.js ***!
+  \**********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16434,6 +16776,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 70 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/empty.js ***!
   \************************************************************************************/
@@ -16442,6 +16785,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/empty.js ***!
   \**************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/empty.js ***!
+  \********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16473,6 +16821,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 71 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!***********************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/form.js ***!
   \***********************************************************************************/
@@ -16481,6 +16830,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/form.js ***!
   \*************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*******************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/form.js ***!
+  \*******************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16509,6 +16863,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 72 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!***************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/formItem.js ***!
   \***************************************************************************************/
@@ -16517,6 +16872,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/formItem.js ***!
   \*****************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!***********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/formItem.js ***!
+  \***********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16545,6 +16905,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 73 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!**********************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/gap.js ***!
   \**********************************************************************************/
@@ -16553,6 +16914,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/gap.js ***!
   \************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!******************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/gap.js ***!
+  \******************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16578,6 +16944,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 74 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!***********************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/grid.js ***!
   \***********************************************************************************/
@@ -16586,6 +16953,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/grid.js ***!
   \*************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*******************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/grid.js ***!
+  \*******************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16609,6 +16981,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 75 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!***************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/gridItem.js ***!
   \***************************************************************************************/
@@ -16617,6 +16990,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/gridItem.js ***!
   \*****************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!***********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/gridItem.js ***!
+  \***********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16639,6 +17017,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 76 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!***********************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/icon.js ***!
   \***********************************************************************************/
@@ -16647,6 +17026,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/icon.js ***!
   \*************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*******************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/icon.js ***!
+  \*******************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16689,6 +17073,7 @@ var _config = _interopRequireDefault(__webpack_require__(/*! ../config */ 43));f
 /***/ }),
 /* 77 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/image.js ***!
   \************************************************************************************/
@@ -16697,6 +17082,11 @@ var _config = _interopRequireDefault(__webpack_require__(/*! ../config */ 43));f
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/image.js ***!
   \**************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/image.js ***!
+  \********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16733,6 +17123,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 78 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!******************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/indexAnchor.js ***!
   \******************************************************************************************/
@@ -16741,6 +17132,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/indexAnchor.js ***!
   \********************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!**************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/indexAnchor.js ***!
+  \**************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16766,6 +17162,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 79 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!****************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/indexList.js ***!
   \****************************************************************************************/
@@ -16774,6 +17171,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/indexList.js ***!
   \******************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/indexList.js ***!
+  \************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16799,6 +17201,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 80 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/input.js ***!
   \************************************************************************************/
@@ -16807,6 +17210,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/input.js ***!
   \**************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/input.js ***!
+  \********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16861,6 +17269,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 81 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!***************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/keyboard.js ***!
   \***************************************************************************************/
@@ -16869,6 +17278,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/keyboard.js ***!
   \*****************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!***********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/keyboard.js ***!
+  \***********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16905,6 +17319,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 82 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!***********************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/line.js ***!
   \***********************************************************************************/
@@ -16913,6 +17328,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/line.js ***!
   \*************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*******************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/line.js ***!
+  \*******************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16939,6 +17359,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 83 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!*******************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/lineProgress.js ***!
   \*******************************************************************************************/
@@ -16947,6 +17368,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/lineProgress.js ***!
   \*********************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!***************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/lineProgress.js ***!
+  \***************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16972,6 +17398,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 84 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!***********************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/link.js ***!
   \***********************************************************************************/
@@ -16980,6 +17407,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/link.js ***!
   \*************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*******************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/link.js ***!
+  \*******************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17012,6 +17444,7 @@ var _config = _interopRequireDefault(__webpack_require__(/*! ../config */ 43));f
 /***/ }),
 /* 85 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!***********************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/list.js ***!
   \***********************************************************************************/
@@ -17020,6 +17453,11 @@ var _config = _interopRequireDefault(__webpack_require__(/*! ../config */ 43));f
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/list.js ***!
   \*************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*******************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/list.js ***!
+  \*******************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17054,6 +17492,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 86 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!***************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/listItem.js ***!
   \***************************************************************************************/
@@ -17062,6 +17501,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/listItem.js ***!
   \*****************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!***********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/listItem.js ***!
+  \***********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17083,6 +17527,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 87 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!******************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/loadingIcon.js ***!
   \******************************************************************************************/
@@ -17091,6 +17536,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/loadingIcon.js ***!
   \********************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!**************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/loadingIcon.js ***!
+  \**************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17127,6 +17577,7 @@ var _config = _interopRequireDefault(__webpack_require__(/*! ../config */ 43));f
 /***/ }),
 /* 88 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!******************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/loadingPage.js ***!
   \******************************************************************************************/
@@ -17135,6 +17586,11 @@ var _config = _interopRequireDefault(__webpack_require__(/*! ../config */ 43));f
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/loadingPage.js ***!
   \********************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!**************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/loadingPage.js ***!
+  \**************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17164,6 +17620,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 89 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!***************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/loadmore.js ***!
   \***************************************************************************************/
@@ -17172,6 +17629,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/loadmore.js ***!
   \*****************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!***********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/loadmore.js ***!
+  \***********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17210,6 +17672,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 90 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/modal.js ***!
   \************************************************************************************/
@@ -17218,6 +17681,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/modal.js ***!
   \**************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/modal.js ***!
+  \********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17254,6 +17722,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 91 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!*************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/navbar.js ***!
   \*************************************************************************************/
@@ -17262,6 +17731,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/navbar.js ***!
   \***************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/navbar.js ***!
+  \*********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17299,6 +17773,7 @@ var _color = _interopRequireDefault(__webpack_require__(/*! ../color */ 92));fun
 /***/ }),
 /* 92 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!******************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/color.js ***!
   \******************************************************************************/
@@ -17307,6 +17782,11 @@ var _color = _interopRequireDefault(__webpack_require__(/*! ../color */ 92));fun
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/color.js ***!
   \********************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!**************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/color.js ***!
+  \**************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17332,6 +17812,7 @@ color;exports.default = _default;
 /***/ }),
 /* 93 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!****************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/noNetwork.js ***!
   \****************************************************************************************/
@@ -17340,6 +17821,11 @@ color;exports.default = _default;
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/noNetwork.js ***!
   \******************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/noNetwork.js ***!
+  \************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17363,6 +17849,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 94 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!****************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/noticeBar.js ***!
   \****************************************************************************************/
@@ -17371,6 +17858,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/noticeBar.js ***!
   \******************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/noticeBar.js ***!
+  \************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17404,6 +17896,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 95 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!*************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/notify.js ***!
   \*************************************************************************************/
@@ -17412,6 +17905,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/notify.js ***!
   \***************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/notify.js ***!
+  \*********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17440,6 +17938,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 96 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!****************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/numberBox.js ***!
   \****************************************************************************************/
@@ -17448,6 +17947,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/numberBox.js ***!
   \******************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/numberBox.js ***!
+  \************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17489,6 +17993,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 97 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!*********************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/numberKeyboard.js ***!
   \*********************************************************************************************/
@@ -17497,6 +18002,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/numberKeyboard.js ***!
   \***********************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*****************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/numberKeyboard.js ***!
+  \*****************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17520,6 +18030,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 98 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!**************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/overlay.js ***!
   \**************************************************************************************/
@@ -17528,6 +18039,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/overlay.js ***!
   \****************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!**********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/overlay.js ***!
+  \**********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17552,6 +18068,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 99 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/parse.js ***!
   \************************************************************************************/
@@ -17560,6 +18077,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/parse.js ***!
   \**************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/parse.js ***!
+  \********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17588,6 +18110,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 100 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!*************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/picker.js ***!
   \*************************************************************************************/
@@ -17596,6 +18119,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/picker.js ***!
   \***************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/picker.js ***!
+  \*********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17631,6 +18159,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 101 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/popup.js ***!
   \************************************************************************************/
@@ -17639,6 +18168,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/popup.js ***!
   \**************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/popup.js ***!
+  \********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17674,6 +18208,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 102 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/radio.js ***!
   \************************************************************************************/
@@ -17682,6 +18217,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/radio.js ***!
   \**************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/radio.js ***!
+  \********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17715,6 +18255,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 103 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!*****************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/radioGroup.js ***!
   \*****************************************************************************************/
@@ -17723,6 +18264,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/radioGroup.js ***!
   \*******************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/radioGroup.js ***!
+  \*************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17759,6 +18305,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 104 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!***********************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/rate.js ***!
   \***********************************************************************************/
@@ -17767,6 +18314,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/rate.js ***!
   \*************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*******************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/rate.js ***!
+  \*******************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17799,6 +18351,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 105 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!***************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/readMore.js ***!
   \***************************************************************************************/
@@ -17807,6 +18360,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/readMore.js ***!
   \*****************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!***********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/readMore.js ***!
+  \***********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17835,6 +18393,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 106 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!**********************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/row.js ***!
   \**********************************************************************************/
@@ -17843,6 +18402,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/row.js ***!
   \************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!******************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/row.js ***!
+  \******************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17866,6 +18430,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 107 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!****************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/rowNotice.js ***!
   \****************************************************************************************/
@@ -17874,6 +18439,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/rowNotice.js ***!
   \******************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/rowNotice.js ***!
+  \************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17901,6 +18471,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 108 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!*****************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/scrollList.js ***!
   \*****************************************************************************************/
@@ -17909,6 +18480,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/scrollList.js ***!
   \*******************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/scrollList.js ***!
+  \*************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17935,6 +18511,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 109 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!*************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/search.js ***!
   \*************************************************************************************/
@@ -17943,6 +18520,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/search.js ***!
   \***************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/search.js ***!
+  \*********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17986,6 +18568,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 110 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!**************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/section.js ***!
   \**************************************************************************************/
@@ -17994,6 +18577,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/section.js ***!
   \****************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!**********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/section.js ***!
+  \**********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18024,6 +18612,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 111 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!***************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/skeleton.js ***!
   \***************************************************************************************/
@@ -18032,6 +18621,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/skeleton.js ***!
   \*****************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!***********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/skeleton.js ***!
+  \***********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18063,6 +18657,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 112 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!*************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/slider.js ***!
   \*************************************************************************************/
@@ -18071,6 +18666,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/slider.js ***!
   \***************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/slider.js ***!
+  \*********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18102,6 +18702,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 113 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!****************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/statusBar.js ***!
   \****************************************************************************************/
@@ -18110,6 +18711,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/statusBar.js ***!
   \******************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/statusBar.js ***!
+  \************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18131,6 +18737,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 114 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/steps.js ***!
   \************************************************************************************/
@@ -18139,6 +18746,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/steps.js ***!
   \**************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/steps.js ***!
+  \********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18166,6 +18778,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 115 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!****************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/stepsItem.js ***!
   \****************************************************************************************/
@@ -18174,6 +18787,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/stepsItem.js ***!
   \******************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/stepsItem.js ***!
+  \************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18198,6 +18816,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 116 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!*************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/sticky.js ***!
   \*************************************************************************************/
@@ -18206,6 +18825,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/sticky.js ***!
   \***************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/sticky.js ***!
+  \*********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18232,6 +18856,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 117 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!*****************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/subsection.js ***!
   \*****************************************************************************************/
@@ -18240,6 +18865,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/subsection.js ***!
   \*******************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/subsection.js ***!
+  \*************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18269,6 +18899,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 118 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!******************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/swipeAction.js ***!
   \******************************************************************************************/
@@ -18277,6 +18908,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/swipeAction.js ***!
   \********************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!**************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/swipeAction.js ***!
+  \**************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18298,6 +18934,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 119 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!**********************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/swipeActionItem.js ***!
   \**********************************************************************************************/
@@ -18306,6 +18943,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/swipeActionItem.js ***!
   \************************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!******************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/swipeActionItem.js ***!
+  \******************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18333,6 +18975,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 120 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!*************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/swiper.js ***!
   \*************************************************************************************/
@@ -18341,6 +18984,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/swiper.js ***!
   \***************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/swiper.js ***!
+  \*********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18385,6 +19033,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 121 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!***********************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/swipterIndicator.js ***!
   \***********************************************************************************************/
@@ -18393,6 +19042,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/swipterIndicator.js ***!
   \*************************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*******************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/swipterIndicator.js ***!
+  \*******************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18418,6 +19072,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 122 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!*************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/switch.js ***!
   \*************************************************************************************/
@@ -18426,6 +19081,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/switch.js ***!
   \***************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/switch.js ***!
+  \*********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18456,6 +19116,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 123 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!*************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/tabbar.js ***!
   \*************************************************************************************/
@@ -18464,6 +19125,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/tabbar.js ***!
   \***************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/tabbar.js ***!
+  \*********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18492,6 +19158,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 124 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!*****************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/tabbarItem.js ***!
   \*****************************************************************************************/
@@ -18500,6 +19167,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/tabbarItem.js ***!
   \*******************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/tabbarItem.js ***!
+  \*************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18526,6 +19198,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 125 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!***********************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/tabs.js ***!
   \***********************************************************************************/
@@ -18534,6 +19207,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/tabs.js ***!
   \*************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*******************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/tabs.js ***!
+  \*******************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18572,6 +19250,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 126 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!**********************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/tag.js ***!
   \**********************************************************************************/
@@ -18580,6 +19259,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/tag.js ***!
   \************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!******************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/tag.js ***!
+  \******************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18615,6 +19299,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 127 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!***********************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/text.js ***!
   \***********************************************************************************/
@@ -18623,6 +19308,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/text.js ***!
   \*************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*******************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/text.js ***!
+  \*******************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18666,6 +19356,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 128 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!***************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/textarea.js ***!
   \***************************************************************************************/
@@ -18674,6 +19365,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/textarea.js ***!
   \*****************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!***********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/textarea.js ***!
+  \***********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18716,6 +19412,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 129 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/toast.js ***!
   \************************************************************************************/
@@ -18724,6 +19421,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/toast.js ***!
   \**************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/toast.js ***!
+  \********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18759,6 +19461,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 130 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!**************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/toolbar.js ***!
   \**************************************************************************************/
@@ -18767,6 +19470,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/toolbar.js ***!
   \****************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!**********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/toolbar.js ***!
+  \**********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18793,6 +19501,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 131 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!**************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/tooltip.js ***!
   \**************************************************************************************/
@@ -18801,6 +19510,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/tooltip.js ***!
   \****************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!**********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/tooltip.js ***!
+  \**********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18832,6 +19546,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 132 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!*****************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/transition.js ***!
   \*****************************************************************************************/
@@ -18840,6 +19555,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/transition.js ***!
   \*******************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/transition.js ***!
+  \*************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18864,6 +19584,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 133 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!*************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/upload.js ***!
   \*************************************************************************************/
@@ -18872,6 +19593,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/upload.js ***!
   \***************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/props/upload.js ***!
+  \*********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18914,6 +19640,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 134 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!*******************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/zIndex.js ***!
   \*******************************************************************************/
@@ -18922,6 +19649,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/zIndex.js ***!
   \*********************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!***************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/config/zIndex.js ***!
+  \***************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18949,6 +19681,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /***/ }),
 /* 135 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!***********************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/function/platform.js ***!
   \***********************************************************************************/
@@ -18957,6 +19690,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/function/platform.js ***!
   \*************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/*!*******************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/function/platform.js ***!
+  \*******************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19045,12 +19783,16 @@ platform;exports.default = _default;
 /* 140 */,
 /* 141 */,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> newMedical
 /* 142 */,
 /* 143 */,
 /* 144 */,
 /* 145 */,
 /* 146 */,
 /* 147 */,
+<<<<<<< HEAD
 =======
 /* 142 */
 /*!******************************************************!*\
@@ -19113,6 +19855,8 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIEAYAAAD9
 
 /***/ }),
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+>>>>>>> newMedical
 /* 148 */,
 /* 149 */,
 /* 150 */,
@@ -19126,14 +19870,32 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIEAYAAAD9
 /* 158 */,
 /* 159 */,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> newMedical
 /* 160 */,
 /* 161 */,
 /* 162 */,
 /* 163 */,
+<<<<<<< HEAD
 /* 164 */
 /*!******************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/mixin/button.js ***!
   \******************************************************************************/
+=======
+/* 164 */,
+/* 165 */,
+/* 166 */,
+/* 167 */,
+/* 168 */,
+/* 169 */,
+/* 170 */,
+/* 171 */,
+/* 172 */
+/*!**************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/mixin/button.js ***!
+  \**************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19151,10 +19913,17 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
     openType: String } };exports.default = _default;
 
 /***/ }),
+<<<<<<< HEAD
 /* 165 */
 /*!********************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/mixin/openType.js ***!
   \********************************************************************************/
+=======
+/* 173 */
+/*!****************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/libs/mixin/openType.js ***!
+  \****************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19184,10 +19953,17 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
     } } };exports.default = _default;
 
 /***/ }),
+<<<<<<< HEAD
 /* 166 */
 /*!**************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-button/props.js ***!
   \**************************************************************************************/
+=======
+/* 174 */
+/*!**********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/components/u-button/props.js ***!
+  \**********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19353,6 +20129,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+<<<<<<< HEAD
 =======
 /* 160 */
 /*!************************************************!*\
@@ -19458,6 +20235,8 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACt
 =======
 /* 174 */,
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+>>>>>>> newMedical
 /* 175 */,
 /* 176 */,
 /* 177 */,
@@ -19466,12 +20245,107 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACt
 /* 180 */,
 /* 181 */,
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 182 */
 /*!************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-icon/icons.js ***!
   \************************************************************************************/
 =======
 /* 182 */,
+=======
+/* 182 */
+/*!**********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/components/u-navbar/props.js ***!
+  \**********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  props: {
+    // 是否开启顶部安全区适配
+    safeAreaInsetTop: {
+      type: Boolean,
+      default: uni.$u.props.navbar.safeAreaInsetTop },
+
+    // 固定在顶部时，是否生成一个等高元素，以防止塌陷
+    placeholder: {
+      type: Boolean,
+      default: uni.$u.props.navbar.placeholder },
+
+    // 是否固定在顶部
+    fixed: {
+      type: Boolean,
+      default: uni.$u.props.navbar.fixed },
+
+    // 是否显示下边框
+    border: {
+      type: Boolean,
+      default: uni.$u.props.navbar.border },
+
+    // 左边的图标
+    leftIcon: {
+      type: String,
+      default: uni.$u.props.navbar.leftIcon },
+
+    // 左边的提示文字
+    leftText: {
+      type: String,
+      default: uni.$u.props.navbar.leftText },
+
+    // 左右的提示文字
+    rightText: {
+      type: String,
+      default: uni.$u.props.navbar.rightText },
+
+    // 右边的图标
+    rightIcon: {
+      type: String,
+      default: uni.$u.props.navbar.rightIcon },
+
+    // 标题
+    title: {
+      type: [String, Number],
+      default: uni.$u.props.navbar.title },
+
+    // 背景颜色
+    bgColor: {
+      type: String,
+      default: uni.$u.props.navbar.bgColor },
+
+    // 标题的宽度
+    titleWidth: {
+      type: [String, Number],
+      default: uni.$u.props.navbar.titleWidth },
+
+    // 导航栏高度
+    height: {
+      type: [String, Number],
+      default: uni.$u.props.navbar.height },
+
+    // 左侧返回图标的大小
+    leftIconSize: {
+      type: [String, Number],
+      default: uni.$u.props.navbar.leftIconSize },
+
+    // 左侧返回图标的颜色
+    leftIconColor: {
+      type: String,
+      default: uni.$u.props.navbar.leftIconColor },
+
+    // 点击左侧区域(返回图标)，是否自动返回上一页
+    autoBack: {
+      type: Boolean,
+      default: uni.$u.props.navbar.autoBack },
+
+    // 标题的样式，对象或字符串
+    titleStyle: {
+      type: [String, Object],
+      default: uni.$u.props.navbar.titleStyle } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+>>>>>>> newMedical
 /* 183 */,
 /* 184 */,
 /* 185 */,
@@ -19479,6 +20353,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACt
 /* 187 */,
 /* 188 */,
 /* 189 */,
+<<<<<<< HEAD
 /* 190 */,
 /* 191 */,
 /* 192 */,
@@ -19536,6 +20411,12 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACt
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-icon/icons.js ***!
   \**************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/* 190 */
+/*!********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/components/u-icon/icons.js ***!
+  \********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19756,6 +20637,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 183 */
 /*!************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-icon/props.js ***!
@@ -19766,6 +20648,12 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-icon/props.js ***!
   \**************************************************************************/
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+/* 191 */
+/*!********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/components/u-icon/props.js ***!
+  \********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19858,6 +20746,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
       default: uni.$u.props.icon.stop } } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 /***/ }),
@@ -20142,6 +21031,20 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /*!***************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-input/props.js ***!
   \***************************************************************************/
+=======
+/***/ }),
+/* 192 */,
+/* 193 */,
+/* 194 */,
+/* 195 */,
+/* 196 */,
+/* 197 */,
+/* 198 */,
+/* 199 */
+/*!*********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/components/u-input/props.js ***!
+  \*********************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20328,6 +21231,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+<<<<<<< HEAD
 /* 282 */,
 /* 283 */,
 /* 284 */,
@@ -22520,6 +23424,17 @@ var substr = 'ab'.substr(-1) === 'b'
 /*!**********************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-loading-icon/props.js ***!
   \**********************************************************************************/
+=======
+/* 200 */,
+/* 201 */,
+/* 202 */,
+/* 203 */,
+/* 204 */,
+/* 205 */
+/*!****************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/components/u-loading-icon/props.js ***!
+  \****************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22583,6 +23498,7 @@ var substr = 'ab'.substr(-1) === 'b'
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+<<<<<<< HEAD
 /* 339 */,
 /* 340 */,
 /* 341 */,
@@ -22594,12 +23510,26 @@ var substr = 'ab'.substr(-1) === 'b'
 /*!*****************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-overlay/props.js ***!
   \*****************************************************************************/
+=======
+/* 206 */,
+/* 207 */,
+/* 208 */,
+/* 209 */,
+/* 210 */,
+/* 211 */,
+/* 212 */,
+/* 213 */
+/*!**************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/components/u-status-bar/props.js ***!
+  \**************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
   props: {
+<<<<<<< HEAD
     // 是否显示遮罩
     show: {
       type: Boolean,
@@ -22672,6 +23602,162 @@ var substr = 'ab'.substr(-1) === 'b'
 /*!********************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-transition/props.js ***!
   \********************************************************************************/
+=======
+    bgColor: {
+      type: String,
+      default: uni.$u.props.statusBar.bgColor } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 214 */,
+/* 215 */,
+/* 216 */,
+/* 217 */,
+/* 218 */,
+/* 219 */,
+/* 220 */,
+/* 221 */,
+/* 222 */,
+/* 223 */,
+/* 224 */,
+/* 225 */,
+/* 226 */,
+/* 227 */,
+/* 228 */,
+/* 229 */,
+/* 230 */,
+/* 231 */,
+/* 232 */,
+/* 233 */,
+/* 234 */,
+/* 235 */,
+/* 236 */,
+/* 237 */,
+/* 238 */,
+/* 239 */,
+/* 240 */,
+/* 241 */,
+/* 242 */,
+/* 243 */,
+/* 244 */,
+/* 245 */,
+/* 246 */,
+/* 247 */,
+/* 248 */,
+/* 249 */,
+/* 250 */,
+/* 251 */,
+/* 252 */,
+/* 253 */,
+/* 254 */
+/*!*********************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/components/u-image/props.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  props: {
+    // 图片地址
+    src: {
+      type: String,
+      default: uni.$u.props.image.src },
+
+    // 裁剪模式
+    mode: {
+      type: String,
+      default: uni.$u.props.image.mode },
+
+    // 宽度，单位任意
+    width: {
+      type: [String, Number],
+      default: uni.$u.props.image.width },
+
+    // 高度，单位任意
+    height: {
+      type: [String, Number],
+      default: uni.$u.props.image.height },
+
+    // 图片形状，circle-圆形，square-方形
+    shape: {
+      type: String,
+      default: uni.$u.props.image.shape },
+
+    // 圆角，单位任意
+    radius: {
+      type: [String, Number],
+      default: uni.$u.props.image.radius },
+
+    // 是否懒加载，微信小程序、App、百度小程序、字节跳动小程序
+    lazyLoad: {
+      type: Boolean,
+      default: uni.$u.props.image.lazyLoad },
+
+    // 开启长按图片显示识别微信小程序码菜单
+    showMenuByLongpress: {
+      type: Boolean,
+      default: uni.$u.props.image.showMenuByLongpress },
+
+    // 加载中的图标，或者小图片
+    loadingIcon: {
+      type: String,
+      default: uni.$u.props.image.loadingIcon },
+
+    // 加载失败的图标，或者小图片
+    errorIcon: {
+      type: String,
+      default: uni.$u.props.image.errorIcon },
+
+    // 是否显示加载中的图标或者自定义的slot
+    showLoading: {
+      type: Boolean,
+      default: uni.$u.props.image.showLoading },
+
+    // 是否显示加载错误的图标或者自定义的slot
+    showError: {
+      type: Boolean,
+      default: uni.$u.props.image.showError },
+
+    // 是否需要淡入效果
+    fade: {
+      type: Boolean,
+      default: uni.$u.props.image.fade },
+
+    // 只支持网络资源，只对微信小程序有效
+    webp: {
+      type: Boolean,
+      default: uni.$u.props.image.webp },
+
+    // 过渡时间，单位ms
+    duration: {
+      type: [String, Number],
+      default: uni.$u.props.image.duration },
+
+    // 背景颜色，用于深色页面加载图片时，为了和背景色融合
+    bgColor: {
+      type: String,
+      default: uni.$u.props.image.bgColor } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 255 */,
+/* 256 */,
+/* 257 */,
+/* 258 */,
+/* 259 */,
+/* 260 */,
+/* 261 */,
+/* 262 */,
+/* 263 */,
+/* 264 */,
+/* 265 */,
+/* 266 */,
+/* 267 */
+/*!**************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/components/u-transition/props.js ***!
+  \**************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22700,10 +23786,17 @@ var substr = 'ab'.substr(-1) === 'b'
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+<<<<<<< HEAD
 /* 363 */
 /*!*************************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-transition/transition.js ***!
   \*************************************************************************************/
+=======
+/* 268 */
+/*!*******************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/components/u-transition/transition.js ***!
+  \*******************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22711,7 +23804,11 @@ var substr = 'ab'.substr(-1) === 'b'
 Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 34));
 
 
+<<<<<<< HEAD
 var _nvueAniMap = _interopRequireDefault(__webpack_require__(/*! ./nvue.ani-map.js */ 364));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};} // 定义一个一定时间后自动成功的promise，让调用nextTick方法处，进入下一个then方法
+=======
+var _nvueAniMap = _interopRequireDefault(__webpack_require__(/*! ./nvue.ani-map.js */ 269));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};} // 定义一个一定时间后自动成功的promise，让调用nextTick方法处，进入下一个then方法
+>>>>>>> newMedical
 var nextTick = function nextTick() {return new Promise(function (resolve) {return setTimeout(resolve, 1000 / 50);});}; // nvue动画模块实现细节抽离在外部文件
 
 // 定义类名，通过给元素动态切换类名，赋予元素一定的css动画样式
@@ -22865,10 +23962,17 @@ var getClassNames = function getClassNames(name) {return {
     } } };exports.default = _default;
 
 /***/ }),
+<<<<<<< HEAD
 /* 364 */
 /*!***************************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-transition/nvue.ani-map.js ***!
   \***************************************************************************************/
+=======
+/* 269 */
+/*!*********************************************************************************************!*\
+  !*** D:/visurl/医药项目/LZ_doctor/uni_modules/uview-ui/components/u-transition/nvue.ani-map.js ***!
+  \*********************************************************************************************/
+>>>>>>> newMedical
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22940,7 +24044,10 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
     leave: { opacity: 1, transform: 'scale(1)' },
     'leave-to': { opacity: 0, transform: 'scale(0.95)' } } };exports.default = _default;
 
+<<<<<<< HEAD
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
+=======
+>>>>>>> newMedical
 /***/ })
 ]]);
 //# sourceMappingURL=../../.sourcemap/mp-weixin/common/vendor.js.map

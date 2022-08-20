@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "医药简介3",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "met": "/pages/ExpertsSay/medicine/medicine"
+  }
+}

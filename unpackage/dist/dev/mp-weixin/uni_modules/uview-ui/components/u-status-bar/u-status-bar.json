@@ -1,4 +1,9 @@
 {
+<<<<<<< HEAD
   "usingComponents": {},
   "component": true
+=======
+  "component": true,
+  "usingComponents": {}
+>>>>>>> newMedical
 }

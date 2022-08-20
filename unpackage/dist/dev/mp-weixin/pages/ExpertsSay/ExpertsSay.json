@@ -1,9 +1,21 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "navigationBarTitleText": "",
 =======
   "navigationBarTitleText": "健康说",
 >>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
   "enablePullDownRefresh": false,
   "usingComponents": {}
+=======
+  "enablePullDownRefresh": true,
+  "navigationStyle": "custom",
+  "backgroundColor": "#bdbdc5",
+  "onReachBottomDistance": 100,
+  "usingComponents": {
+    "u-navbar": "/uni_modules/uview-ui/components/u-navbar/u-navbar",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "u--input": "/uni_modules/uview-ui/components/u--input/u--input"
+  }
+>>>>>>> newMedical
 }

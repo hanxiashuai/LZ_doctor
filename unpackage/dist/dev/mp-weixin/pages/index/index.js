@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 (global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/index/index"],{
 
 /***/ 136:
@@ -643,3 +644,6 @@ __webpack_require__.r(__webpack_exports__);
 
 },[[136,"common/runtime","common/vendor"]]]);
 //# sourceMappingURL=../../../.sourcemap/mp-weixin/pages/index/index.js.map
+=======
+Component({})
+>>>>>>> newMedical
