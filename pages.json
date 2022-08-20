@@ -8,14 +8,14 @@
 		}, {
 			"path": "pages/ExpertsSay/ExpertsSay",
 			"style": {
-				"navigationBarTitleText": "",
+				"navigationBarTitleText": "健康说",
 				"enablePullDownRefresh": false
 			}
 
 		}, {
 			"path": "pages/PersonCenter/PersonCenter",
 			"style": {
-				"navigationBarTitleText": "",
+				"navigationBarTitleText": "我的",
 				"enablePullDownRefresh": false
 			}
 
@@ -27,9 +27,90 @@
 			}
 
 		}
-	],
+	    ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录页",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/userCenterPages/BBS/BBS",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的论坛",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/userCenterPages/myPrescription/myPrescription",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的处方",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/userCenterPages/myAddress/myAddress",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "地址管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/userCenterPages/myArchives/myArchives",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "健康档案",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/userCenterPages/myCard/myCard",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的名片",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/userCenterPages/myExperts/myExperts",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的专家",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/userCenterPages/myOrder/myOrder",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "团友订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/userCenterPages/myPrescription/prescriptionDetails/prescriptionDetails",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "处方详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"globalStyle": {
-		"navigationStyle": "custom",
+		"navigationStyle": "custom",//关闭原生导航
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",

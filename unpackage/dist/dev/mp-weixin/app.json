@@ -3,7 +3,16 @@
     "pages/index/index",
     "pages/ExpertsSay/ExpertsSay",
     "pages/PersonCenter/PersonCenter",
-    "pages/index/integrate/integrate"
+    "pages/index/integrate/integrate",
+    "pages/login/login",
+    "pages/userCenterPages/BBS/BBS",
+    "pages/userCenterPages/myPrescription/myPrescription",
+    "pages/userCenterPages/myAddress/myAddress",
+    "pages/userCenterPages/myArchives/myArchives",
+    "pages/userCenterPages/myCard/myCard",
+    "pages/userCenterPages/myExperts/myExperts",
+    "pages/userCenterPages/myOrder/myOrder",
+    "pages/userCenterPages/myPrescription/prescriptionDetails/prescriptionDetails"
   ],
   "subPackages": [],
   "window": {
