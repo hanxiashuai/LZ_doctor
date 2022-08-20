@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/ExpertsSay/ExpertsSay",
+    "pages/PersonCenter/PersonCenter",
+    "pages/login/login",
+    "pages/userCenterPages/BBS/BBS",
+    "pages/userCenterPages/myPrescription/myPrescription",
+    "pages/userCenterPages/myAddress/myAddress",
+    "pages/userCenterPages/myArchives/myArchives",
+    "pages/userCenterPages/myCard/myCard",
+    "pages/userCenterPages/myExperts/myExperts",
+    "pages/userCenterPages/myOrder/myOrder",
+    "pages/userCenterPages/myPrescription/prescriptionDetails/prescriptionDetails"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "red",
+    "borderStyle": "black",
+    "backgroundColor": "#444",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/home.png",
+        "selectedIconPath": "static/image/home2.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/ExpertsSay/ExpertsSay",
+        "iconPath": "static/image/专家.png",
+        "selectedIconPath": "static/image/专家2.png",
+        "text": "专家说"
+      },
+      {
+        "pagePath": "pages/PersonCenter/PersonCenter",
+        "iconPath": "static/image/我的.png",
+        "selectedIconPath": "static/image/我的2.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}

@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<h1>个人中心</h1>
+		<h1>专家说</h1>
 	</view>
 </template>
 
