@@ -19,10 +19,17 @@
 				"enablePullDownRefresh": false
 			}
 
+		}, {
+			"path": "pages/index/integrate/integrate",
+			"style": {
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
+
 		}
 	],
 	"globalStyle": {
-		// "navigationStyle": "custom",
+		"navigationStyle": "custom",
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
@@ -30,23 +37,23 @@
 	},
 	"tabBar": {
 		"color": "#7A7E83",
-		"selectedColor": "red",
+		"selectedColor": "#007d5f",
 		"borderStyle": "black",
-		"backgroundColor": "#444",
+		"backgroundColor": "#fff",
 		"list": [{
 			"pagePath": "pages/index/index",
-			"iconPath": "static/image/home.png",
-			"selectedIconPath": "static/image/home2.png",
+			"iconPath": "static/image/shouye.png",
+			"selectedIconPath": "static/image/shouye1.png",
 			"text": "首页"
 		}, {
 			"pagePath": "pages/ExpertsSay/ExpertsSay",
-			"iconPath": "static/image/专家.png",
-			"selectedIconPath": "static/image/专家2.png",
+			"iconPath": "static/image/zhuanjia.png",
+			"selectedIconPath": "static/image/zhuanjia1.png",
 			"text": "专家说"
 		}, {
 			"pagePath": "pages/PersonCenter/PersonCenter",
-			"iconPath": "static/image/paihang.png",
-			"selectedIconPath": "static/image/paihang2.png",
+			"iconPath": "static/image/wode.png",
+			"selectedIconPath": "static/image/wode1.png",
 			"text": "我的"
 		}]
 	},
