@@ -11,6 +11,7 @@
  *
  * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
  */
+/* uni.scss */
 /* 颜色变量 */
 /* 行为相关颜色 */
 /* 文字基本颜色 */
@@ -24,54 +25,25 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.foot {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  z-index: 999;
-  height: 50px;
+view.data-v-121efd29, scroll-view.data-v-121efd29, swiper-item.data-v-121efd29 {
   display: flex;
-  background-color: #f9f9f9;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
 }
-.icon {
-  margin: 0 auto;
-  margin-left: 30px;
-}
-.text {
-  margin: 0 auto;
-  text-align: center;
-}
-.details {
-  font-size: 30px;
-  text-indent: 10px;
-  font-weight: bold;
-}
-.con-zw {
+.u-grid.data-v-121efd29 {
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
   display: block;
-  text-indent: 30px;
-  font-size: 15px;
-}
-.con-rq {
-  display: block;
-  text-indent: 15px;
-  margin-bottom: 10px;
-  font-size: 15px;
-  margin-top: 10px;
-}
-.con-last {
-  margin-bottom: 200px;
-}
-.phone {
-  width: 100px;
-  font-size: 15px;
-}
-.abiao {
-  font-size: 30px;
-  color: cadetblue;
-  padding-bottom: 80px;
-}
-.overview {
-  margin-left: 10px;
-  margin-right: 10px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
 }
 

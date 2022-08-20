@@ -2,15 +2,10 @@
   "pages": [
     "pages/index/index",
     "pages/ExpertsSay/ExpertsSay",
-<<<<<<< HEAD
-<<<<<<< HEAD
-    "pages/PersonCenter/PersonCenter"
-  ],
-  "subPackages": [],
-  "window": {
-=======
     "pages/PersonCenter/PersonCenter",
     "pages/index/integrate/integrate",
+    "pages/ExpertsSay/Component/Content",
+    "pages/ExpertsSay/medicine/medicine",
     "pages/login/login",
     "pages/userCenterPages/BBS/BBS",
     "pages/userCenterPages/myPrescription/myPrescription",
@@ -24,15 +19,6 @@
   "subPackages": [],
   "window": {
     "navigationStyle": "custom",
->>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
-=======
-    "pages/PersonCenter/PersonCenter",
-    "pages/ExpertsSay/Component/Content",
-    "pages/ExpertsSay/medicine/medicine"
-  ],
-  "subPackages": [],
-  "window": {
->>>>>>> newMedical
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "uni-app",
     "navigationBarBackgroundColor": "#F8F8F8",
@@ -40,20 +26,6 @@
   },
   "tabBar": {
     "color": "#7A7E83",
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> newMedical
-    "selectedColor": "red",
-    "borderStyle": "black",
-    "backgroundColor": "#444",
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "iconPath": "static/image/home.png",
-        "selectedIconPath": "static/image/home2.png",
-<<<<<<< HEAD
-=======
     "selectedColor": "#007d5f",
     "borderStyle": "black",
     "backgroundColor": "#fff",
@@ -62,46 +34,24 @@
         "pagePath": "pages/index/index",
         "iconPath": "static/image/shouye.png",
         "selectedIconPath": "static/image/shouye1.png",
->>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
-=======
->>>>>>> newMedical
         "text": "首页"
       },
       {
         "pagePath": "pages/ExpertsSay/ExpertsSay",
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "iconPath": "static/image/专家.png",
-        "selectedIconPath": "static/image/专家2.png",
-=======
         "iconPath": "static/image/zhuanjia.png",
         "selectedIconPath": "static/image/zhuanjia1.png",
->>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
-=======
-        "iconPath": "static/image/专家.png",
-        "selectedIconPath": "static/image/专家2.png",
->>>>>>> newMedical
         "text": "专家说"
       },
       {
         "pagePath": "pages/PersonCenter/PersonCenter",
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "iconPath": "static/image/paihang.png",
-        "selectedIconPath": "static/image/paihang2.png",
-=======
         "iconPath": "static/image/wode.png",
         "selectedIconPath": "static/image/wode1.png",
->>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
-=======
-        "iconPath": "static/image/我的.png",
-        "selectedIconPath": "static/image/我的2.png",
->>>>>>> newMedical
         "text": "我的"
       }
     ]
   },
   "usingComponents": {
     "cu-custom": "/colorui/components/cu-custom"
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
