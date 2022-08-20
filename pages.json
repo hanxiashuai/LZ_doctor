@@ -8,21 +8,109 @@
 		}, {
 			"path": "pages/ExpertsSay/ExpertsSay",
 			"style": {
-				"navigationBarTitleText": "",
+				"navigationBarTitleText": "健康说",
 				"enablePullDownRefresh": false
 			}
 
 		}, {
 			"path": "pages/PersonCenter/PersonCenter",
 			"style": {
-				"navigationBarTitleText": "",
+				"navigationBarTitleText": "我的",
 				"enablePullDownRefresh": false
 			}
 
+		}, {
+			"path": "pages/index/integrate/integrate",
+			"style": {
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
+			}
+
 		}
-	],
+	    ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录页",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/userCenterPages/BBS/BBS",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的论坛",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/userCenterPages/myPrescription/myPrescription",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的处方",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/userCenterPages/myAddress/myAddress",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "地址管理",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/userCenterPages/myArchives/myArchives",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "健康档案",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/userCenterPages/myCard/myCard",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的名片",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/userCenterPages/myExperts/myExperts",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的专家",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/userCenterPages/myOrder/myOrder",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "团友订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/userCenterPages/myPrescription/prescriptionDetails/prescriptionDetails",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "处方详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"globalStyle": {
-		// "navigationStyle": "custom",
+		"navigationStyle": "custom",//关闭原生导航
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
@@ -30,23 +118,23 @@
 	},
 	"tabBar": {
 		"color": "#7A7E83",
-		"selectedColor": "red",
+		"selectedColor": "#007d5f",
 		"borderStyle": "black",
-		"backgroundColor": "#444",
+		"backgroundColor": "#fff",
 		"list": [{
 			"pagePath": "pages/index/index",
-			"iconPath": "static/image/home.png",
-			"selectedIconPath": "static/image/home2.png",
+			"iconPath": "static/image/shouye.png",
+			"selectedIconPath": "static/image/shouye1.png",
 			"text": "首页"
 		}, {
 			"pagePath": "pages/ExpertsSay/ExpertsSay",
-			"iconPath": "static/image/专家.png",
-			"selectedIconPath": "static/image/专家2.png",
+			"iconPath": "static/image/zhuanjia.png",
+			"selectedIconPath": "static/image/zhuanjia1.png",
 			"text": "专家说"
 		}, {
 			"pagePath": "pages/PersonCenter/PersonCenter",
-			"iconPath": "static/image/paihang.png",
-			"selectedIconPath": "static/image/paihang2.png",
+			"iconPath": "static/image/wode.png",
+			"selectedIconPath": "static/image/wode1.png",
 			"text": "我的"
 		}]
 	},

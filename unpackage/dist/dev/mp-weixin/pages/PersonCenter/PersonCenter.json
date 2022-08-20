@@ -1,5 +1,15 @@
 {
+<<<<<<< HEAD
   "navigationBarTitleText": "",
   "enablePullDownRefresh": false,
   "usingComponents": {}
+=======
+  "navigationBarTitleText": "我的",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "u-cell-group": "/uni_modules/uview-ui/components/u-cell-group/u-cell-group",
+    "u-cell": "/uni_modules/uview-ui/components/u-cell/u-cell"
+  }
+>>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
 }

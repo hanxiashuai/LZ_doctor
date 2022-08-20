@@ -8,7 +8,11 @@
   },
   "compileType": "miniprogram",
   "libVersion": "",
+<<<<<<< HEAD
   "appid": "touristappid",
+=======
+  "appid": "wx4b2821bf945172f2",
+>>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
   "projectname": "LZ_doctor",
   "condition": {
     "search": {

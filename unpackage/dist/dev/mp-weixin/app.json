@@ -2,10 +2,28 @@
   "pages": [
     "pages/index/index",
     "pages/ExpertsSay/ExpertsSay",
+<<<<<<< HEAD
     "pages/PersonCenter/PersonCenter"
   ],
   "subPackages": [],
   "window": {
+=======
+    "pages/PersonCenter/PersonCenter",
+    "pages/index/integrate/integrate",
+    "pages/login/login",
+    "pages/userCenterPages/BBS/BBS",
+    "pages/userCenterPages/myPrescription/myPrescription",
+    "pages/userCenterPages/myAddress/myAddress",
+    "pages/userCenterPages/myArchives/myArchives",
+    "pages/userCenterPages/myCard/myCard",
+    "pages/userCenterPages/myExperts/myExperts",
+    "pages/userCenterPages/myOrder/myOrder",
+    "pages/userCenterPages/myPrescription/prescriptionDetails/prescriptionDetails"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationStyle": "custom",
+>>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "uni-app",
     "navigationBarBackgroundColor": "#F8F8F8",
@@ -13,6 +31,7 @@
   },
   "tabBar": {
     "color": "#7A7E83",
+<<<<<<< HEAD
     "selectedColor": "red",
     "borderStyle": "black",
     "backgroundColor": "#444",
@@ -21,18 +40,38 @@
         "pagePath": "pages/index/index",
         "iconPath": "static/image/home.png",
         "selectedIconPath": "static/image/home2.png",
+=======
+    "selectedColor": "#007d5f",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/image/shouye.png",
+        "selectedIconPath": "static/image/shouye1.png",
+>>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
         "text": "首页"
       },
       {
         "pagePath": "pages/ExpertsSay/ExpertsSay",
+<<<<<<< HEAD
         "iconPath": "static/image/专家.png",
         "selectedIconPath": "static/image/专家2.png",
+=======
+        "iconPath": "static/image/zhuanjia.png",
+        "selectedIconPath": "static/image/zhuanjia1.png",
+>>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
         "text": "专家说"
       },
       {
         "pagePath": "pages/PersonCenter/PersonCenter",
+<<<<<<< HEAD
         "iconPath": "static/image/paihang.png",
         "selectedIconPath": "static/image/paihang2.png",
+=======
+        "iconPath": "static/image/wode.png",
+        "selectedIconPath": "static/image/wode1.png",
+>>>>>>> e5980105546f9c631764c2a2c777afcc0ee6369f
         "text": "我的"
       }
     ]
