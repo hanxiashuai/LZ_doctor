@@ -15,7 +15,8 @@
 		<u-button type="primary" shape="circle" text="按钮形状"></u-button>
 		<u-button text="渐变色按钮" color="linear-gradient(to right, rgb(66, 83, 216), rgb(213, 51, 186))"></u-button>
 		<u-button type="primary" size="small" text="大小尺寸"></u-button>
-		
+
+
 		<view class="">
 			<h1>colorUI 按钮 参考官方实例查看</h1>
 		</view>
@@ -24,17 +25,17 @@
 		    <block slot="backText">返回</block>
 		    <block slot="content">导航栏</block>
 		</cu-custom> -->
-		
-		
+
+
 	</view>
 </template>
 
 <script>
-export default {
-	data() {
-		return {
-			disabled: true
-		};
-	}
-};
+	export default {
+		data() {
+			return {
+				disabled: true
+			};
+		}
+	};
 </script>
