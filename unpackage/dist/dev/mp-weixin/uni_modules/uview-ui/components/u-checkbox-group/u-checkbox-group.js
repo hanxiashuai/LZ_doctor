@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 (global["webpackJsonp"] = global["webpackJsonp"] || []).push([["uni_modules/uview-ui/components/u-checkbox-group/u-checkbox-group"],{
 
 /***/ 438:
@@ -244,6 +243,3 @@ __webpack_require__.r(__webpack_exports__);
     },
     [['uni_modules/uview-ui/components/u-checkbox-group/u-checkbox-group-create-component']]
 ]);
-=======
-Component({})
->>>>>>> 2newMedical

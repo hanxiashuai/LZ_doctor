@@ -23,7 +23,6 @@ wx.__webpack_require_UNI_MP_PLUGIN__ = __webpack_require__;createPage(_moreDynam
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/pages/index/moreDynamic/moreDynamic.vue ***!
   \****************************************************************************/
 /*! no static exports found */
-<<<<<<< HEAD
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -149,11 +148,6 @@ var _default =
 
   },
   methods: {} };exports.default = _default;
-=======
-/***/ (function(module, exports) {
-
-throw new Error("Module build failed (from ./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js):\nError: ENOENT: no such file or directory, open 'D:\\HANSHUAI UNIAPP\\LZ_doctor\\pages\\index\\moreDynamic\\moreDynamic.vue'");
->>>>>>> 2newMedical
 
 /***/ })
 
