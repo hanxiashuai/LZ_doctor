@@ -1,65 +1,83 @@
 <template>
 	<view>
-		<cu-custom bgColor="bg-gradual-blue">
-			<block slot="content">杨继洲医生集团</block>
-		</cu-custom>
-		<view class="header_box">
-			<view class="left_header">
-				<p class="title_big">杨继洲医生集团</p>
-			</view>
-			<view class="right_header">
-				<view class="search_doctor">
-					<span @click="showInst">医生集团</span>
-				</view>
-				<u-picker :show="show" :columns="columns" @confirm="confirm" @cancel="cancel">
-				</u-picker>
-			</view>
-		</view>
+		<u-navbar title="SLN医生集团">
+		</u-navbar>
+
 		<view class="banner_lbt">
-			<u-swiper height="250" :list="list1" indicator indicatorMode="line" circular>
+			<view class="header_box">
+				<view class="left_header">
+					<p class="title_big">SLN医生集团</p>
+				</view>
+				<view class="right_header">
+					<view class="search_doctor">
+						<span class="groupname" @click="showInst">医生集团</span>
+					</view>
+					<u-picker :show="show" :columns="groupsName" @confirm="confirm" @cancel="cancel">
+					</u-picker>
+				</view>
+			</view>
+			<u-swiper height="250" :list="lbtImgs" indicator indicatorMode="line" circular>
 			</u-swiper>
 		</view>
 		<view class="menu_nav">
 			<view>
 				<u-grid :border="false" col="3">
-					<u-grid-item v-for="(listItem, listIndex) in imgSrc" :key="listIndex" @click="handleClick">
-						<view class="icon_bgc">
-							<image :src="listItem.url" mode=""></image>
-						</view>
-						<text class="grid-text">{{ listItem.name }}</text>
+					<u-grid-item v-for="(item, index) in menusList" :key="item.id">
+						<navigator :url="`/pages/index${item.url}${item.url}`">
+							<view class="icon_bgc">
+								<image class="img" :src="item.img" mode=""></image>
+							</view>
+							<text class="grid-text">{{ item.title }}</text>
+						</navigator>
 					</u-grid-item>
 				</u-grid>
 				<u-toast ref="uToast" />
 			</view>
 		</view>
 		<view class="doctor_intro">
-			<p class="title" style="text-align: center; margin: 10px 0">名医工作室</p>
+			<p class="title" style="text-align: center; margin: 10px auto; padding:10px;font-size: 20px;">名医工作室</p>
 			<view class="doctor_lbt">
-				<view class="u-demo-block">
-					<u-swiper :list="list3" height="200px" previousMargin="30" nextMargin="30" circular
-						:autoplay="false" radius="5" bgColor="#ffffff">
-					</u-swiper>
-				</view>
+				<swiper class="swiper">
+					<swiper-item v-for="(item,index) in doctorList" :key="item.id">
+						<navigator :url="`/pages/index/doctor_desc/doctor_desc?id=${item.id}`">
+							<view class="swiper-item">
+								<view class="left_box">
+									<image class="img" :src="item.photo" mode=""></image>
+								</view>
+								<view class="right_box">
+									<p class="team">{{item.team}}</p>
+									<view class="desc">
+										<span>
+											<u-icon name="bookmark" size="24"></u-icon>
+										</span>
+										<p style="margin-left: 10px;">{{item.department}}</p>
+									</view>
+									<view class="desc">
+										<span>
+											<u-icon name="file-text" size="24"></u-icon>
+										</span>
+										<p style="margin-left: 10px;">{{item.position}}</p>
+									</view>
+								</view>
+							</view>
+						</navigator>
+					</swiper-item>
+				</swiper>
 			</view>
 		</view>
 		<view class="dynamic">
 			<view class="title_box">
 				<p class="title" style="text-align: center">资讯动态</p>
-				<view class="right_more">
-					<span>查看更多</span>
+				<view class="right_more" @click="showMoreInfo">
+					<span class="showMore">查看更多</span>
 					<u-icon name="arrow-right"></u-icon>
 				</view>
 			</view>
 			<view class="information">
 				<u-cell-group>
-					<u-cell-group>
-						<u-cell title="单元格" isLink url="" label="描述信息" center></u-cell>
-					</u-cell-group>
-					<u-cell-group>
-						<u-cell title="单元格" isLink url="" label="描述信息" center></u-cell>
-					</u-cell-group>
-					<u-cell-group>
-						<u-cell title="单元格" isLink url="" label="描述信息" center></u-cell>
+					<u-cell-group v-for="item in dynamicList" :key="item.id">
+						<u-cell :title="item.title" isLink :url="`/pages/index/dynamic_desc/dynamic_desc?id=${item.id}`"
+							:label="item.time" center></u-cell>
 					</u-cell-group>
 				</u-cell-group>
 			</view>
@@ -67,51 +85,27 @@
 		<view class="cooperation">
 			<view class="title_box">
 				<p class="title" style="text-align: center">合作单位</p>
-				<view class="right_more">
-					<span>查看更多</span>
-					<u-icon name="arrow-right"></u-icon>
-				</view>
+				<navigator url="/pages/index/cooperation/cooperation">
+					<view class="right_more">
+						<span class="showMore">查看更多</span>
+						<u-icon name="arrow-right"></u-icon>
+					</view>
+				</navigator>
 			</view>
-			<view class="hospital">
-				<image src="../../static/image/yy01.jpg" />
+			<view class="hospital" v-for="item in cooperationList" :key="item.id">
+				<image class="img" :src="item.image" mode=""></image>
 				<view class="information">
-					<text class="hospital_name">浙江大学附属第一医院</text>
-					<text class="hospital_address">杭州市庆春路79号</text>
-					<view class="" style="width: 50px">
-						<u-tag text="标签" plain size="mini" type="warning"></u-tag>
+					<text class="hospital_name">{{item.name}}</text>
+					<text class="hospital_address">{{item.address}}</text>
+					<view style="width: 80px; margin:8px 0">
+						<u-tag :text="item.grade" type="warning" plain></u-tag>
 					</view>
-					<view class="hospital_detail">
-						<text>详情</text>
-						<u-icon name="arrow-right-double"></u-icon>
-					</view>
-				</view>
-			</view>
-			<view class="hospital">
-				<image src="../../static/image/yy01.jpg" />
-				<view class="information">
-					<text class="hospital_name">浙江大学附属第一医院</text>
-					<text class="hospital_address">杭州市庆春路79号</text>
-					<view class="" style="width: 50px">
-						<u-tag text="标签" plain size="mini" type="warning"></u-tag>
-					</view>
-					<view class="hospital_detail">
-						<text>详情</text>
-						<u-icon name="arrow-right-double"></u-icon>
-					</view>
-				</view>
-			</view>
-			<view class="hospital">
-				<image src="../../static/image/yy01.jpg" />
-				<view class="information">
-					<text class="hospital_name">浙江大学附属第一医院</text>
-					<text class="hospital_address">杭州市庆春路79号</text>
-					<view class="" style="width: 50px">
-						<u-tag text="标签" plain size="mini" type="warning"></u-tag>
-					</view>
-					<view class="hospital_detail">
-						<text>详情</text>
-						<u-icon name="arrow-right-double"></u-icon>
-					</view>
+					<navigator :url="`/pages/index/coop_desc/coop_desc?id=${item.id}`">
+						<view class="hospital_detail">
+							<text class="detail">详情</text>
+							<u-icon name="arrow-right-double" color='#ff8515'></u-icon>
+						</view>
+					</navigator>
 				</view>
 			</view>
 		</view>
@@ -119,16 +113,16 @@
 			<p class="title">联系方式</p>
 			<view class="serviceItem">
 				<view class="telphone item">
-					<!-- <u-icon name="phone"></u-icon> -->
-					<span>0571-80999453</span>
+					<u-icon name="phone"></u-icon>
+					<span class="itemCon">0571-80999453</span>
 				</view>
 				<view class="network item">
 					<u-icon name="attach"></u-icon>
-					<span>0571-80999453</span>
+					<span class="itemCon">0571-80999453</span>
 				</view>
 				<view class="navmap item">
 					<u-icon name="map"></u-icon>
-					<span>浙江省杭州市浙江大学国家大学科技园A东325室</span>
+					<span class="itemCon">浙江省杭州市浙江大学国家大学科技园A东325室</span>
 				</view>
 			</view>
 			<view class="daohang" style="width: 100px">
@@ -139,82 +133,103 @@
 </template>
 
 <script>
-	// import Picker from '@/components/Picker.vue'
-	import menu1 from "@/static/image/cunxuexiao.png";
-	import menu2 from "@/static/image/jingzhunbangfu.png";
-	import menu3 from "@/static/image/cunyiyuan.png";
-	import menu4 from "@/static/image/jiankang.png";
-	import menu5 from "@/static/image/zixunjieda.png";
-	import menu6 from "@/static/image/yue.png";
 	export default {
 		data() {
 			return {
 				show: false,
 				disabled: true,
-				imgSrc: [{
-						name: "英才学术",
-						url: menu1,
-					},
-					{
-						name: "公益健康",
-						url: menu2,
-					},
-					{
-						name: "医生集团",
-						url: menu3,
-					},
-					{
-						name: "健康处方",
-						url: menu4,
-					},
-					{
-						name: "名医在线",
-						url: menu5,
-					},
-					{
-						name: "积分兑换",
-						url: menu6,
-					},
-				],
+				groupsName: [],
+				lbtImgs: [],
+				menusList: [],
+				doctorList: [],
+				cooperationList: [],
+				dynamicList: [],
 				columns: [
 					["中国", "美国", "日本"]
 				],
-				list1: [
-					"https://cdn.uviewui.com/uview/swiper/swiper1.png",
-					"https://cdn.uviewui.com/uview/swiper/swiper2.png",
-					"https://cdn.uviewui.com/uview/swiper/swiper3.png",
-				],
-				list3: [
-					"https://cdn.uviewui.com/uview/swiper/swiper3.png",
-					"https://cdn.uviewui.com/uview/swiper/swiper2.png",
-					"https://cdn.uviewui.com/uview/swiper/swiper1.png",
-				],
-				list: [{
-						name: "photo",
-						title: "英才学术",
-					},
-					{
-						name: "lock",
-						title: "公益健康",
-					},
-					{
-						name: "star",
-						title: "医生集团",
-					},
-					{
-						name: "hourglass",
-						title: "健康处方",
-					},
-					{
-						name: "home",
-						title: "名医在线",
-					},
-					{
-						name: "star",
-						title: "积分兑换",
-					},
-				],
+
 			};
+		},
+		created() {
+			// 获取集团信息
+			uni.request({
+				url: "http://127.0.0.1:3007/api/groups",
+				success: (res) => {
+					// this.groupsName = res.data.records
+					res.data.records.forEach((item) => {
+						this.groupsName.push(item.groupName)
+					})
+					console.log(this.groupsName);
+				},
+				fail: (err) => {
+					console.error(err);
+				},
+			});
+			// 获取轮播图信息
+			uni.request({
+				url: "http://127.0.0.1:3007/api/lbts",
+				success: (res) => {
+					// this.groupsName = res.data.records
+					res.data.records.forEach((item) => {
+						this.lbtImgs.push(item.img)
+					})
+					console.log(this.lbtImgs);
+				},
+				fail: (err) => {
+					console.error(err);
+				},
+			});
+			// 获取菜单数据
+			uni.request({
+				url: "http://127.0.0.1:3007/api/menus",
+				success: (res) => {
+					this.menusList = res.data.records
+					console.log(this.menusList);
+				},
+				fail: (err) => {
+					console.error(err);
+				},
+			});
+			// 获取医生数据
+			uni.request({
+				url: "http://127.0.0.1:3007/api/doctors",
+				success: (res) => {
+					this.doctorList = res.data.records
+
+					console.log(this.doctorList);
+				},
+				fail: (err) => {
+					console.error(err);
+				},
+			});
+			// 获取资讯动态数据
+			uni.request({
+				url: "http://127.0.0.1:3007/api/dynamic",
+				success: (res) => {
+					this.dynamicList = res.data.records
+
+					console.log(this.dynamicList);
+				},
+				fail: (err) => {
+					console.error(err);
+				},
+			});
+			// 获取医院数据
+			uni.request({
+				url: "http://127.0.0.1:3007/api/cooperation",
+				success: (res) => {
+					res.data.records.forEach((item, index) => {
+						if (index < 3) {
+							this.cooperationList.push(item)
+						}
+					})
+					console.log(this.cooperationList);
+				},
+				fail: (err) => {
+					console.error(err);
+				},
+			});
+
 		},
 		methods: {
 			showInst() {
@@ -233,28 +248,49 @@
 			cancel() {
 				this.show = false;
 			},
-			handleClick() {
+			handleClick(url) {
 				console.log(111);
+				let url1 = url.slice(1)
+				console.log(url1);
 				uni.navigateTo({
-					url: "integrate/integrate",
+					// url: "integrate/integrate",
+					url: `${url1}${url}`,
 					fail: (err) => {
 						console.log(err);
 					},
 					success: () => {},
 				});
 			},
+			showMoreInfo() {
+				uni.navigateTo({
+					url: "moreDynamic/moreDynamic",
+					fail: (err) => {
+						console.log(err);
+					},
+					success: () => {},
+				});
+			},
+
 		},
 	};
 </script>
 <style lang="scss">
+	.u-navbar {
+		/deep/ .u-icon--right {
+			display: none;
+		}
+	}
+
+
 	.header_box {
+		margin-top: 64px;
 		position: fixed;
-		top: 60;
+		// top: 64;
 		left: 0;
 		width: 100%;
-		height: 100rpx;
+		height: 80rpx;
 		padding: 0 20rpx;
-		background-color: rgba(225, 225, 225, 0.5);
+		background-color: rgba(255, 255, 255, 0.8);
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -263,38 +299,45 @@
 		.title_big {
 			font-size: 20px;
 			font-weight: 400;
-			// color: #000;
+			color: #ff8515
+		}
+
+		.search_doctor {
+			.groupname {
+				color: #ff8515;
+			}
 		}
 	}
 
 	.title {
-		font-size: 18px;
+		font-size: 20px;
 		font-weight: 400;
-		// color: #000;
+		color: #ff8515;
 		text-align: center;
 	}
 
 	.menu_nav {
-		margin-top: 20px;
+		margin-top: 10px;
 		background-color: #fff;
+		padding: 20px;
 
 		/deep/ .u-icon__icon {
 			padding-top: 0 !important;
 		}
 
 		.icon_bgc {
-			margin-top: 10px;
+			margin: 10px 0;
 			width: 60px;
 			height: 60px;
 			border-radius: 50%;
-			// background-color: #3c9cff;
+			background-color: #fff3e9;
 			display: flex;
 			justify-content: center;
 			align-items: center;
 
-			image {
-				width: 100%;
-				height: 100%;
+			.img {
+				width: 60%;
+				height: 60%;
 			}
 		}
 	}
@@ -310,11 +353,63 @@
 
 	.doctor_intro {
 		background-color: #fff;
+		padding: 0 20px 20px;
+	}
 
-		p {
-			padding-top: 10px;
+	.uni-margin-wrap {
+		width: 100%;
+	}
+
+	.swiper {
+		height: 400rpx;
+		padding: 20px;
+		border: 1px #e2e2e2 solid;
+		border-radius: 4%;
+	}
+
+	.swiper-item {
+		display: flex;
+		height: 300rpx;
+		text-align: center;
+
+
+		background-color: #fff;
+
+		.left_box {
+			width: 40%;
+			margin-right: 10px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			.img {
+				width: 120px;
+				height: 120px;
+
+			}
+		}
+
+		.right_box {
+			width: 60%;
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+
+			.team {
+				font-size: 20px;
+				// font-weight: 400;
+			}
+
+			.desc {
+				display: flex;
+				text-align: center;
+				font-size: 15px
+			}
 		}
 	}
+
+
 
 	.dynamic,
 	.cooperation {
@@ -328,12 +423,13 @@
 			justify-content: space-between;
 			padding: 0 20px;
 
-			p {
+			.title {
 				margin-left: 120px;
 			}
 
 			.right_more {
-				span {
+
+				.showMore {
 					line-height: 40px;
 				}
 
@@ -346,19 +442,28 @@
 		padding: 10px 10px;
 		display: flex;
 
-		image {
-			width: 100px;
-			height: 100px;
+		.img {
+			width: 120px;
+			height: 110px;
 		}
 
 		.information {
-			margin-left: 10px;
+			margin-left: 15px;
 			display: flex;
 			flex-direction: column;
+
+			.hospital_name {
+				font-size: 18px;
+				margin-bottom: 5px;
+			}
 		}
 
 		.hospital_detail {
 			display: flex;
+
+			.detail {
+				color: #ff8515;
+			}
 		}
 	}
 
@@ -372,7 +477,7 @@
 			color: #243b64;
 			margin-bottom: 10px;
 
-			span {
+			.itemCon {
 				margin-left: 15px;
 			}
 		}

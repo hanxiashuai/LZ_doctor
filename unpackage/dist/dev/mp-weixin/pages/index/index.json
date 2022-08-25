@@ -1,6 +1,7 @@
 {
   "navigationBarTitleText": "uni-app",
   "usingComponents": {
+    "u-navbar": "/uni_modules/uview-ui/components/u-navbar/u-navbar",
     "u-picker": "/uni_modules/uview-ui/components/u-picker/u-picker",
     "u-swiper": "/uni_modules/uview-ui/components/u-swiper/u-swiper",
     "u-grid": "/uni_modules/uview-ui/components/u-grid/u-grid",

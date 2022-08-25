@@ -14,7 +14,12 @@
     "pages/userCenterPages/myCard/myCard",
     "pages/userCenterPages/myExperts/myExperts",
     "pages/userCenterPages/myOrder/myOrder",
-    "pages/userCenterPages/myPrescription/prescriptionDetails/prescriptionDetails"
+    "pages/userCenterPages/myPrescription/prescriptionDetails/prescriptionDetails",
+    "pages/index/doctor_desc/doctor_desc",
+    "pages/index/moreDynamic/moreDynamic",
+    "pages/index/cooperation/cooperation",
+    "pages/index/coop_desc/coop_desc",
+    "pages/index/dynamic_desc/dynamic_desc"
   ],
   "subPackages": [],
   "window": {
@@ -26,7 +31,7 @@
   },
   "tabBar": {
     "color": "#7A7E83",
-    "selectedColor": "#007d5f",
+    "selectedColor": "#ff8515",
     "borderStyle": "black",
     "backgroundColor": "#fff",
     "list": [
@@ -52,6 +57,5 @@
   },
   "usingComponents": {
     "cu-custom": "/colorui/components/cu-custom"
-  },
-  "sitemapLocation": "sitemap.json"
+  }
 }
