@@ -13,10 +13,10 @@
 			<!-- 登录后的显示模块 -->
 			<view v-else class="userinfo_box">
 				<view class="userinfo_box_top">
-					<image class="userinfo_img" src="../../static/image/yy01.jpg" mode=""></image>
+					<view class="userinfo_img"><open-data type="userAvatarUrl" class="userAvatar">用户头像</open-data></view>
 					<view class="">
-						<p style="margin-bottom: 3px;">韩某某</p>
-						<p class="font_color">18738663575</p>
+						<open-data  type="userNickName" class="userNicname">用户昵称</open-data>
+						<p style="margin-top: 3px;" class="font_color">18738663575</p>
 					</view>
 					<button @click="editUserinfo" class="editBtn cu-btn round">编辑资料</button>
 				</view>
@@ -38,7 +38,6 @@
 		</view>
 
 		<!-- <view class="wxLogin">
-			<open-data type="userAvatarUrl" class="userAvatar">用户头像</open-data>
 			<open-data type="userNickName" class="userNicname">用户昵称</open-data>
 		</view> -->
 		<!-- main区域 -->

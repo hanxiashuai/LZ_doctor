@@ -230,7 +230,7 @@ var _default =
 
                     if (res.data.code == '0') {
                       _this.$refs.uToast1.show({
-                        type: 'primary',
+                        type: 'success',
                         title: '成功主题(带图标)',
                         message: '登录成功!' });
 
