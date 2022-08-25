@@ -9048,7 +9048,7 @@ internalMixin(Vue);
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed (from ./node_modules/@dcloudio/webpack-uni-pages-loader/lib/index.js):\nSyntaxError: Unexpected token ' in JSON at position 2175\n    at JSON.parse (<anonymous>)\n    at parseJson (D:\\HBuilderX.3.5.3.20220729\\HBuilderX\\plugins\\uniapp-cli\\node_modules\\@dcloudio\\uni-cli-shared\\lib\\json.js:17:20)\n    at parseManifestJson (D:\\HBuilderX.3.5.3.20220729\\HBuilderX\\plugins\\uniapp-cli\\node_modules\\@dcloudio\\uni-cli-shared\\lib\\manifest.js:35:10)\n    at Object.<anonymous> (D:\\HBuilderX.3.5.3.20220729\\HBuilderX\\plugins\\uniapp-cli\\node_modules\\@dcloudio\\webpack-uni-pages-loader\\lib\\index-new.js:65:24)\n    at Object.<anonymous> (D:\\HBuilderX.3.5.3.20220729\\HBuilderX\\plugins\\uniapp-cli\\node_modules\\@dcloudio\\webpack-uni-pages-loader\\lib\\index.js:58:35)");
+
 
 /***/ }),
 /* 6 */,
