@@ -107,17 +107,51 @@
         "navigationBarTitleText": "处方详情",
         "enablePullDownRefresh": false
       }
+    },
+    {
+      "path": "pages/login/userAgreement",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/index/doctor_desc/doctor_desc",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/index/moreDynamic/moreDynamic",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/index/cooperation/cooperation",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/index/coop_desc/coop_desc",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/index/dynamic_desc/dynamic_desc",
+
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
     }
-      ,{
-            "path" : "pages/login/userAgreement",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
-            }
-            
-        }
-    ],
+  ],
   "globalStyle": {
     "navigationStyle": "custom",
     "navigationBarTextStyle": "black",
@@ -127,7 +161,7 @@
   },
   "tabBar": {
     "color": "#7A7E83",
-    "selectedColor": "#007d5f",
+    "selectedColor": "#ff8515",
     "borderStyle": "black",
     "backgroundColor": "#fff",
     "list": [
