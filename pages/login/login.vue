@@ -120,29 +120,29 @@ export default {
 
 <style lang="scss">
 .content {
-	margin-top: 80px;
+	margin-top: 160rpx;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	height: 550px;
+	height: 1100rpx;
 	justify-content: space-between;
-	letter-spacing: 2px;
+	letter-spacing: 4rpx;
 	.title {
-		font-size: 30px;
+		font-size: 60rpx;
 		color: #6186cd;
 	}
 	.content_top {
-		height: 150px;
+		height: 300rpx;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: space-between;
 	}
 	.loginBtn {
-		width: 300px;
-		height: 38px;
+		width: 600rpx;
+		height: 76rpx;
 		color: #fff;
-		font-size: 17px;
+		font-size: 34rpx;
 		background-color: #6186cd !important;
 	}
 }
