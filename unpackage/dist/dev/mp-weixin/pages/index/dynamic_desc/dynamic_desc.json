@@ -1,7 +1,4 @@
 {
   "navigationBarTitleText": "",
-  "enablePullDownRefresh": false,
-  "usingComponents": {
-    "u-navbar": "/uni_modules/uview-ui/components/u-navbar/u-navbar"
-  }
+  "enablePullDownRefresh": false
 }
