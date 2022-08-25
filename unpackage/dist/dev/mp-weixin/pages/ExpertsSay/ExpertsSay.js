@@ -262,10 +262,21 @@ var _default =
 
 
   },
-  onLoad: function onLoad() {
-    uni.startPullDownRefresh();
-  },
 
+  onLoad: function onLoad() {var _this = this;
+    //uni.startPullDownRefresh();
+    uni.request({
+      url: 'http://127.0.0.1:3007/api/nav', //仅为示例，并非真实接口地址。
+      // data: {
+      // 	text: 'uni.request'
+      // },
+      success: function success(res) {
+        console.log(res.data.data);
+        _this.todolist = res.data.data;
+        // this.text = 'request success';
+      } });
+
+  },
   onPullDownRefresh: function onPullDownRefresh() {
     //后台数据	this.init()
     setTimeout(function () {
@@ -285,6 +296,15 @@ var _default =
 
   },
   methods: {
+    //左侧小房子点击回主页面
+    home: function home() {
+      uni.reLaunch({
+        url: '/pages/index/index',
+        fail: function fail(res) {
+          console.log(res); //打印错误信息
+        } });
+
+    },
     goto: function goto(url) {
       window.location.href = url;
     },
@@ -299,7 +319,6 @@ var _default =
         } });
 
     },
-
     checkIndex: function checkIndex(index) {
       this.navIndex = index;
     },

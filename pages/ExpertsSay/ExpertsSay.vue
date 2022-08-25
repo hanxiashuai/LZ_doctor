@@ -2,21 +2,21 @@
 	<view style="background-color: #ffffff;">
 		<view>
 			<u-navbar title="个人中心">
-				<view class="u-nav-slot" slot="left">
+				<view class="u-nav-slot" slot="left" @click="home">
 					<u-icon name="home" color="#aaaaff" size="28"></u-icon>
 				</view>
-				<view class="u-nav-slot  col" slot="right"
+				<!-- <view class="u-nav-slot  col" slot="right"
 					style="display: flex; border: 1px solid #aaaaff; border-radius=30rpx">
 					<u-icon name="minus" color="#2979ff" size="28"></u-icon>
 					<u-icon name="more-dot-fill" color="#2979ff" size="28"></u-icon>
 					<u-icon name="plus-circle" color="#2979ff" size="18"></u-icon>
-				</view>
+				</view> -->
 			</u-navbar>
 		</view>
 		<view style="margin-top:150rpx;">
 			<u--input placeholder="请输入关键字" prefixIcon="search" suffixIconStyle="color: #909399">
 			</u--input>
-			<button @click='goto("https://www.baidu.com" )'>百度</button>
+			<button @click='goto("https://www.baidu.com" )' class="btn-two">跳转百度</button>
 		</view>
 
 		<view class="head-nav">
@@ -28,7 +28,7 @@
 			<view class="cont"></view>
 			<view class="boxone" @click="btn(item.url)" v-for="(item,index) in todolist" :key="item.id">
 				<h2>{{item.title}}</h2>
-				<p>{{item.text}}</p>
+				<p>{{item.conten}}</p>
 				<p style="margin-bottom: 10px; margin-top: 10px;">{{item.time}}</p>
 				<hr>
 			</view>
@@ -99,10 +99,21 @@
 				]
 			}
 		},
-		onLoad() {
-			uni.startPullDownRefresh();
-		},
 
+		onLoad() {
+			//uni.startPullDownRefresh();
+			uni.request({
+				url: 'http://127.0.0.1:3007/api/nav', //仅为示例，并非真实接口地址。
+				// data: {
+				// 	text: 'uni.request'
+				// },
+				success: (res) => {
+					console.log(res.data.data);
+					this.todolist = res.data.data
+					// this.text = 'request success';
+				}
+			});
+		},
 		onPullDownRefresh() {
 			//后台数据	this.init()
 			setTimeout(() => {
@@ -122,6 +133,15 @@
 
 		},
 		methods: {
+			//左侧小房子点击回主页面
+			home() {
+				uni.reLaunch({
+					url: '/pages/index/index',
+					fail: (res) => {
+						console.log(res) //打印错误信息
+					}
+				})
+			},
 			goto(url) {
 				window.location.href = url
 			},
@@ -136,7 +156,6 @@
 					}
 				})
 			},
-
 			checkIndex(index) {
 				this.navIndex = index
 			},
@@ -154,6 +173,12 @@
 </script>
 
 <style lang="scss">
+	.btn-two {
+		background-color: #0065d9;
+
+
+	}
+
 	.head-nav {
 		width: 50%;
 		margin: 20rpx auto;

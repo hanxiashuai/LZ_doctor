@@ -8,7 +8,6 @@
 
 	</view>
 </template>
-
 <script>
 	import met from '@/pages/ExpertsSay/medicine/medicine.vue'
 	export default {

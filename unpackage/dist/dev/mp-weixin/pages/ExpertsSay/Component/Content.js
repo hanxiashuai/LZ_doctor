@@ -143,7 +143,6 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 
 
-
 var _medicine = _interopRequireDefault(__webpack_require__(/*! @/pages/ExpertsSay/medicine/medicine.vue */ 178));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} //
 //
 //
@@ -154,8 +153,8 @@ var _medicine = _interopRequireDefault(__webpack_require__(/*! @/pages/ExpertsSa
 //
 //
 //
-//
-var _default = { components: { met: _medicine.default }, data: function data() {return {};}, methods: {} };exports.default = _default;
+var _default = { components: { met: _medicine.default }, data: function data() {return {};},
+  methods: {} };exports.default = _default;
 
 /***/ }),
 
@@ -246,9 +245,6 @@ try {
     },
     uIcon: function() {
       return Promise.all(/*! import() | uni_modules/uview-ui/components/u-icon/u-icon */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-icon/u-icon")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-icon/u-icon.vue */ 346))
-    },
-    uButton: function() {
-      return Promise.all(/*! import() | uni_modules/uview-ui/components/u-button/u-button */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uview-ui/components/u-button/u-button")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uview-ui/components/u-button/u-button.vue */ 379))
     }
   }
 } catch (e) {
@@ -384,14 +380,37 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 var _default =
 {
   data: function data() {
     return {
-      src: '/static/image/草.jpg' };
+      src: '/static/image/草.jpg',
+      todolist: [] };
+
+  },
+  onLoad: function onLoad() {var _this = this;
+    uni.request({
+      url: 'http://127.0.0.1:3007/api/nav', //仅为示例，并非真实接口地址。
+      params: {
+        id: '' },
+
+      success: function success(res) {
+        console.log(res.data.data);
+        _this.todolist = res.data.data;
+        // this.text = 'request success';
+      } });
+
 
   },
   methods: {
+    //点击微信聊天跳转
+    WeChat: function WeChat() {
+
+    },
     rightClick: function rightClick() {
       console.log('rightClick');
     },

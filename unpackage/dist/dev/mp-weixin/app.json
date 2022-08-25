@@ -1,62 +1,63 @@
 {
-  "pages": [
-    "pages/index/index",
-    "pages/ExpertsSay/ExpertsSay",
-    "pages/PersonCenter/PersonCenter",
-    "pages/index/integrate/integrate",
-    "pages/ExpertsSay/Component/Content",
-    "pages/ExpertsSay/medicine/medicine",
-    "pages/login/login",
-    "pages/userCenterPages/BBS/BBS",
-    "pages/userCenterPages/myPrescription/myPrescription",
-    "pages/userCenterPages/myAddress/myAddress",
-    "pages/userCenterPages/myArchives/myArchives",
-    "pages/userCenterPages/myCard/myCard",
-    "pages/userCenterPages/myExperts/myExperts",
-    "pages/userCenterPages/myOrder/myOrder",
-    "pages/userCenterPages/myPrescription/prescriptionDetails/prescriptionDetails",
-    "pages/login/userAgreement",
-    "pages/index/doctor_desc/doctor_desc",
-    "pages/index/moreDynamic/moreDynamic",
-    "pages/index/cooperation/cooperation",
-    "pages/index/coop_desc/coop_desc",
-    "pages/index/dynamic_desc/dynamic_desc"
-  ],
-  "subPackages": [],
-  "window": {
-    "navigationStyle": "custom",
-    "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8"
-  },
-  "tabBar": {
-    "color": "#7A7E83",
-    "selectedColor": "#ff8515",
-    "borderStyle": "black",
-    "backgroundColor": "#fff",
-    "list": [
-      {
-        "pagePath": "pages/index/index",
-        "iconPath": "static/image/shouye.png",
-        "selectedIconPath": "static/image/shouye1.png",
-        "text": "首页"
-      },
-      {
-        "pagePath": "pages/ExpertsSay/ExpertsSay",
-        "iconPath": "static/image/zhuanjia.png",
-        "selectedIconPath": "static/image/zhuanjia1.png",
-        "text": "专家说"
-      },
-      {
-        "pagePath": "pages/PersonCenter/PersonCenter",
-        "iconPath": "static/image/wode.png",
-        "selectedIconPath": "static/image/wode1.png",
-        "text": "我的"
-      }
-    ]
-  },
-  "usingComponents": {
-    "cu-custom": "/colorui/components/cu-custom"
-  }
+    "pages": [
+        "pages/index/index",
+        "pages/ExpertsSay/ExpertsSay",
+        "pages/PersonCenter/PersonCenter",
+        "pages/index/integrate/integrate",
+        "pages/ExpertsSay/Component/Content",
+        "pages/ExpertsSay/medicine/medicine",
+        "pages/login/login",
+        "pages/userCenterPages/BBS/BBS",
+        "pages/userCenterPages/myPrescription/myPrescription",
+        "pages/userCenterPages/myAddress/myAddress",
+        "pages/userCenterPages/myArchives/myArchives",
+        "pages/userCenterPages/myCard/myCard",
+        "pages/userCenterPages/myExperts/myExperts",
+        "pages/userCenterPages/myOrder/myOrder",
+        "pages/userCenterPages/myPrescription/prescriptionDetails/prescriptionDetails",
+        "pages/login/userAgreement",
+        "pages/index/doctor_desc/doctor_desc",
+        "pages/index/moreDynamic/moreDynamic",
+        "pages/index/cooperation/cooperation",
+        "pages/index/coop_desc/coop_desc",
+        "pages/index/dynamic_desc/dynamic_desc"
+    ],
+    "subPackages": [],
+    "window": {
+        "navigationStyle": "custom",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+        "color": "#7A7E83",
+        "selectedColor": "#ff8515",
+        "borderStyle": "black",
+        "backgroundColor": "#fff",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "static/image/shouye.png",
+                "selectedIconPath": "static/image/shouye1.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/ExpertsSay/ExpertsSay",
+                "iconPath": "static/image/zhuanjia.png",
+                "selectedIconPath": "static/image/zhuanjia1.png",
+                "text": "专家说"
+            },
+            {
+                "pagePath": "pages/PersonCenter/PersonCenter",
+                "iconPath": "static/image/wode.png",
+                "selectedIconPath": "static/image/wode1.png",
+                "text": "我的"
+            }
+        ]
+    },
+    "usingComponents": {
+        "cu-custom": "/colorui/components/cu-custom"
+    },
+    "sitemapLocation": "sitemap.json"
 }
