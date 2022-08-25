@@ -25,44 +25,79 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.login_header {
+.headerBox {
+  width: 100%;
+  height: 125px;
+  background-image: linear-gradient(45deg, #0081ff, #1cbbb4);
+  color: #fff;
+  overflow: hidden;
+}
+.headerBox .login_header {
   width: 100%;
   height: 80px;
   background-color: #ffff;
   display: flex;
   align-items: center;
+  position: absolute;
+  top: 65px;
 }
-.login_header .header_right {
+.headerBox .login_header .header_right {
   font-size: 18px;
   font-weight: 500;
-  margin-left: 20px;
+  color: #000;
 }
-.headerBox {
-  width: 100%;
-  height: 100px;
-  background-image: linear-gradient(45deg, #0081ff, #1cbbb4);
-  color: #fff;
-  overflow: hidden;
+.headerBox .userinfo_box {
+  width: 90%;
+  margin-left: 5%;
+  color: #000;
+  background-color: #fff;
+  height: 120px;
+  position: absolute;
+  top: 65px;
+  z-index: 1000;
+  padding: 10px;
 }
-.headerBox .toIndex {
-  width: 30px;
-  height: 30px;
+.headerBox .userinfo_box .userinfo_box_top {
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin: 25px 0 0 5px;
-  border: 1px solid #fff;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.headerBox .userinfo_box .userinfo_box_top .userinfo_img {
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
-  background-color: white;
+}
+.headerBox .userinfo_box .userinfo_box_top .editBtn {
+  color: #fff;
+  font-size: 12px;
+  height: 22px;
+  background-color: #6186cd !important;
+}
+.headerBox .userinfo_box .userinfo_box_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headerBox .userinfo_box .userinfo_box_bottom .left,
+.headerBox .userinfo_box .userinfo_box_bottom .center,
+.headerBox .userinfo_box .userinfo_box_bottom .right {
+  width: 60px;
+  text-align: center;
+}
+.headerBox .userinfo_box .font_color {
+  color: #999;
+}
+.wxLogin {
+  display: flex;
 }
 .main {
   width: 100%;
   background-color: #fff;
   margin-top: 10px;
-  font-size: 30px;
 }
 .main .u-icon__icon {
-  color: #3f86ff !important;
+  color: #6186cd !important;
   font-size: 25px !important;
 }
 .main image {
@@ -70,7 +105,7 @@
   height: 25px !important;
 }
 .main .u-cell__title-text {
-  font-size: 18px !important;
+  font-size: 17px !important;
   margin-left: 5px !important;
 }
 .fotter {
@@ -82,6 +117,6 @@
   justify-content: center;
   align-items: center;
   font-size: 18px;
-  color: #3f86ff;
+  color: #6186cd;
 }
 

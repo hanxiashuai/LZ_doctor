@@ -108,7 +108,16 @@
         "enablePullDownRefresh": false
       }
     }
-  ],
+      ,{
+            "path" : "pages/login/userAgreement",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
   "globalStyle": {
     "navigationStyle": "custom",
     "navigationBarTextStyle": "black",

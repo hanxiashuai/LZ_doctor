@@ -1,5 +1,4 @@
-<template>
-	<view>
+<template><view>
 		<cu-custom bgColor="bg-gradual-blue">
 			<block slot="content">杨继洲医生集团</block>
 		</cu-custom>

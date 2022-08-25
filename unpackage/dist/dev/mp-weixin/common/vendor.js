@@ -9042,9 +9042,15 @@ internalMixin(Vue);
 
 /***/ }),
 /* 5 */
+<<<<<<< HEAD
 /*!*************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/pages.json ***!
   \*************************************/
+=======
+/*!***********************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/pages.json ***!
+  \***********************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -9185,9 +9191,15 @@ function normalizeComponent (
 
 /***/ }),
 /* 12 */
+<<<<<<< HEAD
 /*!********************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/index.js ***!
   \********************************************************/
+=======
+/*!******************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/index.js ***!
+  \******************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9274,9 +9286,15 @@ var install = function install(Vue) {
 
 /***/ }),
 /* 13 */
+<<<<<<< HEAD
 /*!*******************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/mixin/mixin.js ***!
   \*******************************************************************/
+=======
+/*!*****************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/mixin/mixin.js ***!
+  \*****************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9443,9 +9461,15 @@ var install = function install(Vue) {
 
 /***/ }),
 /* 14 */
+<<<<<<< HEAD
 /*!*********************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/mixin/mpMixin.js ***!
   \*********************************************************************/
+=======
+/*!*******************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/mixin/mpMixin.js ***!
+  \*******************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9458,9 +9482,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 15 */
+<<<<<<< HEAD
 /*!**************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/luch-request/index.js ***!
   \**************************************************************************/
+=======
+/*!************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/luch-request/index.js ***!
+  \************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9471,9 +9501,15 @@ _Request.default;exports.default = _default;
 
 /***/ }),
 /* 16 */
+<<<<<<< HEAD
 /*!*********************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/Request.js ***!
   \*********************************************************************************/
+=======
+/*!*******************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/Request.js ***!
+  \*******************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9679,9 +9715,15 @@ Request = /*#__PURE__*/function () {
 
 /***/ }),
 /* 17 */
+<<<<<<< HEAD
 /*!*****************************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/dispatchRequest.js ***!
   \*****************************************************************************************/
+=======
+/*!***************************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/dispatchRequest.js ***!
+  \***************************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9692,9 +9734,15 @@ function _default(config) {return (0, _index.default)(config);};exports.default 
 
 /***/ }),
 /* 18 */
+<<<<<<< HEAD
 /*!***********************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/luch-request/adapters/index.js ***!
   \***********************************************************************************/
+=======
+/*!*********************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/luch-request/adapters/index.js ***!
+  \*********************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9800,9 +9848,15 @@ function _default(config) {return new Promise(function (resolve, reject) {
 
 /***/ }),
 /* 19 */
+<<<<<<< HEAD
 /*!*************************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/luch-request/helpers/buildURL.js ***!
   \*************************************************************************************/
+=======
+/*!***********************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/luch-request/helpers/buildURL.js ***!
+  \***********************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9879,9 +9933,15 @@ function buildURL(url, params) {
 
 /***/ }),
 /* 20 */
+<<<<<<< HEAD
 /*!**************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/luch-request/utils.js ***!
   \**************************************************************************/
+=======
+/*!************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/luch-request/utils.js ***!
+  \************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10020,9 +10080,15 @@ function isUndefined(val) {
 
 /***/ }),
 /* 21 */
+<<<<<<< HEAD
 /*!***************************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/buildFullPath.js ***!
   \***************************************************************************************/
+=======
+/*!*************************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/buildFullPath.js ***!
+  \*************************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10050,9 +10116,15 @@ function buildFullPath(baseURL, requestedURL) {
 
 /***/ }),
 /* 22 */
+<<<<<<< HEAD
 /*!******************************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/luch-request/helpers/isAbsoluteURL.js ***!
   \******************************************************************************************/
+=======
+/*!****************************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/luch-request/helpers/isAbsoluteURL.js ***!
+  \****************************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10074,9 +10146,15 @@ function isAbsoluteURL(url) {
 
 /***/ }),
 /* 23 */
+<<<<<<< HEAD
 /*!****************************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/luch-request/helpers/combineURLs.js ***!
   \****************************************************************************************/
+=======
+/*!**************************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/luch-request/helpers/combineURLs.js ***!
+  \**************************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10098,9 +10176,15 @@ function combineURLs(baseURL, relativeURL) {
 
 /***/ }),
 /* 24 */
+<<<<<<< HEAD
 /*!********************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/settle.js ***!
   \********************************************************************************/
+=======
+/*!******************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/settle.js ***!
+  \******************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10124,9 +10208,15 @@ function settle(resolve, reject, response) {var
 
 /***/ }),
 /* 25 */
+<<<<<<< HEAD
 /*!********************************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/InterceptorManager.js ***!
   \********************************************************************************************/
+=======
+/*!******************************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/InterceptorManager.js ***!
+  \******************************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10184,9 +10274,15 @@ InterceptorManager;exports.default = _default;
 
 /***/ }),
 /* 26 */
+<<<<<<< HEAD
 /*!*************************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/mergeConfig.js ***!
   \*************************************************************************************/
+=======
+/*!***********************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/mergeConfig.js ***!
+  \***********************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10297,9 +10393,15 @@ function _default(globalsConfig) {var config2 = arguments.length > 1 && argument
 
 /***/ }),
 /* 27 */
+<<<<<<< HEAD
 /*!**********************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/defaults.js ***!
   \**********************************************************************************/
+=======
+/*!********************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/luch-request/core/defaults.js ***!
+  \********************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10335,9 +10437,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 28 */
+<<<<<<< HEAD
 /*!********************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/luch-request/utils/clone.js ***!
   \********************************************************************************/
+=======
+/*!******************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/luch-request/utils/clone.js ***!
+  \******************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10606,7 +10714,11 @@ var clone = function () {
 }();var _default =
 
 clone;exports.default = _default;
+<<<<<<< HEAD
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/buffer/index.js */ 29).Buffer))
+=======
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../../HBuilderX.3.5.3.20220729/HBuilderX/plugins/uniapp-cli/node_modules/buffer/index.js */ 29).Buffer))
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 
 /***/ }),
 /* 29 */
@@ -12683,17 +12795,29 @@ module.exports = Array.isArray || function (arr) {
 
 /***/ }),
 /* 33 */
+<<<<<<< HEAD
 /*!******************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/util/route.js ***!
   \******************************************************************/
+=======
+/*!****************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/util/route.js ***!
+  \****************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 34));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};}function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;} /**
+<<<<<<< HEAD
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               * 路由跳转方法，该方法相对于直接使用uni.xxx的好处是使用更加简单快捷
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               * 并且带有路由拦截功能
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               */var
+=======
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         * 路由跳转方法，该方法相对于直接使用uni.xxx的好处是使用更加简单快捷
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         * 并且带有路由拦截功能
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         */var
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 
 Router = /*#__PURE__*/function () {
   function Router() {_classCallCheck(this, Router);
@@ -13606,9 +13730,15 @@ if (hadRuntime) {
 
 /***/ }),
 /* 37 */
+<<<<<<< HEAD
 /*!******************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/function/colorGradient.js ***!
   \******************************************************************************/
+=======
+/*!****************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/function/colorGradient.js ***!
+  \****************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -13749,9 +13879,15 @@ function colorToRgba(color, alpha) {
 
 /***/ }),
 /* 38 */
+<<<<<<< HEAD
 /*!*********************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/function/test.js ***!
   \*********************************************************************/
+=======
+/*!*******************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/function/test.js ***!
+  \*******************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14046,9 +14182,15 @@ function regExp(o) {
 
 /***/ }),
 /* 39 */
+<<<<<<< HEAD
 /*!*************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/function/debounce.js ***!
   \*************************************************************************/
+=======
+/*!***********************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/function/debounce.js ***!
+  \***********************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14085,9 +14227,15 @@ debounce;exports.default = _default;
 
 /***/ }),
 /* 40 */
+<<<<<<< HEAD
 /*!*************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/function/throttle.js ***!
   \*************************************************************************/
+=======
+/*!***********************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/function/throttle.js ***!
+  \***********************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14125,9 +14273,15 @@ throttle;exports.default = _default;
 
 /***/ }),
 /* 41 */
+<<<<<<< HEAD
 /*!**********************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/function/index.js ***!
   \**********************************************************************/
+=======
+/*!********************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/function/index.js ***!
+  \********************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -14840,9 +14994,15 @@ function setConfig(_ref3)
 
 /***/ }),
 /* 42 */
+<<<<<<< HEAD
 /*!**********************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/function/digit.js ***!
   \**********************************************************************/
+=======
+/*!********************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/function/digit.js ***!
+  \********************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15015,9 +15175,15 @@ function enableBoundaryChecking() {var flag = arguments.length > 0 && arguments[
 
 /***/ }),
 /* 43 */
+<<<<<<< HEAD
 /*!*********************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/config.js ***!
   \*********************************************************************/
+=======
+/*!*******************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/config.js ***!
+  \*******************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15058,9 +15224,15 @@ if (true) {
 
 /***/ }),
 /* 44 */
+<<<<<<< HEAD
 /*!********************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props.js ***!
   \********************************************************************/
+=======
+/*!******************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props.js ***!
+  \******************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15257,9 +15429,15 @@ _upload.default);exports.default = _default;
 
 /***/ }),
 /* 45 */
+<<<<<<< HEAD
 /*!********************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/actionSheet.js ***!
   \********************************************************************************/
+=======
+/*!******************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/actionSheet.js ***!
+  \******************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15290,9 +15468,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 46 */
+<<<<<<< HEAD
 /*!**************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/album.js ***!
   \**************************************************************************/
+=======
+/*!************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/album.js ***!
+  \************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15323,9 +15507,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 47 */
+<<<<<<< HEAD
 /*!**************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/alert.js ***!
   \**************************************************************************/
+=======
+/*!************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/alert.js ***!
+  \************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15353,9 +15543,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 48 */
+<<<<<<< HEAD
 /*!***************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/avatar.js ***!
   \***************************************************************************/
+=======
+/*!*************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/avatar.js ***!
+  \*************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15389,9 +15585,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 49 */
+<<<<<<< HEAD
 /*!********************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/avatarGroup.js ***!
   \********************************************************************************/
+=======
+/*!******************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/avatarGroup.js ***!
+  \******************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15420,9 +15622,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 50 */
+<<<<<<< HEAD
 /*!****************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/backtop.js ***!
   \****************************************************************************/
+=======
+/*!**************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/backtop.js ***!
+  \**************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15454,9 +15662,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 51 */
+<<<<<<< HEAD
 /*!**************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/badge.js ***!
   \**************************************************************************/
+=======
+/*!************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/badge.js ***!
+  \************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15489,9 +15703,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 52 */
+<<<<<<< HEAD
 /*!***************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/button.js ***!
   \***************************************************************************/
+=======
+/*!*************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/button.js ***!
+  \*************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15539,9 +15759,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 53 */
+<<<<<<< HEAD
 /*!*****************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/calendar.js ***!
   \*****************************************************************************/
+=======
+/*!***************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/calendar.js ***!
+  \***************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15589,9 +15815,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 54 */
+<<<<<<< HEAD
 /*!********************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/carKeyboard.js ***!
   \********************************************************************************/
+=======
+/*!******************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/carKeyboard.js ***!
+  \******************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15612,9 +15844,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 55 */
+<<<<<<< HEAD
 /*!*************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/cell.js ***!
   \*************************************************************************/
+=======
+/*!***********************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/cell.js ***!
+  \***********************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15655,9 +15893,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 56 */
+<<<<<<< HEAD
 /*!******************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/cellGroup.js ***!
   \******************************************************************************/
+=======
+/*!****************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/cellGroup.js ***!
+  \****************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15680,9 +15924,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 57 */
+<<<<<<< HEAD
 /*!*****************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/checkbox.js ***!
   \*****************************************************************************/
+=======
+/*!***************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/checkbox.js ***!
+  \***************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15715,9 +15965,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 58 */
+<<<<<<< HEAD
 /*!**********************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/checkboxGroup.js ***!
   \**********************************************************************************/
+=======
+/*!********************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/checkboxGroup.js ***!
+  \********************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15752,9 +16008,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 59 */
+<<<<<<< HEAD
 /*!***********************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/circleProgress.js ***!
   \***********************************************************************************/
+=======
+/*!*********************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/circleProgress.js ***!
+  \*********************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15775,9 +16037,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 60 */
+<<<<<<< HEAD
 /*!*************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/code.js ***!
   \*************************************************************************/
+=======
+/*!***********************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/code.js ***!
+  \***********************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15804,9 +16072,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 61 */
+<<<<<<< HEAD
 /*!******************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/codeInput.js ***!
   \******************************************************************************/
+=======
+/*!****************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/codeInput.js ***!
+  \****************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15841,9 +16115,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 62 */
+<<<<<<< HEAD
 /*!************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/col.js ***!
   \************************************************************************/
+=======
+/*!**********************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/col.js ***!
+  \**********************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15868,9 +16148,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 63 */
+<<<<<<< HEAD
 /*!*****************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/collapse.js ***!
   \*****************************************************************************/
+=======
+/*!***************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/collapse.js ***!
+  \***************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15893,9 +16179,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 64 */
+<<<<<<< HEAD
 /*!*********************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/collapseItem.js ***!
   \*********************************************************************************/
+=======
+/*!*******************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/collapseItem.js ***!
+  \*******************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15926,9 +16218,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 65 */
+<<<<<<< HEAD
 /*!*********************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/columnNotice.js ***!
   \*********************************************************************************/
+=======
+/*!*******************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/columnNotice.js ***!
+  \*******************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15958,9 +16256,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 66 */
+<<<<<<< HEAD
 /*!******************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/countDown.js ***!
   \******************************************************************************/
+=======
+/*!****************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/countDown.js ***!
+  \****************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -15984,9 +16288,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 67 */
+<<<<<<< HEAD
 /*!****************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/countTo.js ***!
   \****************************************************************************/
+=======
+/*!**************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/countTo.js ***!
+  \**************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16017,9 +16327,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 68 */
+<<<<<<< HEAD
 /*!***********************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/datetimePicker.js ***!
   \***********************************************************************************/
+=======
+/*!*********************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/datetimePicker.js ***!
+  \*********************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16061,9 +16377,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 69 */
+<<<<<<< HEAD
 /*!****************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/divider.js ***!
   \****************************************************************************/
+=======
+/*!**************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/divider.js ***!
+  \**************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16091,9 +16413,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 70 */
+<<<<<<< HEAD
 /*!**************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/empty.js ***!
   \**************************************************************************/
+=======
+/*!************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/empty.js ***!
+  \************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16124,9 +16452,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 71 */
+<<<<<<< HEAD
 /*!*************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/form.js ***!
   \*************************************************************************/
+=======
+/*!***********************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/form.js ***!
+  \***********************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16154,9 +16488,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 72 */
+<<<<<<< HEAD
 /*!*****************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/formItem.js ***!
   \*****************************************************************************/
+=======
+/*!***************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/formItem.js ***!
+  \***************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16184,9 +16524,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 73 */
+<<<<<<< HEAD
 /*!************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/gap.js ***!
   \************************************************************************/
+=======
+/*!**********************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/gap.js ***!
+  \**********************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16211,9 +16557,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 74 */
+<<<<<<< HEAD
 /*!*************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/grid.js ***!
   \*************************************************************************/
+=======
+/*!***********************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/grid.js ***!
+  \***********************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16236,9 +16588,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 75 */
+<<<<<<< HEAD
 /*!*****************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/gridItem.js ***!
   \*****************************************************************************/
+=======
+/*!***************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/gridItem.js ***!
+  \***************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16260,9 +16618,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 76 */
+<<<<<<< HEAD
 /*!*************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/icon.js ***!
   \*************************************************************************/
+=======
+/*!***********************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/icon.js ***!
+  \***********************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16304,9 +16668,15 @@ var _config = _interopRequireDefault(__webpack_require__(/*! ../config */ 43));f
 
 /***/ }),
 /* 77 */
+<<<<<<< HEAD
 /*!**************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/image.js ***!
   \**************************************************************************/
+=======
+/*!************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/image.js ***!
+  \************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16342,9 +16712,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 78 */
+<<<<<<< HEAD
 /*!********************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/indexAnchor.js ***!
   \********************************************************************************/
+=======
+/*!******************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/indexAnchor.js ***!
+  \******************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16369,9 +16745,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 79 */
+<<<<<<< HEAD
 /*!******************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/indexList.js ***!
   \******************************************************************************/
+=======
+/*!****************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/indexList.js ***!
+  \****************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16396,9 +16778,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 80 */
+<<<<<<< HEAD
 /*!**************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/input.js ***!
   \**************************************************************************/
+=======
+/*!************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/input.js ***!
+  \************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16452,9 +16840,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 81 */
+<<<<<<< HEAD
 /*!*****************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/keyboard.js ***!
   \*****************************************************************************/
+=======
+/*!***************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/keyboard.js ***!
+  \***************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16490,9 +16884,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 82 */
+<<<<<<< HEAD
 /*!*************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/line.js ***!
   \*************************************************************************/
+=======
+/*!***********************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/line.js ***!
+  \***********************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16518,9 +16918,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 83 */
+<<<<<<< HEAD
 /*!*********************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/lineProgress.js ***!
   \*********************************************************************************/
+=======
+/*!*******************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/lineProgress.js ***!
+  \*******************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16545,9 +16951,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 84 */
+<<<<<<< HEAD
 /*!*************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/link.js ***!
   \*************************************************************************/
+=======
+/*!***********************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/link.js ***!
+  \***********************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16579,9 +16991,15 @@ var _config = _interopRequireDefault(__webpack_require__(/*! ../config */ 43));f
 
 /***/ }),
 /* 85 */
+<<<<<<< HEAD
 /*!*************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/list.js ***!
   \*************************************************************************/
+=======
+/*!***********************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/list.js ***!
+  \***********************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16615,9 +17033,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 86 */
+<<<<<<< HEAD
 /*!*****************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/listItem.js ***!
   \*****************************************************************************/
+=======
+/*!***************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/listItem.js ***!
+  \***************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16638,9 +17062,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 87 */
+<<<<<<< HEAD
 /*!********************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/loadingIcon.js ***!
   \********************************************************************************/
+=======
+/*!******************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/loadingIcon.js ***!
+  \******************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16676,9 +17106,15 @@ var _config = _interopRequireDefault(__webpack_require__(/*! ../config */ 43));f
 
 /***/ }),
 /* 88 */
+<<<<<<< HEAD
 /*!********************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/loadingPage.js ***!
   \********************************************************************************/
+=======
+/*!******************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/loadingPage.js ***!
+  \******************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16707,9 +17143,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 89 */
+<<<<<<< HEAD
 /*!*****************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/loadmore.js ***!
   \*****************************************************************************/
+=======
+/*!***************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/loadmore.js ***!
+  \***************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16747,9 +17189,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 90 */
+<<<<<<< HEAD
 /*!**************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/modal.js ***!
   \**************************************************************************/
+=======
+/*!************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/modal.js ***!
+  \************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16785,9 +17233,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 91 */
+<<<<<<< HEAD
 /*!***************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/navbar.js ***!
   \***************************************************************************/
+=======
+/*!*************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/navbar.js ***!
+  \*************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16824,9 +17278,15 @@ var _color = _interopRequireDefault(__webpack_require__(/*! ../color */ 92));fun
 
 /***/ }),
 /* 92 */
+<<<<<<< HEAD
 /*!********************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/color.js ***!
   \********************************************************************/
+=======
+/*!******************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/color.js ***!
+  \******************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16851,9 +17311,15 @@ color;exports.default = _default;
 
 /***/ }),
 /* 93 */
+<<<<<<< HEAD
 /*!******************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/noNetwork.js ***!
   \******************************************************************************/
+=======
+/*!****************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/noNetwork.js ***!
+  \****************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16876,9 +17342,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 94 */
+<<<<<<< HEAD
 /*!******************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/noticeBar.js ***!
   \******************************************************************************/
+=======
+/*!****************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/noticeBar.js ***!
+  \****************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16911,9 +17383,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 95 */
+<<<<<<< HEAD
 /*!***************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/notify.js ***!
   \***************************************************************************/
+=======
+/*!*************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/notify.js ***!
+  \*************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16941,9 +17419,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 96 */
+<<<<<<< HEAD
 /*!******************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/numberBox.js ***!
   \******************************************************************************/
+=======
+/*!****************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/numberBox.js ***!
+  \****************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -16984,9 +17468,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 97 */
+<<<<<<< HEAD
 /*!***********************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/numberKeyboard.js ***!
   \***********************************************************************************/
+=======
+/*!*********************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/numberKeyboard.js ***!
+  \*********************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17009,9 +17499,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 98 */
+<<<<<<< HEAD
 /*!****************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/overlay.js ***!
   \****************************************************************************/
+=======
+/*!**************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/overlay.js ***!
+  \**************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17035,9 +17531,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 99 */
+<<<<<<< HEAD
 /*!**************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/parse.js ***!
   \**************************************************************************/
+=======
+/*!************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/parse.js ***!
+  \************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17065,9 +17567,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 100 */
+<<<<<<< HEAD
 /*!***************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/picker.js ***!
   \***************************************************************************/
+=======
+/*!*************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/picker.js ***!
+  \*************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17102,9 +17610,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 101 */
+<<<<<<< HEAD
 /*!**************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/popup.js ***!
   \**************************************************************************/
+=======
+/*!************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/popup.js ***!
+  \************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17139,9 +17653,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 102 */
+<<<<<<< HEAD
 /*!**************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/radio.js ***!
   \**************************************************************************/
+=======
+/*!************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/radio.js ***!
+  \************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17174,9 +17694,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 103 */
+<<<<<<< HEAD
 /*!*******************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/radioGroup.js ***!
   \*******************************************************************************/
+=======
+/*!*****************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/radioGroup.js ***!
+  \*****************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17212,9 +17738,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 104 */
+<<<<<<< HEAD
 /*!*************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/rate.js ***!
   \*************************************************************************/
+=======
+/*!***********************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/rate.js ***!
+  \***********************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17246,9 +17778,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 105 */
+<<<<<<< HEAD
 /*!*****************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/readMore.js ***!
   \*****************************************************************************/
+=======
+/*!***************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/readMore.js ***!
+  \***************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17276,9 +17814,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 106 */
+<<<<<<< HEAD
 /*!************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/row.js ***!
   \************************************************************************/
+=======
+/*!**********************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/row.js ***!
+  \**********************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17301,9 +17845,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 107 */
+<<<<<<< HEAD
 /*!******************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/rowNotice.js ***!
   \******************************************************************************/
+=======
+/*!****************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/rowNotice.js ***!
+  \****************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17330,9 +17880,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 108 */
+<<<<<<< HEAD
 /*!*******************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/scrollList.js ***!
   \*******************************************************************************/
+=======
+/*!*****************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/scrollList.js ***!
+  \*****************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17358,9 +17914,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 109 */
+<<<<<<< HEAD
 /*!***************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/search.js ***!
   \***************************************************************************/
+=======
+/*!*************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/search.js ***!
+  \*************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17403,9 +17965,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 110 */
+<<<<<<< HEAD
 /*!****************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/section.js ***!
   \****************************************************************************/
+=======
+/*!**************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/section.js ***!
+  \**************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17435,9 +18003,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 111 */
+<<<<<<< HEAD
 /*!*****************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/skeleton.js ***!
   \*****************************************************************************/
+=======
+/*!***************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/skeleton.js ***!
+  \***************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17468,9 +18042,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 112 */
+<<<<<<< HEAD
 /*!***************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/slider.js ***!
   \***************************************************************************/
+=======
+/*!*************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/slider.js ***!
+  \*************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17501,9 +18081,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 113 */
+<<<<<<< HEAD
 /*!******************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/statusBar.js ***!
   \******************************************************************************/
+=======
+/*!****************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/statusBar.js ***!
+  \****************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17524,9 +18110,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 114 */
+<<<<<<< HEAD
 /*!**************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/steps.js ***!
   \**************************************************************************/
+=======
+/*!************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/steps.js ***!
+  \************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17553,9 +18145,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 115 */
+<<<<<<< HEAD
 /*!******************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/stepsItem.js ***!
   \******************************************************************************/
+=======
+/*!****************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/stepsItem.js ***!
+  \****************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17579,9 +18177,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 116 */
+<<<<<<< HEAD
 /*!***************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/sticky.js ***!
   \***************************************************************************/
+=======
+/*!*************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/sticky.js ***!
+  \*************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17607,9 +18211,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 117 */
+<<<<<<< HEAD
 /*!*******************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/subsection.js ***!
   \*******************************************************************************/
+=======
+/*!*****************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/subsection.js ***!
+  \*****************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17638,9 +18248,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 118 */
+<<<<<<< HEAD
 /*!********************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/swipeAction.js ***!
   \********************************************************************************/
+=======
+/*!******************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/swipeAction.js ***!
+  \******************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17661,9 +18277,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 119 */
+<<<<<<< HEAD
 /*!************************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/swipeActionItem.js ***!
   \************************************************************************************/
+=======
+/*!**********************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/swipeActionItem.js ***!
+  \**********************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17690,9 +18312,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 120 */
+<<<<<<< HEAD
 /*!***************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/swiper.js ***!
   \***************************************************************************/
+=======
+/*!*************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/swiper.js ***!
+  \*************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17736,9 +18364,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 121 */
+<<<<<<< HEAD
 /*!*************************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/swipterIndicator.js ***!
   \*************************************************************************************/
+=======
+/*!***********************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/swipterIndicator.js ***!
+  \***********************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17763,9 +18397,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 122 */
+<<<<<<< HEAD
 /*!***************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/switch.js ***!
   \***************************************************************************/
+=======
+/*!*************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/switch.js ***!
+  \*************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17795,9 +18435,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 123 */
+<<<<<<< HEAD
 /*!***************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/tabbar.js ***!
   \***************************************************************************/
+=======
+/*!*************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/tabbar.js ***!
+  \*************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17825,9 +18471,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 124 */
+<<<<<<< HEAD
 /*!*******************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/tabbarItem.js ***!
   \*******************************************************************************/
+=======
+/*!*****************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/tabbarItem.js ***!
+  \*****************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17853,9 +18505,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 125 */
+<<<<<<< HEAD
 /*!*************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/tabs.js ***!
   \*************************************************************************/
+=======
+/*!***********************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/tabs.js ***!
+  \***********************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17893,9 +18551,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 126 */
+<<<<<<< HEAD
 /*!************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/tag.js ***!
   \************************************************************************/
+=======
+/*!**********************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/tag.js ***!
+  \**********************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17930,9 +18594,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 127 */
+<<<<<<< HEAD
 /*!*************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/text.js ***!
   \*************************************************************************/
+=======
+/*!***********************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/text.js ***!
+  \***********************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17975,9 +18645,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 128 */
+<<<<<<< HEAD
 /*!*****************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/textarea.js ***!
   \*****************************************************************************/
+=======
+/*!***************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/textarea.js ***!
+  \***************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18019,9 +18695,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 129 */
+<<<<<<< HEAD
 /*!**************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/toast.js ***!
   \**************************************************************************/
+=======
+/*!************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/toast.js ***!
+  \************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18056,9 +18738,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 130 */
+<<<<<<< HEAD
 /*!****************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/toolbar.js ***!
   \****************************************************************************/
+=======
+/*!**************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/toolbar.js ***!
+  \**************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18084,9 +18772,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 131 */
+<<<<<<< HEAD
 /*!****************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/tooltip.js ***!
   \****************************************************************************/
+=======
+/*!**************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/tooltip.js ***!
+  \**************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18117,9 +18811,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 132 */
+<<<<<<< HEAD
 /*!*******************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/transition.js ***!
   \*******************************************************************************/
+=======
+/*!*****************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/transition.js ***!
+  \*****************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18143,9 +18843,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 133 */
+<<<<<<< HEAD
 /*!***************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/props/upload.js ***!
   \***************************************************************************/
+=======
+/*!*************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/props/upload.js ***!
+  \*************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18187,9 +18893,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 134 */
+<<<<<<< HEAD
 /*!*********************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/config/zIndex.js ***!
   \*********************************************************************/
+=======
+/*!*******************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/config/zIndex.js ***!
+  \*******************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18216,9 +18928,15 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 /* 135 */
+<<<<<<< HEAD
 /*!*************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/function/platform.js ***!
   \*************************************************************************/
+=======
+/*!***********************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/function/platform.js ***!
+  \***********************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18307,9 +19025,9 @@ platform;exports.default = _default;
 /* 140 */,
 /* 141 */,
 /* 142 */
-/*!******************************************************!*\
-  !*** D:/桌面文件夹/LZ_doctor/static/image/cunxuexiao.png ***!
-  \******************************************************/
+/*!****************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/static/image/cunxuexiao.png ***!
+  \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -18317,9 +19035,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIEAYAAAD9
 
 /***/ }),
 /* 143 */
-/*!**********************************************************!*\
-  !*** D:/桌面文件夹/LZ_doctor/static/image/jingzhunbangfu.png ***!
-  \**********************************************************/
+/*!********************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/static/image/jingzhunbangfu.png ***!
+  \********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -18327,9 +19045,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIEAYAAAD9
 
 /***/ }),
 /* 144 */
-/*!*****************************************************!*\
-  !*** D:/桌面文件夹/LZ_doctor/static/image/cunyiyuan.png ***!
-  \*****************************************************/
+/*!***************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/static/image/cunyiyuan.png ***!
+  \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -18337,9 +19055,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIEAYAAAD9
 
 /***/ }),
 /* 145 */
-/*!****************************************************!*\
-  !*** D:/桌面文件夹/LZ_doctor/static/image/jiankang.png ***!
-  \****************************************************/
+/*!**************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/static/image/jiankang.png ***!
+  \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -18347,9 +19065,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIEAYAAAD9
 
 /***/ }),
 /* 146 */
-/*!******************************************************!*\
-  !*** D:/桌面文件夹/LZ_doctor/static/image/zixunjieda.png ***!
-  \******************************************************/
+/*!****************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/static/image/zixunjieda.png ***!
+  \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -18357,9 +19075,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIEAYAAAD9
 
 /***/ }),
 /* 147 */
-/*!***********************************************!*\
-  !*** D:/桌面文件夹/LZ_doctor/static/image/yue.png ***!
-  \***********************************************/
+/*!*********************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/static/image/yue.png ***!
+  \*********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -18381,9 +19099,15 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADIEAYAAAD9
 /* 160 */,
 /* 161 */,
 /* 162 */
+<<<<<<< HEAD
 /*!************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/static/image/论坛资讯.png ***!
   \************************************************/
+=======
+/*!**********************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/static/image/论坛资讯.png ***!
+  \**********************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -18391,9 +19115,15 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACt
 
 /***/ }),
 /* 163 */
+<<<<<<< HEAD
 /*!************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/static/image/医生处方.png ***!
   \************************************************/
+=======
+/*!**********************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/static/image/医生处方.png ***!
+  \**********************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -18496,10 +19226,27 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACt
 /* 257 */,
 /* 258 */,
 /* 259 */,
+<<<<<<< HEAD
 /* 260 */
 /*!****************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-picker/props.js ***!
   \****************************************************************************/
+=======
+/* 260 */,
+/* 261 */,
+/* 262 */,
+/* 263 */,
+/* 264 */,
+/* 265 */,
+/* 266 */,
+/* 267 */,
+/* 268 */,
+/* 269 */,
+/* 270 */
+/*!**************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-picker/props.js ***!
+  \**************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18583,6 +19330,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACt
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+<<<<<<< HEAD
 /* 261 */,
 /* 262 */,
 /* 263 */,
@@ -18594,6 +19342,19 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACt
 /*!****************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-swiper/props.js ***!
   \****************************************************************************/
+=======
+/* 271 */,
+/* 272 */,
+/* 273 */,
+/* 274 */,
+/* 275 */,
+/* 276 */,
+/* 277 */,
+/* 278 */
+/*!**************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-swiper/props.js ***!
+  \**************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18723,6 +19484,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACt
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+<<<<<<< HEAD
 /* 269 */,
 /* 270 */,
 /* 271 */,
@@ -18734,6 +19496,19 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACt
 /*!**************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-grid/props.js ***!
   \**************************************************************************/
+=======
+/* 279 */,
+/* 280 */,
+/* 281 */,
+/* 282 */,
+/* 283 */,
+/* 284 */,
+/* 285 */,
+/* 286 */
+/*!************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-grid/props.js ***!
+  \************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18757,6 +19532,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACt
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+<<<<<<< HEAD
 /* 277 */,
 /* 278 */,
 /* 279 */,
@@ -18768,6 +19544,19 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACt
 /*!*******************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-grid-item/props.js ***!
   \*******************************************************************************/
+=======
+/* 287 */,
+/* 288 */,
+/* 289 */,
+/* 290 */,
+/* 291 */,
+/* 292 */,
+/* 293 */,
+/* 294 */
+/*!*****************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-grid-item/props.js ***!
+  \*****************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -18786,6 +19575,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACt
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+<<<<<<< HEAD
 /* 285 */,
 /* 286 */,
 /* 287 */,
@@ -18796,14 +19586,33 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACt
 /* 292 */,
 /* 293 */,
 /* 294 */,
+=======
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /* 295 */,
 /* 296 */,
 /* 297 */,
 /* 298 */,
+<<<<<<< HEAD
 /* 299 */
 /*!**************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-icon/icons.js ***!
   \**************************************************************************/
+=======
+/* 299 */,
+/* 300 */,
+/* 301 */,
+/* 302 */,
+/* 303 */,
+/* 304 */,
+/* 305 */,
+/* 306 */,
+/* 307 */,
+/* 308 */,
+/* 309 */
+/*!************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-icon/icons.js ***!
+  \************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19023,10 +19832,17 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   'uicon-en': "\uE692" };exports.default = _default;
 
 /***/ }),
+<<<<<<< HEAD
 /* 300 */
 /*!**************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-icon/props.js ***!
   \**************************************************************************/
+=======
+/* 310 */
+/*!************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-icon/props.js ***!
+  \************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19120,6 +19936,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+<<<<<<< HEAD
 /* 301 */,
 /* 302 */,
 /* 303 */,
@@ -19131,6 +19948,19 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /*!********************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-cell-group/props.js ***!
   \********************************************************************************/
+=======
+/* 311 */,
+/* 312 */,
+/* 313 */,
+/* 314 */,
+/* 315 */,
+/* 316 */,
+/* 317 */,
+/* 318 */
+/*!******************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-cell-group/props.js ***!
+  \******************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19149,6 +19979,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+<<<<<<< HEAD
 /* 309 */,
 /* 310 */,
 /* 311 */,
@@ -19160,6 +19991,19 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /*!**************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-cell/props.js ***!
   \**************************************************************************/
+=======
+/* 319 */,
+/* 320 */,
+/* 321 */,
+/* 322 */,
+/* 323 */,
+/* 324 */,
+/* 325 */,
+/* 326 */
+/*!************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-cell/props.js ***!
+  \************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19274,6 +20118,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+<<<<<<< HEAD
 /* 317 */,
 /* 318 */,
 /* 319 */,
@@ -19285,6 +20130,19 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /*!*************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-tag/props.js ***!
   \*************************************************************************/
+=======
+/* 327 */,
+/* 328 */,
+/* 329 */,
+/* 330 */,
+/* 331 */,
+/* 332 */,
+/* 333 */,
+/* 334 */
+/*!***********************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-tag/props.js ***!
+  \***********************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19373,6 +20231,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+<<<<<<< HEAD
 /* 325 */,
 /* 326 */,
 /* 327 */,
@@ -19384,6 +20243,19 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /*!********************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/mixin/button.js ***!
   \********************************************************************/
+=======
+/* 335 */,
+/* 336 */,
+/* 337 */,
+/* 338 */,
+/* 339 */,
+/* 340 */,
+/* 341 */,
+/* 342 */
+/*!******************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/mixin/button.js ***!
+  \******************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19401,10 +20273,17 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
     openType: String } };exports.default = _default;
 
 /***/ }),
+<<<<<<< HEAD
 /* 333 */
 /*!**********************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/mixin/openType.js ***!
   \**********************************************************************/
+=======
+/* 343 */
+/*!********************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/mixin/openType.js ***!
+  \********************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19434,10 +20313,17 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
     } } };exports.default = _default;
 
 /***/ }),
+<<<<<<< HEAD
 /* 334 */
 /*!****************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-button/props.js ***!
   \****************************************************************************/
+=======
+/* 344 */
+/*!**************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-button/props.js ***!
+  \**************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19603,6 +20489,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+<<<<<<< HEAD
 /* 335 */,
 /* 336 */,
 /* 337 */,
@@ -19614,6 +20501,19 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /*!****************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-navbar/props.js ***!
   \****************************************************************************/
+=======
+/* 345 */,
+/* 346 */,
+/* 347 */,
+/* 348 */,
+/* 349 */,
+/* 350 */,
+/* 351 */,
+/* 352 */
+/*!**************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-navbar/props.js ***!
+  \**************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19702,6 +20602,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+<<<<<<< HEAD
 /* 343 */,
 /* 344 */,
 /* 345 */,
@@ -19713,6 +20614,19 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /*!***************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-input/props.js ***!
   \***************************************************************************/
+=======
+/* 353 */,
+/* 354 */,
+/* 355 */,
+/* 356 */,
+/* 357 */,
+/* 358 */,
+/* 359 */,
+/* 360 */
+/*!*************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-input/props.js ***!
+  \*************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19899,6 +20813,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+<<<<<<< HEAD
 /* 351 */,
 /* 352 */,
 /* 353 */,
@@ -19908,6 +20823,17 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /*!**************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-form/props.js ***!
   \**************************************************************************/
+=======
+/* 361 */,
+/* 362 */,
+/* 363 */,
+/* 364 */,
+/* 365 */,
+/* 366 */
+/*!************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-form/props.js ***!
+  \************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -19957,6 +20883,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+<<<<<<< HEAD
 /* 357 */,
 /* 358 */,
 /* 359 */,
@@ -19966,6 +20893,17 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /*!*******************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-form-item/props.js ***!
   \*******************************************************************************/
+=======
+/* 367 */,
+/* 368 */,
+/* 369 */,
+/* 370 */,
+/* 371 */,
+/* 372 */
+/*!*****************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-form-item/props.js ***!
+  \*****************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20013,6 +20951,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+<<<<<<< HEAD
 /* 363 */,
 /* 364 */,
 /* 365 */,
@@ -20023,14 +20962,33 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* 370 */,
 /* 371 */,
 /* 372 */,
+=======
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /* 373 */,
 /* 374 */,
 /* 375 */,
 /* 376 */,
+<<<<<<< HEAD
 /* 377 */
 /*!*********************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-radio-group/props.js ***!
   \*********************************************************************************/
+=======
+/* 377 */,
+/* 378 */,
+/* 379 */,
+/* 380 */,
+/* 381 */,
+/* 382 */,
+/* 383 */,
+/* 384 */,
+/* 385 */,
+/* 386 */,
+/* 387 */
+/*!*******************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-radio-group/props.js ***!
+  \*******************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20120,6 +21078,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+<<<<<<< HEAD
 /* 378 */,
 /* 379 */,
 /* 380 */,
@@ -20131,6 +21090,19 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /*!***************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-radio/props.js ***!
   \***************************************************************************/
+=======
+/* 388 */,
+/* 389 */,
+/* 390 */,
+/* 391 */,
+/* 392 */,
+/* 393 */,
+/* 394 */,
+/* 395 */
+/*!*************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-radio/props.js ***!
+  \*************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20199,6 +21171,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+<<<<<<< HEAD
 /* 386 */,
 /* 387 */,
 /* 388 */,
@@ -20210,6 +21183,19 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /*!***************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-image/props.js ***!
   \***************************************************************************/
+=======
+/* 396 */,
+/* 397 */,
+/* 398 */,
+/* 399 */,
+/* 400 */,
+/* 401 */,
+/* 402 */,
+/* 403 */
+/*!*************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-image/props.js ***!
+  \*************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20298,6 +21284,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+<<<<<<< HEAD
 /* 394 */,
 /* 395 */,
 /* 396 */,
@@ -20307,6 +21294,197 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /*!***************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-popup/props.js ***!
   \***************************************************************************/
+=======
+/* 404 */,
+/* 405 */,
+/* 406 */,
+/* 407 */,
+/* 408 */,
+/* 409 */
+/*!**********************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-checkbox-group/props.js ***!
+  \**********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  props: {
+    // 标识符
+    name: {
+      type: String,
+      default: uni.$u.props.checkboxGroup.name },
+
+    // 绑定的值
+    value: {
+      type: Array,
+      default: uni.$u.props.checkboxGroup.value },
+
+    // 形状，circle-圆形，square-方形
+    shape: {
+      type: String,
+      default: uni.$u.props.checkboxGroup.shape },
+
+    // 是否禁用全部checkbox
+    disabled: {
+      type: Boolean,
+      default: uni.$u.props.checkboxGroup.disabled },
+
+
+    // 选中状态下的颜色，如设置此值，将会覆盖parent的activeColor值
+    activeColor: {
+      type: String,
+      default: uni.$u.props.checkboxGroup.activeColor },
+
+    // 未选中的颜色
+    inactiveColor: {
+      type: String,
+      default: uni.$u.props.checkboxGroup.inactiveColor },
+
+
+    // 整个组件的尺寸，默认px
+    size: {
+      type: [String, Number],
+      default: uni.$u.props.checkboxGroup.size },
+
+    // 布局方式，row-横向，column-纵向
+    placement: {
+      type: String,
+      default: uni.$u.props.checkboxGroup.placement },
+
+    // label的字体大小，px单位
+    labelSize: {
+      type: [String, Number],
+      default: uni.$u.props.checkboxGroup.labelSize },
+
+    // label的字体颜色
+    labelColor: {
+      type: [String],
+      default: uni.$u.props.checkboxGroup.labelColor },
+
+    // 是否禁止点击文本操作
+    labelDisabled: {
+      type: Boolean,
+      default: uni.$u.props.checkboxGroup.labelDisabled },
+
+    // 图标颜色
+    iconColor: {
+      type: String,
+      default: uni.$u.props.checkboxGroup.iconColor },
+
+    // 图标的大小，单位px
+    iconSize: {
+      type: [String, Number],
+      default: uni.$u.props.checkboxGroup.iconSize },
+
+    // 勾选图标的对齐方式，left-左边，right-右边
+    iconPlacement: {
+      type: String,
+      default: uni.$u.props.checkboxGroup.iconPlacement },
+
+    // 竖向配列时，是否显示下划线
+    borderBottom: {
+      type: Boolean,
+      default: uni.$u.props.checkboxGroup.borderBottom } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 410 */,
+/* 411 */,
+/* 412 */,
+/* 413 */,
+/* 414 */,
+/* 415 */,
+/* 416 */,
+/* 417 */
+/*!****************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-checkbox/props.js ***!
+  \****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  props: {
+    // checkbox的名称
+    name: {
+      type: [String, Number, Boolean],
+      default: uni.$u.props.checkbox.name },
+
+    // 形状，square为方形，circle为圆型
+    shape: {
+      type: String,
+      default: uni.$u.props.checkbox.shape },
+
+    // 整体的大小
+    size: {
+      type: [String, Number],
+      default: uni.$u.props.checkbox.size },
+
+    // 是否默认选中
+    checked: {
+      type: Boolean,
+      default: uni.$u.props.checkbox.checked },
+
+    // 是否禁用
+    disabled: {
+      type: [String, Boolean],
+      default: uni.$u.props.checkbox.disabled },
+
+    // 选中状态下的颜色，如设置此值，将会覆盖parent的activeColor值
+    activeColor: {
+      type: String,
+      default: uni.$u.props.checkbox.activeColor },
+
+    // 未选中的颜色
+    inactiveColor: {
+      type: String,
+      default: uni.$u.props.checkbox.inactiveColor },
+
+    // 图标的大小，单位px
+    iconSize: {
+      type: [String, Number],
+      default: uni.$u.props.checkbox.iconSize },
+
+    // 图标颜色
+    iconColor: {
+      type: String,
+      default: uni.$u.props.checkbox.iconColor },
+
+    // label提示文字，因为nvue下，直接slot进来的文字，由于特殊的结构，无法修改样式
+    label: {
+      type: [String, Number],
+      default: uni.$u.props.checkbox.label },
+
+    // label的字体大小，px单位
+    labelSize: {
+      type: [String, Number],
+      default: uni.$u.props.checkbox.labelSize },
+
+    // label的颜色
+    labelColor: {
+      type: String,
+      default: uni.$u.props.checkbox.labelColor },
+
+    // 是否禁止点击提示语选中复选框
+    labelDisabled: {
+      type: [String, Boolean],
+      default: uni.$u.props.checkbox.labelDisabled } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 418 */,
+/* 419 */,
+/* 420 */,
+/* 421 */,
+/* 422 */,
+/* 423 */,
+/* 424 */,
+/* 425 */
+/*!*************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-popup/props.js ***!
+  \*************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20390,6 +21568,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+<<<<<<< HEAD
 /* 400 */,
 /* 401 */,
 /* 402 */,
@@ -20401,6 +21580,19 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /*!*****************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-toolbar/props.js ***!
   \*****************************************************************************/
+=======
+/* 426 */,
+/* 427 */,
+/* 428 */,
+/* 429 */,
+/* 430 */,
+/* 431 */,
+/* 432 */,
+/* 433 */
+/*!***************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-toolbar/props.js ***!
+  \***************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20439,6 +21631,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+<<<<<<< HEAD
 /* 408 */,
 /* 409 */,
 /* 410 */,
@@ -20450,6 +21643,19 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /*!**********************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-loading-icon/props.js ***!
   \**********************************************************************************/
+=======
+/* 434 */,
+/* 435 */,
+/* 436 */,
+/* 437 */,
+/* 438 */,
+/* 439 */,
+/* 440 */,
+/* 441 */
+/*!********************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-loading-icon/props.js ***!
+  \********************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20513,6 +21719,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+<<<<<<< HEAD
 /* 416 */,
 /* 417 */,
 /* 418 */,
@@ -20524,6 +21731,19 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /*!**************************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-swiper-indicator/props.js ***!
   \**************************************************************************************/
+=======
+/* 442 */,
+/* 443 */,
+/* 444 */,
+/* 445 */,
+/* 446 */,
+/* 447 */,
+/* 448 */,
+/* 449 */
+/*!************************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-swiper-indicator/props.js ***!
+  \************************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20557,6 +21777,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+<<<<<<< HEAD
 /* 424 */,
 /* 425 */,
 /* 426 */,
@@ -20568,6 +21789,19 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /*!*****************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-overlay/props.js ***!
   \*****************************************************************************/
+=======
+/* 450 */,
+/* 451 */,
+/* 452 */,
+/* 453 */,
+/* 454 */,
+/* 455 */,
+/* 456 */,
+/* 457 */
+/*!***************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-overlay/props.js ***!
+  \***************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20596,6 +21830,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+<<<<<<< HEAD
 /* 432 */,
 /* 433 */,
 /* 434 */,
@@ -20607,6 +21842,19 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /*!*************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-gap/props.js ***!
   \*************************************************************************/
+=======
+/* 458 */,
+/* 459 */,
+/* 460 */,
+/* 461 */,
+/* 462 */,
+/* 463 */,
+/* 464 */,
+/* 465 */
+/*!***********************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-gap/props.js ***!
+  \***********************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20635,6 +21883,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+<<<<<<< HEAD
 /* 440 */,
 /* 441 */,
 /* 442 */,
@@ -20646,6 +21895,19 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /*!**************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-line/props.js ***!
   \**************************************************************************/
+=======
+/* 466 */,
+/* 467 */,
+/* 468 */,
+/* 469 */,
+/* 470 */,
+/* 471 */,
+/* 472 */,
+/* 473 */
+/*!************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-line/props.js ***!
+  \************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20683,6 +21945,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+<<<<<<< HEAD
 /* 448 */,
 /* 449 */,
 /* 450 */,
@@ -20694,6 +21957,19 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /*!********************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-transition/props.js ***!
   \********************************************************************************/
+=======
+/* 474 */,
+/* 475 */,
+/* 476 */,
+/* 477 */,
+/* 478 */,
+/* 479 */,
+/* 480 */,
+/* 481 */
+/*!******************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-transition/props.js ***!
+  \******************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20722,10 +21998,17 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+<<<<<<< HEAD
 /* 456 */
 /*!*************************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-transition/transition.js ***!
   \*************************************************************************************/
+=======
+/* 482 */
+/*!***********************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-transition/transition.js ***!
+  \***********************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20733,7 +22016,11 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 34));
 
 
+<<<<<<< HEAD
 var _nvueAniMap = _interopRequireDefault(__webpack_require__(/*! ./nvue.ani-map.js */ 457));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};} // 定义一个一定时间后自动成功的promise，让调用nextTick方法处，进入下一个then方法
+=======
+var _nvueAniMap = _interopRequireDefault(__webpack_require__(/*! ./nvue.ani-map.js */ 483));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};} // 定义一个一定时间后自动成功的promise，让调用nextTick方法处，进入下一个then方法
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 var nextTick = function nextTick() {return new Promise(function (resolve) {return setTimeout(resolve, 1000 / 50);});}; // nvue动画模块实现细节抽离在外部文件
 
 // 定义类名，通过给元素动态切换类名，赋予元素一定的css动画样式
@@ -20887,10 +22174,17 @@ var getClassNames = function getClassNames(name) {return {
     } } };exports.default = _default;
 
 /***/ }),
+<<<<<<< HEAD
 /* 457 */
 /*!***************************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-transition/nvue.ani-map.js ***!
   \***************************************************************************************/
+=======
+/* 483 */
+/*!*************************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-transition/nvue.ani-map.js ***!
+  \*************************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20963,6 +22257,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
     'leave-to': { opacity: 0, transform: 'scale(0.95)' } } };exports.default = _default;
 
 /***/ }),
+<<<<<<< HEAD
 /* 458 */,
 /* 459 */,
 /* 460 */,
@@ -20974,6 +22269,19 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /*!********************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-status-bar/props.js ***!
   \********************************************************************************/
+=======
+/* 484 */,
+/* 485 */,
+/* 486 */,
+/* 487 */,
+/* 488 */,
+/* 489 */,
+/* 490 */,
+/* 491 */
+/*!******************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-status-bar/props.js ***!
+  \******************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -20986,6 +22294,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+<<<<<<< HEAD
 /* 466 */,
 /* 467 */,
 /* 468 */,
@@ -20997,6 +22306,19 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /*!****************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/libs/util/async-validator.js ***!
   \****************************************************************************/
+=======
+/* 492 */,
+/* 493 */,
+/* 494 */,
+/* 495 */,
+/* 496 */,
+/* 497 */,
+/* 498 */,
+/* 499 */
+/*!**************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/util/async-validator.js ***!
+  \**************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22345,10 +23667,17 @@ Schema.messages = messages;var _default =
 Schema;
 // # sourceMappingURL=index.js.map
 exports.default = _default;
+<<<<<<< HEAD
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/node-libs-browser/mock/process.js */ 474)))
 
 /***/ }),
 /* 474 */
+=======
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../HBuilderX.3.5.3.20220729/HBuilderX/plugins/uniapp-cli/node_modules/node-libs-browser/mock/process.js */ 500)))
+
+/***/ }),
+/* 500 */
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*!********************************************************!*\
   !*** ./node_modules/node-libs-browser/mock/process.js ***!
   \********************************************************/
@@ -22379,7 +23708,11 @@ exports.binding = function (name) {
     var path;
     exports.cwd = function () { return cwd };
     exports.chdir = function (dir) {
+<<<<<<< HEAD
         if (!path) path = __webpack_require__(/*! path */ 475);
+=======
+        if (!path) path = __webpack_require__(/*! path */ 501);
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
         cwd = path.resolve(dir, cwd);
     };
 })();
@@ -22392,7 +23725,11 @@ exports.features = {};
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 475 */
+=======
+/* 501 */
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*!***********************************************!*\
   !*** ./node_modules/path-browserify/index.js ***!
   \***********************************************/
@@ -22702,6 +24039,7 @@ var substr = 'ab'.substr(-1) === 'b'
     }
 ;
 
+<<<<<<< HEAD
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node-libs-browser/mock/process.js */ 474)))
 
 /***/ }),
@@ -22721,6 +24059,27 @@ var substr = 'ab'.substr(-1) === 'b'
 /*!*********************************************************************************!*\
   !*** D:/桌面文件夹/LZ_doctor/uni_modules/uview-ui/components/u-safe-bottom/props.js ***!
   \*********************************************************************************/
+=======
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node-libs-browser/mock/process.js */ 500)))
+
+/***/ }),
+/* 502 */,
+/* 503 */,
+/* 504 */,
+/* 505 */,
+/* 506 */,
+/* 507 */,
+/* 508 */,
+/* 509 */,
+/* 510 */,
+/* 511 */,
+/* 512 */,
+/* 513 */,
+/* 514 */
+/*!*******************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-safe-bottom/props.js ***!
+  \*******************************************************************************************/
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -22728,6 +24087,1351 @@ var substr = 'ab'.substr(-1) === 'b'
 Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
   props: {} };exports.default = _default;
 
+<<<<<<< HEAD
+=======
+/***/ }),
+/* 515 */,
+/* 516 */,
+/* 517 */,
+/* 518 */,
+/* 519 */,
+/* 520 */,
+/* 521 */,
+/* 522 */,
+/* 523 */,
+/* 524 */,
+/* 525 */,
+/* 526 */,
+/* 527 */,
+/* 528 */,
+/* 529 */,
+/* 530 */,
+/* 531 */,
+/* 532 */,
+/* 533 */,
+/* 534 */,
+/* 535 */,
+/* 536 */,
+/* 537 */,
+/* 538 */,
+/* 539 */,
+/* 540 */,
+/* 541 */,
+/* 542 */,
+/* 543 */,
+/* 544 */,
+/* 545 */,
+/* 546 */,
+/* 547 */,
+/* 548 */,
+/* 549 */,
+/* 550 */,
+/* 551 */,
+/* 552 */,
+/* 553 */,
+/* 554 */,
+/* 555 */,
+/* 556 */
+/*!***************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/store/index.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 4));
+var _vuex = _interopRequireDefault(__webpack_require__(/*! vuex */ 557));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} // 页面路径：store/index.js 
+
+_vue.default.use(_vuex.default); //vue的插件机制
+
+//Vuex.Store 构造器选项
+var store = new _vuex.default.Store({
+  state: {
+    token: uni.getStorageSync("VUE_ADMIN_TOKEN") || "" },
+
+  getters: {
+    getToken: function getToken(state) {
+      return state.token;
+    } },
+
+  mutations: {
+    // 设置token
+    setTooken: function setTooken(state, data) {
+      state.token = data;
+      uni.setStorageSync("VUE_ADMIN_TOKEN", data);
+    },
+    //退出登录
+    logout: function logout(state) {
+      state.token = "";
+      uni.removeStorageSync("VUE_ADMIN_TOKEN");
+    } },
+
+  actions: {} });var _default =
+
+
+
+
+store;exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 557 */
+/*!**************************************************************************************!*\
+  !*** ./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vuex3/dist/vuex.common.js ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global) {/*!
+ * vuex v3.6.2
+ * (c) 2021 Evan You
+ * @license MIT
+ */
+
+
+function applyMixin (Vue) {
+  var version = Number(Vue.version.split('.')[0]);
+
+  if (version >= 2) {
+    Vue.mixin({ beforeCreate: vuexInit });
+  } else {
+    // override init and inject vuex init procedure
+    // for 1.x backwards compatibility.
+    var _init = Vue.prototype._init;
+    Vue.prototype._init = function (options) {
+      if ( options === void 0 ) options = {};
+
+      options.init = options.init
+        ? [vuexInit].concat(options.init)
+        : vuexInit;
+      _init.call(this, options);
+    };
+  }
+
+  /**
+   * Vuex init hook, injected into each instances init hooks list.
+   */
+
+  function vuexInit () {
+    var options = this.$options;
+    // store injection
+    if (options.store) {
+      this.$store = typeof options.store === 'function'
+        ? options.store()
+        : options.store;
+    } else if (options.parent && options.parent.$store) {
+      this.$store = options.parent.$store;
+    }
+  }
+}
+
+var target = typeof window !== 'undefined'
+  ? window
+  : typeof global !== 'undefined'
+    ? global
+    : {};
+var devtoolHook = target.__VUE_DEVTOOLS_GLOBAL_HOOK__;
+
+function devtoolPlugin (store) {
+  if (!devtoolHook) { return }
+
+  store._devtoolHook = devtoolHook;
+
+  devtoolHook.emit('vuex:init', store);
+
+  devtoolHook.on('vuex:travel-to-state', function (targetState) {
+    store.replaceState(targetState);
+  });
+
+  store.subscribe(function (mutation, state) {
+    devtoolHook.emit('vuex:mutation', mutation, state);
+  }, { prepend: true });
+
+  store.subscribeAction(function (action, state) {
+    devtoolHook.emit('vuex:action', action, state);
+  }, { prepend: true });
+}
+
+/**
+ * Get the first item that pass the test
+ * by second argument function
+ *
+ * @param {Array} list
+ * @param {Function} f
+ * @return {*}
+ */
+function find (list, f) {
+  return list.filter(f)[0]
+}
+
+/**
+ * Deep copy the given object considering circular structure.
+ * This function caches all nested objects and its copies.
+ * If it detects circular structure, use cached copy to avoid infinite loop.
+ *
+ * @param {*} obj
+ * @param {Array<Object>} cache
+ * @return {*}
+ */
+function deepCopy (obj, cache) {
+  if ( cache === void 0 ) cache = [];
+
+  // just return if obj is immutable value
+  if (obj === null || typeof obj !== 'object') {
+    return obj
+  }
+
+  // if obj is hit, it is in circular structure
+  var hit = find(cache, function (c) { return c.original === obj; });
+  if (hit) {
+    return hit.copy
+  }
+
+  var copy = Array.isArray(obj) ? [] : {};
+  // put the copy into cache at first
+  // because we want to refer it in recursive deepCopy
+  cache.push({
+    original: obj,
+    copy: copy
+  });
+
+  Object.keys(obj).forEach(function (key) {
+    copy[key] = deepCopy(obj[key], cache);
+  });
+
+  return copy
+}
+
+/**
+ * forEach for object
+ */
+function forEachValue (obj, fn) {
+  Object.keys(obj).forEach(function (key) { return fn(obj[key], key); });
+}
+
+function isObject (obj) {
+  return obj !== null && typeof obj === 'object'
+}
+
+function isPromise (val) {
+  return val && typeof val.then === 'function'
+}
+
+function assert (condition, msg) {
+  if (!condition) { throw new Error(("[vuex] " + msg)) }
+}
+
+function partial (fn, arg) {
+  return function () {
+    return fn(arg)
+  }
+}
+
+// Base data struct for store's module, package with some attribute and method
+var Module = function Module (rawModule, runtime) {
+  this.runtime = runtime;
+  // Store some children item
+  this._children = Object.create(null);
+  // Store the origin module object which passed by programmer
+  this._rawModule = rawModule;
+  var rawState = rawModule.state;
+
+  // Store the origin module's state
+  this.state = (typeof rawState === 'function' ? rawState() : rawState) || {};
+};
+
+var prototypeAccessors = { namespaced: { configurable: true } };
+
+prototypeAccessors.namespaced.get = function () {
+  return !!this._rawModule.namespaced
+};
+
+Module.prototype.addChild = function addChild (key, module) {
+  this._children[key] = module;
+};
+
+Module.prototype.removeChild = function removeChild (key) {
+  delete this._children[key];
+};
+
+Module.prototype.getChild = function getChild (key) {
+  return this._children[key]
+};
+
+Module.prototype.hasChild = function hasChild (key) {
+  return key in this._children
+};
+
+Module.prototype.update = function update (rawModule) {
+  this._rawModule.namespaced = rawModule.namespaced;
+  if (rawModule.actions) {
+    this._rawModule.actions = rawModule.actions;
+  }
+  if (rawModule.mutations) {
+    this._rawModule.mutations = rawModule.mutations;
+  }
+  if (rawModule.getters) {
+    this._rawModule.getters = rawModule.getters;
+  }
+};
+
+Module.prototype.forEachChild = function forEachChild (fn) {
+  forEachValue(this._children, fn);
+};
+
+Module.prototype.forEachGetter = function forEachGetter (fn) {
+  if (this._rawModule.getters) {
+    forEachValue(this._rawModule.getters, fn);
+  }
+};
+
+Module.prototype.forEachAction = function forEachAction (fn) {
+  if (this._rawModule.actions) {
+    forEachValue(this._rawModule.actions, fn);
+  }
+};
+
+Module.prototype.forEachMutation = function forEachMutation (fn) {
+  if (this._rawModule.mutations) {
+    forEachValue(this._rawModule.mutations, fn);
+  }
+};
+
+Object.defineProperties( Module.prototype, prototypeAccessors );
+
+var ModuleCollection = function ModuleCollection (rawRootModule) {
+  // register root module (Vuex.Store options)
+  this.register([], rawRootModule, false);
+};
+
+ModuleCollection.prototype.get = function get (path) {
+  return path.reduce(function (module, key) {
+    return module.getChild(key)
+  }, this.root)
+};
+
+ModuleCollection.prototype.getNamespace = function getNamespace (path) {
+  var module = this.root;
+  return path.reduce(function (namespace, key) {
+    module = module.getChild(key);
+    return namespace + (module.namespaced ? key + '/' : '')
+  }, '')
+};
+
+ModuleCollection.prototype.update = function update$1 (rawRootModule) {
+  update([], this.root, rawRootModule);
+};
+
+ModuleCollection.prototype.register = function register (path, rawModule, runtime) {
+    var this$1 = this;
+    if ( runtime === void 0 ) runtime = true;
+
+  if ((true)) {
+    assertRawModule(path, rawModule);
+  }
+
+  var newModule = new Module(rawModule, runtime);
+  if (path.length === 0) {
+    this.root = newModule;
+  } else {
+    var parent = this.get(path.slice(0, -1));
+    parent.addChild(path[path.length - 1], newModule);
+  }
+
+  // register nested modules
+  if (rawModule.modules) {
+    forEachValue(rawModule.modules, function (rawChildModule, key) {
+      this$1.register(path.concat(key), rawChildModule, runtime);
+    });
+  }
+};
+
+ModuleCollection.prototype.unregister = function unregister (path) {
+  var parent = this.get(path.slice(0, -1));
+  var key = path[path.length - 1];
+  var child = parent.getChild(key);
+
+  if (!child) {
+    if ((true)) {
+      console.warn(
+        "[vuex] trying to unregister module '" + key + "', which is " +
+        "not registered"
+      );
+    }
+    return
+  }
+
+  if (!child.runtime) {
+    return
+  }
+
+  parent.removeChild(key);
+};
+
+ModuleCollection.prototype.isRegistered = function isRegistered (path) {
+  var parent = this.get(path.slice(0, -1));
+  var key = path[path.length - 1];
+
+  if (parent) {
+    return parent.hasChild(key)
+  }
+
+  return false
+};
+
+function update (path, targetModule, newModule) {
+  if ((true)) {
+    assertRawModule(path, newModule);
+  }
+
+  // update target module
+  targetModule.update(newModule);
+
+  // update nested modules
+  if (newModule.modules) {
+    for (var key in newModule.modules) {
+      if (!targetModule.getChild(key)) {
+        if ((true)) {
+          console.warn(
+            "[vuex] trying to add a new module '" + key + "' on hot reloading, " +
+            'manual reload is needed'
+          );
+        }
+        return
+      }
+      update(
+        path.concat(key),
+        targetModule.getChild(key),
+        newModule.modules[key]
+      );
+    }
+  }
+}
+
+var functionAssert = {
+  assert: function (value) { return typeof value === 'function'; },
+  expected: 'function'
+};
+
+var objectAssert = {
+  assert: function (value) { return typeof value === 'function' ||
+    (typeof value === 'object' && typeof value.handler === 'function'); },
+  expected: 'function or object with "handler" function'
+};
+
+var assertTypes = {
+  getters: functionAssert,
+  mutations: functionAssert,
+  actions: objectAssert
+};
+
+function assertRawModule (path, rawModule) {
+  Object.keys(assertTypes).forEach(function (key) {
+    if (!rawModule[key]) { return }
+
+    var assertOptions = assertTypes[key];
+
+    forEachValue(rawModule[key], function (value, type) {
+      assert(
+        assertOptions.assert(value),
+        makeAssertionMessage(path, key, type, value, assertOptions.expected)
+      );
+    });
+  });
+}
+
+function makeAssertionMessage (path, key, type, value, expected) {
+  var buf = key + " should be " + expected + " but \"" + key + "." + type + "\"";
+  if (path.length > 0) {
+    buf += " in module \"" + (path.join('.')) + "\"";
+  }
+  buf += " is " + (JSON.stringify(value)) + ".";
+  return buf
+}
+
+var Vue; // bind on install
+
+var Store = function Store (options) {
+  var this$1 = this;
+  if ( options === void 0 ) options = {};
+
+  // Auto install if it is not done yet and `window` has `Vue`.
+  // To allow users to avoid auto-installation in some cases,
+  // this code should be placed here. See #731
+  if (!Vue && typeof window !== 'undefined' && window.Vue) {
+    install(window.Vue);
+  }
+
+  if ((true)) {
+    assert(Vue, "must call Vue.use(Vuex) before creating a store instance.");
+    assert(typeof Promise !== 'undefined', "vuex requires a Promise polyfill in this browser.");
+    assert(this instanceof Store, "store must be called with the new operator.");
+  }
+
+  var plugins = options.plugins; if ( plugins === void 0 ) plugins = [];
+  var strict = options.strict; if ( strict === void 0 ) strict = false;
+
+  // store internal state
+  this._committing = false;
+  this._actions = Object.create(null);
+  this._actionSubscribers = [];
+  this._mutations = Object.create(null);
+  this._wrappedGetters = Object.create(null);
+  this._modules = new ModuleCollection(options);
+  this._modulesNamespaceMap = Object.create(null);
+  this._subscribers = [];
+  this._watcherVM = new Vue();
+  this._makeLocalGettersCache = Object.create(null);
+
+  // bind commit and dispatch to self
+  var store = this;
+  var ref = this;
+  var dispatch = ref.dispatch;
+  var commit = ref.commit;
+  this.dispatch = function boundDispatch (type, payload) {
+    return dispatch.call(store, type, payload)
+  };
+  this.commit = function boundCommit (type, payload, options) {
+    return commit.call(store, type, payload, options)
+  };
+
+  // strict mode
+  this.strict = strict;
+
+  var state = this._modules.root.state;
+
+  // init root module.
+  // this also recursively registers all sub-modules
+  // and collects all module getters inside this._wrappedGetters
+  installModule(this, state, [], this._modules.root);
+
+  // initialize the store vm, which is responsible for the reactivity
+  // (also registers _wrappedGetters as computed properties)
+  resetStoreVM(this, state);
+
+  // apply plugins
+  plugins.forEach(function (plugin) { return plugin(this$1); });
+
+  var useDevtools = options.devtools !== undefined ? options.devtools : Vue.config.devtools;
+  if (useDevtools) {
+    devtoolPlugin(this);
+  }
+};
+
+var prototypeAccessors$1 = { state: { configurable: true } };
+
+prototypeAccessors$1.state.get = function () {
+  return this._vm._data.$$state
+};
+
+prototypeAccessors$1.state.set = function (v) {
+  if ((true)) {
+    assert(false, "use store.replaceState() to explicit replace store state.");
+  }
+};
+
+Store.prototype.commit = function commit (_type, _payload, _options) {
+    var this$1 = this;
+
+  // check object-style commit
+  var ref = unifyObjectStyle(_type, _payload, _options);
+    var type = ref.type;
+    var payload = ref.payload;
+    var options = ref.options;
+
+  var mutation = { type: type, payload: payload };
+  var entry = this._mutations[type];
+  if (!entry) {
+    if ((true)) {
+      console.error(("[vuex] unknown mutation type: " + type));
+    }
+    return
+  }
+  this._withCommit(function () {
+    entry.forEach(function commitIterator (handler) {
+      handler(payload);
+    });
+  });
+
+  this._subscribers
+    .slice() // shallow copy to prevent iterator invalidation if subscriber synchronously calls unsubscribe
+    .forEach(function (sub) { return sub(mutation, this$1.state); });
+
+  if (
+    ( true) &&
+    options && options.silent
+  ) {
+    console.warn(
+      "[vuex] mutation type: " + type + ". Silent option has been removed. " +
+      'Use the filter functionality in the vue-devtools'
+    );
+  }
+};
+
+Store.prototype.dispatch = function dispatch (_type, _payload) {
+    var this$1 = this;
+
+  // check object-style dispatch
+  var ref = unifyObjectStyle(_type, _payload);
+    var type = ref.type;
+    var payload = ref.payload;
+
+  var action = { type: type, payload: payload };
+  var entry = this._actions[type];
+  if (!entry) {
+    if ((true)) {
+      console.error(("[vuex] unknown action type: " + type));
+    }
+    return
+  }
+
+  try {
+    this._actionSubscribers
+      .slice() // shallow copy to prevent iterator invalidation if subscriber synchronously calls unsubscribe
+      .filter(function (sub) { return sub.before; })
+      .forEach(function (sub) { return sub.before(action, this$1.state); });
+  } catch (e) {
+    if ((true)) {
+      console.warn("[vuex] error in before action subscribers: ");
+      console.error(e);
+    }
+  }
+
+  var result = entry.length > 1
+    ? Promise.all(entry.map(function (handler) { return handler(payload); }))
+    : entry[0](payload);
+
+  return new Promise(function (resolve, reject) {
+    result.then(function (res) {
+      try {
+        this$1._actionSubscribers
+          .filter(function (sub) { return sub.after; })
+          .forEach(function (sub) { return sub.after(action, this$1.state); });
+      } catch (e) {
+        if ((true)) {
+          console.warn("[vuex] error in after action subscribers: ");
+          console.error(e);
+        }
+      }
+      resolve(res);
+    }, function (error) {
+      try {
+        this$1._actionSubscribers
+          .filter(function (sub) { return sub.error; })
+          .forEach(function (sub) { return sub.error(action, this$1.state, error); });
+      } catch (e) {
+        if ((true)) {
+          console.warn("[vuex] error in error action subscribers: ");
+          console.error(e);
+        }
+      }
+      reject(error);
+    });
+  })
+};
+
+Store.prototype.subscribe = function subscribe (fn, options) {
+  return genericSubscribe(fn, this._subscribers, options)
+};
+
+Store.prototype.subscribeAction = function subscribeAction (fn, options) {
+  var subs = typeof fn === 'function' ? { before: fn } : fn;
+  return genericSubscribe(subs, this._actionSubscribers, options)
+};
+
+Store.prototype.watch = function watch (getter, cb, options) {
+    var this$1 = this;
+
+  if ((true)) {
+    assert(typeof getter === 'function', "store.watch only accepts a function.");
+  }
+  return this._watcherVM.$watch(function () { return getter(this$1.state, this$1.getters); }, cb, options)
+};
+
+Store.prototype.replaceState = function replaceState (state) {
+    var this$1 = this;
+
+  this._withCommit(function () {
+    this$1._vm._data.$$state = state;
+  });
+};
+
+Store.prototype.registerModule = function registerModule (path, rawModule, options) {
+    if ( options === void 0 ) options = {};
+
+  if (typeof path === 'string') { path = [path]; }
+
+  if ((true)) {
+    assert(Array.isArray(path), "module path must be a string or an Array.");
+    assert(path.length > 0, 'cannot register the root module by using registerModule.');
+  }
+
+  this._modules.register(path, rawModule);
+  installModule(this, this.state, path, this._modules.get(path), options.preserveState);
+  // reset store to update getters...
+  resetStoreVM(this, this.state);
+};
+
+Store.prototype.unregisterModule = function unregisterModule (path) {
+    var this$1 = this;
+
+  if (typeof path === 'string') { path = [path]; }
+
+  if ((true)) {
+    assert(Array.isArray(path), "module path must be a string or an Array.");
+  }
+
+  this._modules.unregister(path);
+  this._withCommit(function () {
+    var parentState = getNestedState(this$1.state, path.slice(0, -1));
+    Vue.delete(parentState, path[path.length - 1]);
+  });
+  resetStore(this);
+};
+
+Store.prototype.hasModule = function hasModule (path) {
+  if (typeof path === 'string') { path = [path]; }
+
+  if ((true)) {
+    assert(Array.isArray(path), "module path must be a string or an Array.");
+  }
+
+  return this._modules.isRegistered(path)
+};
+
+Store.prototype[[104,111,116,85,112,100,97,116,101].map(function (item) {return String.fromCharCode(item)}).join('')] = function (newOptions) {
+  this._modules.update(newOptions);
+  resetStore(this, true);
+};
+
+Store.prototype._withCommit = function _withCommit (fn) {
+  var committing = this._committing;
+  this._committing = true;
+  fn();
+  this._committing = committing;
+};
+
+Object.defineProperties( Store.prototype, prototypeAccessors$1 );
+
+function genericSubscribe (fn, subs, options) {
+  if (subs.indexOf(fn) < 0) {
+    options && options.prepend
+      ? subs.unshift(fn)
+      : subs.push(fn);
+  }
+  return function () {
+    var i = subs.indexOf(fn);
+    if (i > -1) {
+      subs.splice(i, 1);
+    }
+  }
+}
+
+function resetStore (store, hot) {
+  store._actions = Object.create(null);
+  store._mutations = Object.create(null);
+  store._wrappedGetters = Object.create(null);
+  store._modulesNamespaceMap = Object.create(null);
+  var state = store.state;
+  // init all modules
+  installModule(store, state, [], store._modules.root, true);
+  // reset vm
+  resetStoreVM(store, state, hot);
+}
+
+function resetStoreVM (store, state, hot) {
+  var oldVm = store._vm;
+
+  // bind store public getters
+  store.getters = {};
+  // reset local getters cache
+  store._makeLocalGettersCache = Object.create(null);
+  var wrappedGetters = store._wrappedGetters;
+  var computed = {};
+  forEachValue(wrappedGetters, function (fn, key) {
+    // use computed to leverage its lazy-caching mechanism
+    // direct inline function use will lead to closure preserving oldVm.
+    // using partial to return function with only arguments preserved in closure environment.
+    computed[key] = partial(fn, store);
+    Object.defineProperty(store.getters, key, {
+      get: function () { return store._vm[key]; },
+      enumerable: true // for local getters
+    });
+  });
+
+  // use a Vue instance to store the state tree
+  // suppress warnings just in case the user has added
+  // some funky global mixins
+  var silent = Vue.config.silent;
+  Vue.config.silent = true;
+  store._vm = new Vue({
+    data: {
+      $$state: state
+    },
+    computed: computed
+  });
+  Vue.config.silent = silent;
+
+  // enable strict mode for new vm
+  if (store.strict) {
+    enableStrictMode(store);
+  }
+
+  if (oldVm) {
+    if (hot) {
+      // dispatch changes in all subscribed watchers
+      // to force getter re-evaluation for hot reloading.
+      store._withCommit(function () {
+        oldVm._data.$$state = null;
+      });
+    }
+    Vue.nextTick(function () { return oldVm.$destroy(); });
+  }
+}
+
+function installModule (store, rootState, path, module, hot) {
+  var isRoot = !path.length;
+  var namespace = store._modules.getNamespace(path);
+
+  // register in namespace map
+  if (module.namespaced) {
+    if (store._modulesNamespaceMap[namespace] && ("development" !== 'production')) {
+      console.error(("[vuex] duplicate namespace " + namespace + " for the namespaced module " + (path.join('/'))));
+    }
+    store._modulesNamespaceMap[namespace] = module;
+  }
+
+  // set state
+  if (!isRoot && !hot) {
+    var parentState = getNestedState(rootState, path.slice(0, -1));
+    var moduleName = path[path.length - 1];
+    store._withCommit(function () {
+      if ((true)) {
+        if (moduleName in parentState) {
+          console.warn(
+            ("[vuex] state field \"" + moduleName + "\" was overridden by a module with the same name at \"" + (path.join('.')) + "\"")
+          );
+        }
+      }
+      Vue.set(parentState, moduleName, module.state);
+    });
+  }
+
+  var local = module.context = makeLocalContext(store, namespace, path);
+
+  module.forEachMutation(function (mutation, key) {
+    var namespacedType = namespace + key;
+    registerMutation(store, namespacedType, mutation, local);
+  });
+
+  module.forEachAction(function (action, key) {
+    var type = action.root ? key : namespace + key;
+    var handler = action.handler || action;
+    registerAction(store, type, handler, local);
+  });
+
+  module.forEachGetter(function (getter, key) {
+    var namespacedType = namespace + key;
+    registerGetter(store, namespacedType, getter, local);
+  });
+
+  module.forEachChild(function (child, key) {
+    installModule(store, rootState, path.concat(key), child, hot);
+  });
+}
+
+/**
+ * make localized dispatch, commit, getters and state
+ * if there is no namespace, just use root ones
+ */
+function makeLocalContext (store, namespace, path) {
+  var noNamespace = namespace === '';
+
+  var local = {
+    dispatch: noNamespace ? store.dispatch : function (_type, _payload, _options) {
+      var args = unifyObjectStyle(_type, _payload, _options);
+      var payload = args.payload;
+      var options = args.options;
+      var type = args.type;
+
+      if (!options || !options.root) {
+        type = namespace + type;
+        if (( true) && !store._actions[type]) {
+          console.error(("[vuex] unknown local action type: " + (args.type) + ", global type: " + type));
+          return
+        }
+      }
+
+      return store.dispatch(type, payload)
+    },
+
+    commit: noNamespace ? store.commit : function (_type, _payload, _options) {
+      var args = unifyObjectStyle(_type, _payload, _options);
+      var payload = args.payload;
+      var options = args.options;
+      var type = args.type;
+
+      if (!options || !options.root) {
+        type = namespace + type;
+        if (( true) && !store._mutations[type]) {
+          console.error(("[vuex] unknown local mutation type: " + (args.type) + ", global type: " + type));
+          return
+        }
+      }
+
+      store.commit(type, payload, options);
+    }
+  };
+
+  // getters and state object must be gotten lazily
+  // because they will be changed by vm update
+  Object.defineProperties(local, {
+    getters: {
+      get: noNamespace
+        ? function () { return store.getters; }
+        : function () { return makeLocalGetters(store, namespace); }
+    },
+    state: {
+      get: function () { return getNestedState(store.state, path); }
+    }
+  });
+
+  return local
+}
+
+function makeLocalGetters (store, namespace) {
+  if (!store._makeLocalGettersCache[namespace]) {
+    var gettersProxy = {};
+    var splitPos = namespace.length;
+    Object.keys(store.getters).forEach(function (type) {
+      // skip if the target getter is not match this namespace
+      if (type.slice(0, splitPos) !== namespace) { return }
+
+      // extract local getter type
+      var localType = type.slice(splitPos);
+
+      // Add a port to the getters proxy.
+      // Define as getter property because
+      // we do not want to evaluate the getters in this time.
+      Object.defineProperty(gettersProxy, localType, {
+        get: function () { return store.getters[type]; },
+        enumerable: true
+      });
+    });
+    store._makeLocalGettersCache[namespace] = gettersProxy;
+  }
+
+  return store._makeLocalGettersCache[namespace]
+}
+
+function registerMutation (store, type, handler, local) {
+  var entry = store._mutations[type] || (store._mutations[type] = []);
+  entry.push(function wrappedMutationHandler (payload) {
+    handler.call(store, local.state, payload);
+  });
+}
+
+function registerAction (store, type, handler, local) {
+  var entry = store._actions[type] || (store._actions[type] = []);
+  entry.push(function wrappedActionHandler (payload) {
+    var res = handler.call(store, {
+      dispatch: local.dispatch,
+      commit: local.commit,
+      getters: local.getters,
+      state: local.state,
+      rootGetters: store.getters,
+      rootState: store.state
+    }, payload);
+    if (!isPromise(res)) {
+      res = Promise.resolve(res);
+    }
+    if (store._devtoolHook) {
+      return res.catch(function (err) {
+        store._devtoolHook.emit('vuex:error', err);
+        throw err
+      })
+    } else {
+      return res
+    }
+  });
+}
+
+function registerGetter (store, type, rawGetter, local) {
+  if (store._wrappedGetters[type]) {
+    if ((true)) {
+      console.error(("[vuex] duplicate getter key: " + type));
+    }
+    return
+  }
+  store._wrappedGetters[type] = function wrappedGetter (store) {
+    return rawGetter(
+      local.state, // local state
+      local.getters, // local getters
+      store.state, // root state
+      store.getters // root getters
+    )
+  };
+}
+
+function enableStrictMode (store) {
+  store._vm.$watch(function () { return this._data.$$state }, function () {
+    if ((true)) {
+      assert(store._committing, "do not mutate vuex store state outside mutation handlers.");
+    }
+  }, { deep: true, sync: true });
+}
+
+function getNestedState (state, path) {
+  return path.reduce(function (state, key) { return state[key]; }, state)
+}
+
+function unifyObjectStyle (type, payload, options) {
+  if (isObject(type) && type.type) {
+    options = payload;
+    payload = type;
+    type = type.type;
+  }
+
+  if ((true)) {
+    assert(typeof type === 'string', ("expects string as the type, but found " + (typeof type) + "."));
+  }
+
+  return { type: type, payload: payload, options: options }
+}
+
+function install (_Vue) {
+  if (Vue && _Vue === Vue) {
+    if ((true)) {
+      console.error(
+        '[vuex] already installed. Vue.use(Vuex) should be called only once.'
+      );
+    }
+    return
+  }
+  Vue = _Vue;
+  applyMixin(Vue);
+}
+
+/**
+ * Reduce the code which written in Vue.js for getting the state.
+ * @param {String} [namespace] - Module's namespace
+ * @param {Object|Array} states # Object's item can be a function which accept state and getters for param, you can do something for state and getters in it.
+ * @param {Object}
+ */
+var mapState = normalizeNamespace(function (namespace, states) {
+  var res = {};
+  if (( true) && !isValidMap(states)) {
+    console.error('[vuex] mapState: mapper parameter must be either an Array or an Object');
+  }
+  normalizeMap(states).forEach(function (ref) {
+    var key = ref.key;
+    var val = ref.val;
+
+    res[key] = function mappedState () {
+      var state = this.$store.state;
+      var getters = this.$store.getters;
+      if (namespace) {
+        var module = getModuleByNamespace(this.$store, 'mapState', namespace);
+        if (!module) {
+          return
+        }
+        state = module.context.state;
+        getters = module.context.getters;
+      }
+      return typeof val === 'function'
+        ? val.call(this, state, getters)
+        : state[val]
+    };
+    // mark vuex getter for devtools
+    res[key].vuex = true;
+  });
+  return res
+});
+
+/**
+ * Reduce the code which written in Vue.js for committing the mutation
+ * @param {String} [namespace] - Module's namespace
+ * @param {Object|Array} mutations # Object's item can be a function which accept `commit` function as the first param, it can accept another params. You can commit mutation and do any other things in this function. specially, You need to pass anthor params from the mapped function.
+ * @return {Object}
+ */
+var mapMutations = normalizeNamespace(function (namespace, mutations) {
+  var res = {};
+  if (( true) && !isValidMap(mutations)) {
+    console.error('[vuex] mapMutations: mapper parameter must be either an Array or an Object');
+  }
+  normalizeMap(mutations).forEach(function (ref) {
+    var key = ref.key;
+    var val = ref.val;
+
+    res[key] = function mappedMutation () {
+      var args = [], len = arguments.length;
+      while ( len-- ) args[ len ] = arguments[ len ];
+
+      // Get the commit method from store
+      var commit = this.$store.commit;
+      if (namespace) {
+        var module = getModuleByNamespace(this.$store, 'mapMutations', namespace);
+        if (!module) {
+          return
+        }
+        commit = module.context.commit;
+      }
+      return typeof val === 'function'
+        ? val.apply(this, [commit].concat(args))
+        : commit.apply(this.$store, [val].concat(args))
+    };
+  });
+  return res
+});
+
+/**
+ * Reduce the code which written in Vue.js for getting the getters
+ * @param {String} [namespace] - Module's namespace
+ * @param {Object|Array} getters
+ * @return {Object}
+ */
+var mapGetters = normalizeNamespace(function (namespace, getters) {
+  var res = {};
+  if (( true) && !isValidMap(getters)) {
+    console.error('[vuex] mapGetters: mapper parameter must be either an Array or an Object');
+  }
+  normalizeMap(getters).forEach(function (ref) {
+    var key = ref.key;
+    var val = ref.val;
+
+    // The namespace has been mutated by normalizeNamespace
+    val = namespace + val;
+    res[key] = function mappedGetter () {
+      if (namespace && !getModuleByNamespace(this.$store, 'mapGetters', namespace)) {
+        return
+      }
+      if (( true) && !(val in this.$store.getters)) {
+        console.error(("[vuex] unknown getter: " + val));
+        return
+      }
+      return this.$store.getters[val]
+    };
+    // mark vuex getter for devtools
+    res[key].vuex = true;
+  });
+  return res
+});
+
+/**
+ * Reduce the code which written in Vue.js for dispatch the action
+ * @param {String} [namespace] - Module's namespace
+ * @param {Object|Array} actions # Object's item can be a function which accept `dispatch` function as the first param, it can accept anthor params. You can dispatch action and do any other things in this function. specially, You need to pass anthor params from the mapped function.
+ * @return {Object}
+ */
+var mapActions = normalizeNamespace(function (namespace, actions) {
+  var res = {};
+  if (( true) && !isValidMap(actions)) {
+    console.error('[vuex] mapActions: mapper parameter must be either an Array or an Object');
+  }
+  normalizeMap(actions).forEach(function (ref) {
+    var key = ref.key;
+    var val = ref.val;
+
+    res[key] = function mappedAction () {
+      var args = [], len = arguments.length;
+      while ( len-- ) args[ len ] = arguments[ len ];
+
+      // get dispatch function from store
+      var dispatch = this.$store.dispatch;
+      if (namespace) {
+        var module = getModuleByNamespace(this.$store, 'mapActions', namespace);
+        if (!module) {
+          return
+        }
+        dispatch = module.context.dispatch;
+      }
+      return typeof val === 'function'
+        ? val.apply(this, [dispatch].concat(args))
+        : dispatch.apply(this.$store, [val].concat(args))
+    };
+  });
+  return res
+});
+
+/**
+ * Rebinding namespace param for mapXXX function in special scoped, and return them by simple object
+ * @param {String} namespace
+ * @return {Object}
+ */
+var createNamespacedHelpers = function (namespace) { return ({
+  mapState: mapState.bind(null, namespace),
+  mapGetters: mapGetters.bind(null, namespace),
+  mapMutations: mapMutations.bind(null, namespace),
+  mapActions: mapActions.bind(null, namespace)
+}); };
+
+/**
+ * Normalize the map
+ * normalizeMap([1, 2, 3]) => [ { key: 1, val: 1 }, { key: 2, val: 2 }, { key: 3, val: 3 } ]
+ * normalizeMap({a: 1, b: 2, c: 3}) => [ { key: 'a', val: 1 }, { key: 'b', val: 2 }, { key: 'c', val: 3 } ]
+ * @param {Array|Object} map
+ * @return {Object}
+ */
+function normalizeMap (map) {
+  if (!isValidMap(map)) {
+    return []
+  }
+  return Array.isArray(map)
+    ? map.map(function (key) { return ({ key: key, val: key }); })
+    : Object.keys(map).map(function (key) { return ({ key: key, val: map[key] }); })
+}
+
+/**
+ * Validate whether given map is valid or not
+ * @param {*} map
+ * @return {Boolean}
+ */
+function isValidMap (map) {
+  return Array.isArray(map) || isObject(map)
+}
+
+/**
+ * Return a function expect two param contains namespace and map. it will normalize the namespace and then the param's function will handle the new namespace and the map.
+ * @param {Function} fn
+ * @return {Function}
+ */
+function normalizeNamespace (fn) {
+  return function (namespace, map) {
+    if (typeof namespace !== 'string') {
+      map = namespace;
+      namespace = '';
+    } else if (namespace.charAt(namespace.length - 1) !== '/') {
+      namespace += '/';
+    }
+    return fn(namespace, map)
+  }
+}
+
+/**
+ * Search a special module from store by namespace. if module not exist, print error message.
+ * @param {Object} store
+ * @param {String} helper
+ * @param {String} namespace
+ * @return {Object}
+ */
+function getModuleByNamespace (store, helper, namespace) {
+  var module = store._modulesNamespaceMap[namespace];
+  if (( true) && !module) {
+    console.error(("[vuex] module namespace not found in " + helper + "(): " + namespace));
+  }
+  return module
+}
+
+// Credits: borrowed code from fcomb/redux-logger
+
+function createLogger (ref) {
+  if ( ref === void 0 ) ref = {};
+  var collapsed = ref.collapsed; if ( collapsed === void 0 ) collapsed = true;
+  var filter = ref.filter; if ( filter === void 0 ) filter = function (mutation, stateBefore, stateAfter) { return true; };
+  var transformer = ref.transformer; if ( transformer === void 0 ) transformer = function (state) { return state; };
+  var mutationTransformer = ref.mutationTransformer; if ( mutationTransformer === void 0 ) mutationTransformer = function (mut) { return mut; };
+  var actionFilter = ref.actionFilter; if ( actionFilter === void 0 ) actionFilter = function (action, state) { return true; };
+  var actionTransformer = ref.actionTransformer; if ( actionTransformer === void 0 ) actionTransformer = function (act) { return act; };
+  var logMutations = ref.logMutations; if ( logMutations === void 0 ) logMutations = true;
+  var logActions = ref.logActions; if ( logActions === void 0 ) logActions = true;
+  var logger = ref.logger; if ( logger === void 0 ) logger = console;
+
+  return function (store) {
+    var prevState = deepCopy(store.state);
+
+    if (typeof logger === 'undefined') {
+      return
+    }
+
+    if (logMutations) {
+      store.subscribe(function (mutation, state) {
+        var nextState = deepCopy(state);
+
+        if (filter(mutation, prevState, nextState)) {
+          var formattedTime = getFormattedTime();
+          var formattedMutation = mutationTransformer(mutation);
+          var message = "mutation " + (mutation.type) + formattedTime;
+
+          startMessage(logger, message, collapsed);
+          logger.log('%c prev state', 'color: #9E9E9E; font-weight: bold', transformer(prevState));
+          logger.log('%c mutation', 'color: #03A9F4; font-weight: bold', formattedMutation);
+          logger.log('%c next state', 'color: #4CAF50; font-weight: bold', transformer(nextState));
+          endMessage(logger);
+        }
+
+        prevState = nextState;
+      });
+    }
+
+    if (logActions) {
+      store.subscribeAction(function (action, state) {
+        if (actionFilter(action, state)) {
+          var formattedTime = getFormattedTime();
+          var formattedAction = actionTransformer(action);
+          var message = "action " + (action.type) + formattedTime;
+
+          startMessage(logger, message, collapsed);
+          logger.log('%c action', 'color: #03A9F4; font-weight: bold', formattedAction);
+          endMessage(logger);
+        }
+      });
+    }
+  }
+}
+
+function startMessage (logger, message, collapsed) {
+  var startMessage = collapsed
+    ? logger.groupCollapsed
+    : logger.group;
+
+  // render
+  try {
+    startMessage.call(logger, message);
+  } catch (e) {
+    logger.log(message);
+  }
+}
+
+function endMessage (logger) {
+  try {
+    logger.groupEnd();
+  } catch (e) {
+    logger.log('—— log end ——');
+  }
+}
+
+function getFormattedTime () {
+  var time = new Date();
+  return (" @ " + (pad(time.getHours(), 2)) + ":" + (pad(time.getMinutes(), 2)) + ":" + (pad(time.getSeconds(), 2)) + "." + (pad(time.getMilliseconds(), 3)))
+}
+
+function repeat (str, times) {
+  return (new Array(times + 1)).join(str)
+}
+
+function pad (num, maxLength) {
+  return repeat('0', maxLength - num.toString().length) + num
+}
+
+var index_cjs = {
+  Store: Store,
+  install: install,
+  version: '3.6.2',
+  mapState: mapState,
+  mapMutations: mapMutations,
+  mapGetters: mapGetters,
+  mapActions: mapActions,
+  createNamespacedHelpers: createNamespacedHelpers,
+  createLogger: createLogger
+};
+
+module.exports = index_cjs;
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../webpack/buildin/global.js */ 2)))
+
+>>>>>>> 7cf0e21 (hs-小程序完成微信授权登录)
 /***/ })
 ]]);
 //# sourceMappingURL=../../.sourcemap/mp-weixin/common/vendor.js.map

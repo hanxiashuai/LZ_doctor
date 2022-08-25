@@ -1,15 +1,20 @@
 import App from './App'
-
+import store from "./store"
 import uView from '@/uni_modules/uview-ui'
 // 引入 cu-custom 组件。
 import cuCustom from './colorui/components/cu-custom.vue'
 // #ifndef VUE3
 import Vue from 'vue'
 Vue.use(uView)
+
 Vue.component('cu-custom',cuCustom)
 Vue.config.productionTip = false
 App.mpType = 'app'
+
+Vue.prototype.$store = store
+// 把 store 对象提供给 “store” 选项，这可以把 store 的实例注入所有的子组件
 const app = new Vue({
+	store,
     ...App
 })
 app.$mount()
