@@ -71,8 +71,12 @@
 				<u-icon name="phone-fill" color="#2979ff" size="28" class='icon'></u-icon>
 				<p class='phone'>电话咨询</p>
 			</view>
+			<!-- <u-button type="primary" text="微信聊天室" @click="WeChat" open-type="contact"
+				style='height: 50px; margin-right: 15px;'></u-button> -->
+			<button type="primary" open-type="contact" @click="WeChat"
+				style='height: 50px; margin-right: 15px;'>客服聊天窗口</button>
 
-			<u-button type="primary" text="确定" style='height: 50px; margin-right: 15px;'></u-button>
+
 		</view>
 
 	</view>
@@ -81,10 +85,29 @@
 	export default {
 		data() {
 			return {
-				src: '/static/image/草.jpg'
+				src: '/static/image/草.jpg',
+				todolist: []
 			}
 		},
+		onLoad() {
+			uni.request({
+				url: 'http://127.0.0.1:3007/api/nav', //仅为示例，并非真实接口地址。
+				params: {
+					id: ''
+				},
+				success: (res) => {
+					console.log(res.data.data);
+					this.todolist = res.data.data
+					// this.text = 'request success';
+				}
+			});
+
+		},
 		methods: {
+			//点击微信聊天跳转
+			WeChat() {
+
+			},
 			rightClick() {
 				console.log('rightClick');
 			},
