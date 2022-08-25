@@ -23,6 +23,7 @@ wx.__webpack_require_UNI_MP_PLUGIN__ = __webpack_require__;createPage(_coop_desc
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/pages/index/coop_desc/coop_desc.vue ***!
   \************************************************************************/
 /*! no static exports found */
+<<<<<<< HEAD
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -207,6 +208,11 @@ __webpack_require__.r(__webpack_exports__);
 // extracted by mini-css-extract-plugin
     if(false) { var cssReload; }
   
+=======
+/***/ (function(module, exports) {
+
+throw new Error("Module build failed (from ./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js):\nError: ENOENT: no such file or directory, open 'D:\\HANSHUAI UNIAPP\\LZ_doctor\\pages\\index\\coop_desc\\coop_desc.vue'");
+>>>>>>> 2newMedical
 
 /***/ })
 

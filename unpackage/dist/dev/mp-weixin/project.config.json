@@ -14,7 +14,11 @@
     },
     "compileType": "miniprogram",
     "libVersion": "2.25.3",
+<<<<<<< HEAD
     "appid": "wx1c470017f9833efd",
+=======
+    "appid": "wx4b2821bf945172f2",
+>>>>>>> 2newMedical
     "projectname": "LZ_doctor",
     "condition": {},
     "editorSetting": {
