@@ -1,9 +1,5 @@
 <template>
 	<view>
-		<cu-custom bgColor="bg-gradual-blue" :isBack="true">
-			<block slot="backText">返回</block>
-			<block slot="content">合作单位</block>
-		</cu-custom>
 		<view class="hospital" v-for="item in allHospital" :key="item.id">
 			<image class="img" :src="item.image" mode=""></image>
 			<view class="information">

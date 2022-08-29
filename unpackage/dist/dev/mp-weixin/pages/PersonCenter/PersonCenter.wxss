@@ -60,7 +60,7 @@
 .headerBox .userinfo_box .userinfo_box_top {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-bottom: 5px;
 }
 .headerBox .userinfo_box .userinfo_box_top .userinfo_img {
@@ -77,7 +77,7 @@
 .headerBox .userinfo_box .userinfo_box_bottom {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .headerBox .userinfo_box .userinfo_box_bottom .left,
 .headerBox .userinfo_box .userinfo_box_bottom .center,

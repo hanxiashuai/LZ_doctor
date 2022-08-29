@@ -15,9 +15,9 @@
 			<view class="cu-list menu-avatar">
 				<view
 					class="cu-item"
+					v-for="(item, index) in addressList"
 					:class="modalName == 'move-box-' + index ? 'move-cur' : ''"
-					v-for="(item, index) in 4"
-					:key="index"
+					:key="item.id"
 					@touchstart="ListTouchStart"
 					@touchmove="ListTouchMove"
 					@touchend="ListTouchEnd"
@@ -25,31 +25,35 @@
 				>
 					<view class="content">
 						<view class="text-grey">
-							<text class="  margin-right-xs">文晓港</text>
-							<text class="  margin-right-xs">13810021921</text>
+							<text class="  margin-right-xs">{{ item.name }}</text>
+							<text class="  margin-right-xs">{{ item.tel }}</text>
 						</view>
-						<view class="text-gray text-sm">浙江省，杭州市，清湖区</view>
+						<view class="text-gray text-sm">{{ item.address + item.mainaddress }}</view>
 					</view>
-					<view class="action">
-						<view class="text-grey text-xs">左滑操作</view>
-						<view class="cu-tag round bg-grey sm"><</view>
-					</view>
+
+					<view class="action"><text class="lg text-gray cuIcon-back"></text></view>
+
 					<view class="move">
-						<view class="bg-grey">编辑</view>
-						<view class="bg-red">删除</view>
+						<!-- <navigator url="/pages/userCenterPages/myAddress/addeditAddress?id=tem.id"> -->
+							<view class="bg-blue" @click="editAddress(item.id)">编辑</view>
+						<!-- </navigator> -->
+						<view class="bg-red" @click="delAddress(item.id)">删除</view>
 					</view>
 				</view>
 			</view>
 		</scroll-view>
+		<navigator url="/pages/userCenterPages/myAddress/addeditAddress"><button @click="addAddress" class="addBtn cu-btn">新增地址</button></navigator>
+		<u-toast ref="uToast" />
 	</view>
 </template>
 
 <script>
+import { getUserAddress, delUserAddress } from '../../../api/user_address.js';
 export default {
 	data() {
 		return {
-			addressList:[],
-			
+			addressList: [],
+
 			modalName: null,
 			gridCol: 3,
 			gridBorder: false,
@@ -61,7 +65,12 @@ export default {
 			listTouchDirection: null
 		};
 	},
+
 	methods: {
+		async getList() {
+			let res = await getUserAddress(4);
+			this.addressList = res.data;
+		},
 		// ListTouch触摸开始
 		ListTouchStart(e) {
 			this.listTouchStart = e.touches[0].pageX;
@@ -80,17 +89,43 @@ export default {
 				this.modalName = null;
 			}
 			this.listTouchDirection = null;
-		}
-	
+		},
+
 		//删除地址
-		delAddress(){
-			
-		}
-		
+		async delAddress(data) {
+			await delUserAddress(data);
+			//删除完重新加载表格
+			this.getList();
+			this.$refs.uToast.show({
+				type: 'success',
+				title: '成功主题(带图标)',
+				message: '删除成功'
+			});
+		},
+
 		//编辑地址
-		editAddress(){
-			
+		editAddress(data) {
+			console.log('edit', data);
+			uni.navigateTo({
+				url:`/pages/userCenterPages/myAddress/addeditAddress?id=${data}`,
+				fail:(err)=>{
+					console.log(err);
+				}
+			})
+			//编辑完重新加载表格
+			// this.getList();
+		},
+
+		//新增地址
+		addAddress() {
+			console.log('add');
+
+			//编辑完重新加载表格
+			// this.getList();
 		}
+	},
+	onShow() {
+		this.getList();
 	}
 };
 </script>
@@ -105,19 +140,13 @@ export default {
 	overflow: hidden;
 }
 
-.switch-sex::after {
-	content: '\e716';
-}
-
-.switch-sex::before {
-	content: '\e7a9';
-}
-
-.switch-music::after {
-	content: '\e66a';
-}
-
-.switch-music::before {
-	content: '\e6db';
+.addBtn {
+	width: 100%;
+	height: 76rpx;
+	color: #fff;
+	font-size: 34rpx;
+	background-color: #6186cd !important;
+	position: fixed;
+	bottom: 0;
 }
 </style>

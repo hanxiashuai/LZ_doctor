@@ -91,7 +91,7 @@
 		},
 		onLoad() {
 			uni.request({
-				url: 'http://127.0.0.1:3007/api/nav', //仅为示例，并非真实接口地址。
+				url: 'http://127.0.0.1:3007/api/nav',
 				params: {
 					id: ''
 				},
@@ -149,6 +149,8 @@
 		font-size: 30px;
 		text-indent: 10px;
 		font-weight: bold;
+		margin-top: 70px;
+
 	}
 
 	.con-zw {
@@ -166,7 +168,7 @@
 	}
 
 	.con-last {
-		margin-bottom: 200px;
+		padding-bottom: 200px;
 	}
 
 	.phone {
@@ -184,7 +186,8 @@
 	}
 
 	.overview {
-		margin-left: 10px;
-		margin-right: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+		background-color: #ffffff;
 	}
 </style>

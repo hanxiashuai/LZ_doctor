@@ -1,9 +1,5 @@
 <template>
 	<view>
-		<cu-custom bgColor="bg-gradual-blue" :isBack="true">
-			<block slot="backText">返回</block>
-			<block slot="content">医院信息</block>
-		</cu-custom>
 		<view class="detail-content">
 			<view class="title">{{coopDesc.name}}</view>
 			<view class="list">

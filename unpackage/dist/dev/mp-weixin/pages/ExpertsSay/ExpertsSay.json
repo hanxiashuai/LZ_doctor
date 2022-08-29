@@ -7,6 +7,8 @@
   "usingComponents": {
     "u-navbar": "/uni_modules/uview-ui/components/u-navbar/u-navbar",
     "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
-    "u--input": "/uni_modules/uview-ui/components/u--input/u--input"
+    "u--input": "/uni_modules/uview-ui/components/u--input/u--input",
+    "u-cell-group": "/uni_modules/uview-ui/components/u-cell-group/u-cell-group",
+    "u-cell": "/uni_modules/uview-ui/components/u-cell/u-cell"
   }
 }

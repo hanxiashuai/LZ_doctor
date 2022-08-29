@@ -2,6 +2,8 @@
   "navigationBarTitleText": "医药简介3",
   "navigationStyle": "custom",
   "usingComponents": {
-    "met": "/pages/ExpertsSay/medicine/medicine"
+    "u-navbar": "/uni_modules/uview-ui/components/u-navbar/u-navbar",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon"
   }
 }

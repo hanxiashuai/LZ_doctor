@@ -45,7 +45,8 @@ export default {
 				let _this = this;
 				uni.getUserProfile({
 					desc: '授权登录',
-					success() {
+					success(aaa) {
+						console.log(aaa);
 						uni.login({
 							success(res) {
 								console.log('success回调参数', res);
@@ -71,7 +72,7 @@ export default {
 												uni.reLaunch({
 													url: '/pages/index/index'
 												});
-											}, 1000);
+											}, 500);
 										} else {
 											_this.$refs.uToast2.show({
 												type: 'err',
@@ -113,7 +114,7 @@ export default {
 		isAgree() {
 			this.checked = !this.checked;
 			console.log(this.checked);
-		}
+		},
 	}
 };
 </script>

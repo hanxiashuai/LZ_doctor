@@ -1,0 +1,87 @@
+
+.u-btn {
+	/* width: 100px; */
+}
+.btn {
+	width: 100px;
+	margin-left: 0;
+	margin-right: 10px;
+}
+.week {
+	display: flex;
+	height: 40px;
+	line-height: 40px;
+	/* 	text-align: center; */
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+.week1 {
+	display: flex;
+	height: 20px;
+	line-height: 20px;
+	margin-top: 10px;
+}
+.zhong {
+	margin-bottom: 100px;
+}
+.overview {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.swimg1 {
+	width: 100%;
+	height: 500px;
+	background: url(/static/image/1.png) no-repeat;
+	background-size: 100% 100%;
+}
+.swimg2 {
+	width: 100%;
+	height: 500px;
+	background: url(/static/image/2.png);
+	background-size: 100% 100%;
+}
+.swimg3 {
+	width: 100%;
+	height: 500px;
+	background: url(/static/image/3.png);
+	background-size: 100% 100%;
+}
+.swimg4 {
+	width: 100%;
+	height: 500px;
+	background: url(/static/image/4.png);
+	background-size: 100% 100%;
+}
+.img {
+	width: 100%;
+	height: 400px;
+	background: url(/static/image/QQ截图20220825162921.png) center;
+	background-size: 100% 100%
+}
+.foot {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 999;
+	height: 50px;
+	display: flex;
+	background-color: #f9f9f9;
+}
+.phone {
+	width: 100px;
+	font-size: 15px;
+}
+.icon {
+	margin: 0 auto;
+	margin-left: 30px;
+}
+.text {
+	margin: 0 auto;
+	text-align: center;
+}
+.details {
+	font-size: 30px;
+	text-indent: 10px;
+	font-weight: bold;
+}
+

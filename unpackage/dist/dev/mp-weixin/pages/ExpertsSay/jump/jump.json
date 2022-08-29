@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "购买页面",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button",
+    "u-notice-bar": "/uni_modules/uview-ui/components/u-notice-bar/u-notice-bar",
+    "u-tag": "/uni_modules/uview-ui/components/u-tag/u-tag",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "u-tabs": "/uni_modules/uview-ui/components/u-tabs/u-tabs"
+  }
+}

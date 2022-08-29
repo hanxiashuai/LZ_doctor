@@ -6,7 +6,7 @@
 			<u-cell-group>
 				<u-cell title="订单号:220819154909431" clickable value="待支付"></u-cell>
 				<view @click="detail" class="imgBox">
-					<image src="../../../static/image/home.png" mode=""></image>
+					<image src="http://localhost:3007/medicine08.webp" mode=""></image>
 					<view class="">
 						<view style="font-size: 22px;margin-bottom: 3px;">"考试焦虑症"健康处方</view>
 						<view>服务周期：遵医嘱</view>
@@ -14,7 +14,7 @@
 					</view>
 				</view>
 				<u-cell title="2022-08-19 15:48" clickable value="总价: 0.00"></u-cell>
-				<view @click="delBtn" class="btnBox"><u-button type="primary" :plain="true" text="删除"></u-button></view>
+				<view class="btnBox"><button @click="delBtn" class="cu-btn round u-button ">删除</button></view>
 				<u-toast ref="uToast" />
 			</u-cell-group>
 		</view>
@@ -29,7 +29,7 @@ export default {
 	methods: {
 		detail() {
 			uni.navigateTo({
-				url: '/pages/userCenterPages/myPrescription/prescriptionDetails/prescriptionDetails'
+				url: `/pages/userCenterPages/myPrescription/prescriptionDetails/prescriptionDetails?id=${3}`
 			});
 		},
 		delBtn() {
@@ -69,6 +69,10 @@ export default {
 		width: 90px;
 		margin-top: 10px;
 		margin-right: 10px;
+		color: #fff;
+		font-size: 12px;
+		height: 22px;
+		background-color: #6186cd !important;
 	}
 }
 </style>

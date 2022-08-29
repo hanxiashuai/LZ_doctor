@@ -2,7 +2,7 @@
 	<view style="background-color: #fff; height:800px">
 		<cu-custom bgColor="bg-gradual-blue" :isBack="true"><block slot="content">处方详情</block></cu-custom>
 		<view class="imgBox">
-			<image src="../../../../static/image/home.png" mode=""></image>
+			<image src="http://localhost:3007/medicine08.webp" mode=""></image>
 			<view class="">
 				<view style="font-size: 22px;margin-bottom: 3px;">"考试焦虑症"健康处方</view>
 				<view>服务周期：遵医嘱</view>
@@ -50,6 +50,9 @@ export default {
 		return {
 			show: false
 		};
+	},
+	onLoad(data) {
+		console.log(data);
 	},
 	methods: {
 		isShow() {

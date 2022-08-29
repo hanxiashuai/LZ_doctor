@@ -1,5 +1,11 @@
 {
   "navigationBarTitleText": "我的名片",
+  "navigationStyle": "custom",
   "enablePullDownRefresh": false,
-  "usingComponents": {}
+  "usingComponents": {
+    "u--form": "/uni_modules/uview-ui/components/u--form/u--form",
+    "u-form-item": "/uni_modules/uview-ui/components/u-form-item/u-form-item",
+    "u-input": "/uni_modules/uview-ui/components/u-input/u-input",
+    "u-toast": "/uni_modules/uview-ui/components/u-toast/u-toast"
+  }
 }

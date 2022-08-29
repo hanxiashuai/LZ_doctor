@@ -1,5 +1,6 @@
 {
   "navigationBarTitleText": "团友订单",
+  "navigationStyle": "custom",
   "enablePullDownRefresh": false,
   "usingComponents": {}
 }

@@ -15,41 +15,41 @@
 				<view class="userinfo_box_top">
 					<view class="userinfo_img"><open-data type="userAvatarUrl" class="userAvatar">用户头像</open-data></view>
 					<view class="">
-						<open-data  type="userNickName" class="userNicname">用户昵称</open-data>
-						<p style="margin-top: 3px;" class="font_color">18738663575</p>
+						<open-data v-if="name == ''" type="userNickName" class="userNicname">用户昵称</open-data>
+						<view v-else class="">{{ name }}</view>
+						<p style="margin-top: 3px;" class="font_color">{{ tel == '' ? '' : tel }}</p>
 					</view>
-					<button @click="editUserinfo" class="editBtn cu-btn round">编辑资料</button>
+					<navigator url="../userCenterPages/myCard/myCard"><button @click="editUserinfo" class="editBtn cu-btn round">编辑资料</button></navigator>
 				</view>
 				<view class="userinfo_box_bottom">
+					<navigator url="/pages/userCenterPages/myAddress/myDoctor">
+						<view class="left">
+							<p>1</p>
+							<p class="font_color">我的医生</p>
+						</view>
+					</navigator>
 					<view class="left">
-						<p>0</p>
-						<p class="font_color">我的医生</p>
-					</view>
-					<view class="center">
 						<p>1</p>
 						<p class="font_color">我的圈子</p>
 					</view>
-					<view class="right">
-						<p>0.00</p>
-						<p class="font_color">积分兑换</p>
-					</view>
+					<navigator url="/pages/index/integrate/integrate">
+						<view class="right">
+							<p>0.00</p>
+							<p class="font_color">积分兑换</p>
+						</view>
+					</navigator>
 				</view>
 			</view>
 		</view>
 
-		<!-- <view class="wxLogin">
-			<open-data type="userNickName" class="userNicname">用户昵称</open-data>
-		</view> -->
 		<!-- main区域 -->
 		<view class="main" style="margin-top:70px ;">
 			<u-cell-group>
-				<u-cell url="../userCenterPages/BBS/BBS" :icon="require('../../static/image/论坛资讯.png')" title="我的论坛" clickable></u-cell>
-				<u-cell url="../userCenterPages/myPrescription/myPrescription" :icon="require('../../static/image/医生处方.png')" title="我的处方" clickable></u-cell>
-				<u-cell url="../userCenterPages/myAddress/myAddress" icon="map-fill" title="地址管理" clickable></u-cell>
-				<u-cell url="../userCenterPages/myArchives/myArchives" icon="file-text-fill" title="健康档案" clickable></u-cell>
-				<u-cell url="../userCenterPages/myCard/myCard" icon="file-text-fill" title="我的名片" clickable></u-cell>
-				<u-cell url="../userCenterPages/myExperts/myExperts" icon="file-text-fill" title="我的专家" clickable></u-cell>
-				<u-cell v-if="isLogin" url="../userCenterPages/myOrder/myOrder" icon="file-text-fill" title="团友订单" clickable></u-cell>
+				<u-cell @click="goto1" :icon="require('../../static/image/医生处方.png')" title="我的处方" clickable></u-cell>
+				<u-cell @click="goto2" icon="map-fill" title="地址管理" clickable></u-cell>
+				<u-cell @click="goto3" icon="file-text-fill" title="健康档案" clickable></u-cell>
+				<u-cell @click="goto4" icon="file-text-fill" title="我的名片" clickable></u-cell>
+				<u-cell @click="goto5" icon="file-text-fill" title="我的专家" clickable></u-cell>
 			</u-cell-group>
 		</view>
 
@@ -59,10 +59,12 @@
 </template>
 
 <script>
+import { getwxuserinfo } from '@/api/wx_userinfo.js';
 export default {
 	data() {
 		return {
-			isLogin: false
+			name: '',
+			tel: ''
 		};
 	},
 
@@ -94,7 +96,70 @@ export default {
 			uni.navigateTo({
 				url: '/pages/editUserinfo/editUserinfo'
 			});
+		},
+		async getNameTel() {
+			let res = await getwxuserinfo();
+			this.tel = res.data.tel;
+			this.name = res.data.name;
+		},
+		goto1() {
+			if (this.token != '') {
+				uni.navigateTo({
+					url: '../userCenterPages/myPrescription/myPrescription'
+				});
+			} else {
+				uni.reLaunch({
+					url:'/pages/login/login'
+				})
+			}
+		},
+		goto2() {
+			if (this.token != '') {
+				uni.navigateTo({
+					url: '../userCenterPages/myAddress/myAddress'
+				});
+			} else {
+				uni.reLaunch({
+					url:'/pages/login/login'
+				})
+			}
+		},
+		goto3() {
+			if (this.token != '') {
+				uni.navigateTo({
+					url: '../userCenterPages/myArchives/myArchives'
+				});
+			} else {
+				uni.reLaunch({
+					url:'/pages/login/login'
+				})
+			}
+		},
+		goto4() {
+			if (this.token != '') {
+				uni.navigateTo({
+					url: '../userCenterPages/myCard/myCard'
+				});
+			} else {
+				uni.reLaunch({
+					url:'/pages/login/login'
+				})
+			}
+		},
+		goto5() {
+			if (this.token != '') {
+				uni.navigateTo({
+					url: '../userCenterPages/myExperts/myExperts'
+				});
+			} else {
+				uni.reLaunch({
+					url:'/pages/login/login'
+				})
+			}
 		}
+	},
+	onLoad() {
+		this.getNameTel();
 	}
 };
 </script>
@@ -137,7 +202,7 @@ export default {
 		.userinfo_box_top {
 			display: flex;
 			align-items: center;
-			justify-content: space-between;
+			justify-content: space-around;
 			margin-bottom: 5px;
 			.userinfo_img {
 				width: 60px;
@@ -155,7 +220,7 @@ export default {
 		.userinfo_box_bottom {
 			display: flex;
 			align-items: center;
-			justify-content: space-between;
+			justify-content: space-around;
 			.left,
 			.center,
 			.right {

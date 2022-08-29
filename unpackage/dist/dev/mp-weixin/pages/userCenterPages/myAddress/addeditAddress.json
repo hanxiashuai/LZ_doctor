@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "地址添加编辑",
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u--form": "/uni_modules/uview-ui/components/u--form/u--form",
+    "u-form-item": "/uni_modules/uview-ui/components/u-form-item/u-form-item",
+    "u-input": "/uni_modules/uview-ui/components/u-input/u-input",
+    "u--input": "/uni_modules/uview-ui/components/u--input/u--input",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "u-picker": "/uni_modules/uview-ui/components/u-picker/u-picker",
+    "u-toast": "/uni_modules/uview-ui/components/u-toast/u-toast"
+  }
+}

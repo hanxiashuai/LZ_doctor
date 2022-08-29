@@ -25,11 +25,7 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.u-navbar .u-icon--right {
-  display: none;
-}
 .header_box {
-  margin-top: 64px;
   position: fixed;
   left: 0;
   width: 100%;
@@ -92,13 +88,14 @@
 }
 .swiper {
   height: 400rpx;
-  padding: 20px;
+  padding: 10px;
   border: 1px #e2e2e2 solid;
   border-radius: 4%;
 }
 .swiper-item {
   display: flex;
   height: 300rpx;
+  margin-top: 40rpx;
   text-align: center;
   background-color: #fff;
 }
@@ -111,7 +108,7 @@
 }
 .swiper-item .left_box .img {
   width: 120px;
-  height: 120px;
+  height: 150px;
 }
 .swiper-item .right_box {
   width: 60%;
@@ -121,7 +118,11 @@
   justify-content: space-around;
 }
 .swiper-item .right_box .team {
-  font-size: 20px;
+  margin-left: 10px;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 800;
+  color: #243b64;
 }
 .swiper-item .right_box .desc {
   display: flex;

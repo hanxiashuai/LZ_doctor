@@ -1,40 +1,36 @@
 <template>
 	<view>
-		<cu-custom bgColor="bg-gradual-blue" :isBack="true">
-			<block slot="backText">返回</block>
-			<block slot="content">积分兑换</block>
-		</cu-custom>
 		<view class="mainForm">
 			<u--form :model="form" ref="uForm ">
 				<u-form-item label="姓名" prop="name" borderBottom>
 					<u-input v-model="form.name" border="none" placeholder="请输入真实姓名" />
 				</u-form-item>
 				<u-form-item label="电话" prop="tel" borderBottom>
-					<u-input v-model="form.name" border="none" placeholder="请输入电话" />
+					<u-input v-model="form.tel" border="none" placeholder="请输入电话" />
 				</u-form-item>
-				<u-form-item label="微信号" prop="tel" borderBottom>
-					<u-input v-model="form.name" border="none" placeholder="请输入电话" />
+				<u-form-item label="微信号" prop="vx" borderBottom>
+					<u-input v-model="form.vx" border="none" placeholder="请输入微信号" />
 				</u-form-item>
-				<u-form-item label="支付宝号" prop="tel" borderBottom>
-					<u-input v-model="form.name" border="none" placeholder="请输入电话" />
+				<u-form-item label="支付宝号" prop="zfb" borderBottom>
+					<u-input v-model="form.zfb" border="none" placeholder="请输入支付宝号" />
 				</u-form-item>
-				<u-form-item label="申请积分" prop="tel" borderBottom>
-					<u-input v-model="form.name" border="none" placeholder="请输入电话" />
+				<u-form-item label="申请积分" prop="sqjf" borderBottom>
+					<u-input v-model="form.sqjf" border="none" placeholder="请输入申请积分" />
 				</u-form-item>
-				<u-form-item label="备注" prop="tel" borderBottom>
-					<u-input v-model="form.name" border="none" placeholder="请输入电话" />
+				<u-form-item label="备注" prop="note" borderBottom>
+					<u-input v-model="form.note" border="none" placeholder="请输入备注" />
 				</u-form-item>
 			</u--form>
-
-			<!-- <u-button @click="submit">提交</u-button> -->
 		</view>
 		<view class="agreement">
 			<u-radio-group v-model="value">
 				<u-radio shape="square" label="兑换协议"></u-radio>
 			</u-radio-group>
-			<u-button text="全部兑换" class="allpoints"></u-button>
-			<u-button text="提交申请" class="submitBtn"></u-button>
+
+			<button type="default" style="background-color: #ff8515; color:#fff" class="allpoints">全部兑换</button>
+			<button type="default" style="background-color: #ff8515; color:#fff" class="submitBtn">提交申请</button>
 		</view>
+
 
 	</view>
 </template>
@@ -46,6 +42,11 @@
 				value: 0,
 				form: {
 					name: '',
+					tel: '',
+					vx: '',
+					zfb: '',
+					sqjf: '',
+					note: '',
 				},
 				rules: {
 					name: [{

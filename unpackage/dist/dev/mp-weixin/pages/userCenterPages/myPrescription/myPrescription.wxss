@@ -50,5 +50,9 @@
   width: 90px;
   margin-top: 10px;
   margin-right: 10px;
+  color: #fff;
+  font-size: 12px;
+  height: 22px;
+  background-color: #6186cd !important;
 }
 

@@ -1,7 +1,5 @@
 {
-  "navigationBarTitleText": "",
+  "navigationBarTitleText": "详情",
   "enablePullDownRefresh": false,
-  "usingComponents": {
-    "u-navbar": "/uni_modules/uview-ui/components/u-navbar/u-navbar"
-  }
+  "usingComponents": {}
 }

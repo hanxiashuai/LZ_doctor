@@ -64,6 +64,9 @@
 .desc .onlineTime {
   margin-top: 20px;
 }
+.desc .otime {
+  color: '#2c84ea';
+}
 .footer {
   display: flex;
   width: 100%;
