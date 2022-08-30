@@ -15,9 +15,9 @@
 				<view class="userinfo_box_top">
 					<view class="userinfo_img"><open-data type="userAvatarUrl" class="userAvatar">用户头像</open-data></view>
 					<view class="">
-						<open-data v-if="name == ''" type="userNickName" class="userNicname">用户昵称</open-data>
+						<open-data v-if="!name" type="userNickName" class="userNicname">用户昵称</open-data>
 						<view v-else class="">{{ name }}</view>
-						<p style="margin-top: 3px;" class="font_color">{{ tel == '' ? '' : tel }}</p>
+						<p v-if="tel" style="margin-top: 3px;" class="font_color">{{ tel == '' ? '' : tel }}</p>
 					</view>
 					<navigator url="../userCenterPages/myCard/myCard"><button @click="editUserinfo" class="editBtn cu-btn round">编辑资料</button></navigator>
 				</view>

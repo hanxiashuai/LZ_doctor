@@ -41,13 +41,6 @@
 			}
 		},
 		{
-			"path": "pages/ExpertsSay/medicine/medicine",
-			"style": {
-				"navigationStyle": "custom", // 隐藏系统导航栏
-				"navigationBarTextStyle": "white" // 状态栏字体为白色，只能为 white-白色，black-黑色 二选一
-			}
-		},
-		{
 			"path": "pages/login/login",
 			"style": {
 				"navigationBarTitleText": "登录页",
@@ -59,7 +52,7 @@
 			"path": "pages/userCenterPages/BBS/BBS",
 			"style": {
 				"navigationBarTitleText": "我的论坛",
-				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				"navigationStyle": "custom", // 隐藏系统导航栏
 				"enablePullDownRefresh": false
 			}
 		},
@@ -67,7 +60,7 @@
 			"path": "pages/userCenterPages/myPrescription/myPrescription",
 			"style": {
 				"navigationBarTitleText": "我的处方",
-				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				"navigationStyle": "custom", // 隐藏系统导航栏
 				"enablePullDownRefresh": false
 			}
 		},
@@ -75,7 +68,7 @@
 			"path": "pages/userCenterPages/myAddress/myAddress",
 			"style": {
 				"navigationBarTitleText": "地址管理",
-				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				"navigationStyle": "custom", // 隐藏系统导航栏
 				"enablePullDownRefresh": false
 			}
 		},
@@ -83,7 +76,7 @@
 			"path": "pages/userCenterPages/myAddress/addeditAddress",
 			"style": {
 				"navigationBarTitleText": "地址添加编辑",
-				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				"navigationStyle": "custom", // 隐藏系统导航栏
 				"enablePullDownRefresh": false
 			}
 		},
@@ -91,7 +84,7 @@
 			"path": "pages/userCenterPages/myArchives/myArchives",
 			"style": {
 				"navigationBarTitleText": "健康档案",
-				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				"navigationStyle": "custom", // 隐藏系统导航栏
 				"enablePullDownRefresh": false
 			}
 		},
@@ -107,7 +100,7 @@
 			"path": "pages/userCenterPages/myExperts/myExperts",
 			"style": {
 				"navigationBarTitleText": "我的专家",
-				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				"navigationStyle": "custom", // 隐藏系统导航栏
 				"enablePullDownRefresh": false
 			}
 		},
@@ -123,10 +116,12 @@
 			"path": "pages/userCenterPages/myPrescription/prescriptionDetails/prescriptionDetails",
 			"style": {
 				"navigationBarTitleText": "处方详情",
-				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				"navigationStyle": "custom", // 隐藏系统导航栏
 				"enablePullDownRefresh": false
 			}
 		},
+		
+		
 		{
 			"path": "pages/index/doctor_desc/doctor_desc",
 			"style": {

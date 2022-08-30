@@ -5,20 +5,19 @@
 			<block slot="content">设置地址</block>
 		</cu-custom>
 		<view class="mainForm">
-			<u--form :errorType="errorType" :model="form" ref="uForm">
+			<u--form :errorType="errorType" :model="form" ref="uForm" :rules="rules">
 				<u-form-item label="姓名:" prop="name" borderBottom><u-input v-model="form.name" border="none" placeholder="请输入真实姓名" /></u-form-item>
 				<u-form-item label="手机号:" prop="tel" borderBottom><u-input v-model="form.tel" border="none" placeholder="请输入手机号" /></u-form-item>
 
-				<u-form-item label="地区:" @click="show = true" prop="address" borderBottom>
+				<u-form-item label="地区:" @click="isShow" prop="address" borderBottom>
 					<u--input v-model="form.address" disabled disabledColor="#ffffff" placeholder="请选择城市" border="none"></u--input>
 					<u-icon slot="right" name="arrow-right"></u-icon>
 				</u-form-item>
 
 				<u-form-item label="详细地址:" prop="mainaddress" borderBottom><u-input v-model="form.mainaddress" border="none" placeholder="街道门牌信息" /></u-form-item>
-				
-				<u-picker :show="show" ref="uPicker" :loading="loading" @confirm="confirm" keyName="name" :columns="columns" @change="changeHandler"></u-picker>
 			</u--form>
-		<button @click="submit" class="addBtn cu-btn">保存</button>
+			<u-picker :show="show" ref="uPicker" @cancel = "cancel" :loading="loading" @confirm="confirm" keyName="name" :columns="columns" @change="changeHandler"></u-picker>
+			<button @click="submit" class="addBtn cu-btn">保存</button>
 		</view>
 		<u-toast ref="uToast" />
 	</view>
@@ -80,6 +79,10 @@ export default {
 		this.$refs.uForm.setRules(this.rules);
 	},
 	methods: {
+		isShow(){
+			this.show = true
+			console.log(111111)
+		},
 		submit() {
 			this.$refs.uForm
 				.validate()
@@ -167,6 +170,10 @@ export default {
 			this.form.tel = res.data[0].tel;
 			this.form.address = res.data[0].address;
 			this.form.mainaddress = res.data[0].mainaddress;
+		},
+		
+		cancel(){
+			this.show = false
 		}
 	},
 	onLoad(data) {

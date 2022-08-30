@@ -19766,15 +19766,7 @@ function editwxuserinfo(data) {
 /* 207 */,
 /* 208 */,
 /* 209 */,
-/* 210 */,
-/* 211 */,
-/* 212 */,
-/* 213 */,
-/* 214 */,
-/* 215 */,
-/* 216 */,
-/* 217 */,
-/* 218 */
+/* 210 */
 /*!********************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/api/user_address.js ***!
   \********************************************************/
@@ -19870,6 +19862,14 @@ function getAreas(data) {
 }
 
 /***/ }),
+/* 211 */,
+/* 212 */,
+/* 213 */,
+/* 214 */,
+/* 215 */,
+/* 216 */,
+/* 217 */,
+/* 218 */,
 /* 219 */,
 /* 220 */,
 /* 221 */,
@@ -19892,7 +19892,9 @@ function getAreas(data) {
 /* 238 */,
 /* 239 */,
 /* 240 */,
-/* 241 */
+/* 241 */,
+/* 242 */,
+/* 243 */
 /*!****************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/api/mydoctor.js ***!
   \****************************************************/
@@ -19934,8 +19936,6 @@ function addMyDoctor(data) {
 }
 
 /***/ }),
-/* 242 */,
-/* 243 */,
 /* 244 */,
 /* 245 */,
 /* 246 */,
@@ -20048,7 +20048,9 @@ function addMyDoctor(data) {
 /* 353 */,
 /* 354 */,
 /* 355 */,
-/* 356 */
+/* 356 */,
+/* 357 */,
+/* 358 */
 /*!**************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-picker/props.js ***!
   \**************************************************************************************/
@@ -20135,14 +20137,14 @@ function addMyDoctor(data) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 357 */,
-/* 358 */,
 /* 359 */,
 /* 360 */,
 /* 361 */,
 /* 362 */,
 /* 363 */,
-/* 364 */
+/* 364 */,
+/* 365 */,
+/* 366 */
 /*!**************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-swiper/props.js ***!
   \**************************************************************************************/
@@ -20275,14 +20277,14 @@ function addMyDoctor(data) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 365 */,
-/* 366 */,
 /* 367 */,
 /* 368 */,
 /* 369 */,
 /* 370 */,
 /* 371 */,
-/* 372 */
+/* 372 */,
+/* 373 */,
+/* 374 */
 /*!************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-grid/props.js ***!
   \************************************************************************************/
@@ -20309,14 +20311,14 @@ function addMyDoctor(data) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 373 */,
-/* 374 */,
 /* 375 */,
 /* 376 */,
 /* 377 */,
 /* 378 */,
 /* 379 */,
-/* 380 */
+/* 380 */,
+/* 381 */,
+/* 382 */
 /*!*****************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-grid-item/props.js ***!
   \*****************************************************************************************/
@@ -20338,8 +20340,6 @@ function addMyDoctor(data) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 381 */,
-/* 382 */,
 /* 383 */,
 /* 384 */,
 /* 385 */,
@@ -20352,7 +20352,9 @@ function addMyDoctor(data) {
 /* 392 */,
 /* 393 */,
 /* 394 */,
-/* 395 */
+/* 395 */,
+/* 396 */,
+/* 397 */
 /*!************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-icon/icons.js ***!
   \************************************************************************************/
@@ -20575,7 +20577,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   'uicon-en': "\uE692" };exports.default = _default;
 
 /***/ }),
-/* 396 */
+/* 398 */
 /*!************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-icon/props.js ***!
   \************************************************************************************/
@@ -20672,14 +20674,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 397 */,
-/* 398 */,
 /* 399 */,
 /* 400 */,
 /* 401 */,
 /* 402 */,
 /* 403 */,
-/* 404 */
+/* 404 */,
+/* 405 */,
+/* 406 */
 /*!******************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-cell-group/props.js ***!
   \******************************************************************************************/
@@ -20701,14 +20703,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 405 */,
-/* 406 */,
 /* 407 */,
 /* 408 */,
 /* 409 */,
 /* 410 */,
 /* 411 */,
-/* 412 */
+/* 412 */,
+/* 413 */,
+/* 414 */
 /*!************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-cell/props.js ***!
   \************************************************************************************/
@@ -20826,14 +20828,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 413 */,
-/* 414 */,
 /* 415 */,
 /* 416 */,
 /* 417 */,
 /* 418 */,
 /* 419 */,
-/* 420 */
+/* 420 */,
+/* 421 */,
+/* 422 */
 /*!***********************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-tag/props.js ***!
   \***********************************************************************************/
@@ -20925,14 +20927,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 421 */,
-/* 422 */,
 /* 423 */,
 /* 424 */,
 /* 425 */,
 /* 426 */,
 /* 427 */,
-/* 428 */
+/* 428 */,
+/* 429 */,
+/* 430 */
 /*!******************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/mixin/button.js ***!
   \******************************************************************************/
@@ -20953,7 +20955,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
     openType: String } };exports.default = _default;
 
 /***/ }),
-/* 429 */
+/* 431 */
 /*!********************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/mixin/openType.js ***!
   \********************************************************************************/
@@ -20986,7 +20988,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
     } } };exports.default = _default;
 
 /***/ }),
-/* 430 */
+/* 432 */
 /*!**************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-button/props.js ***!
   \**************************************************************************************/
@@ -21155,14 +21157,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 431 */,
-/* 432 */,
 /* 433 */,
 /* 434 */,
 /* 435 */,
 /* 436 */,
 /* 437 */,
-/* 438 */
+/* 438 */,
+/* 439 */,
+/* 440 */
 /*!**************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-navbar/props.js ***!
   \**************************************************************************************/
@@ -21254,14 +21256,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 439 */,
-/* 440 */,
 /* 441 */,
 /* 442 */,
 /* 443 */,
 /* 444 */,
 /* 445 */,
-/* 446 */
+/* 446 */,
+/* 447 */,
+/* 448 */
 /*!*************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-input/props.js ***!
   \*************************************************************************************/
@@ -21451,12 +21453,12 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 447 */,
-/* 448 */,
 /* 449 */,
 /* 450 */,
 /* 451 */,
-/* 452 */
+/* 452 */,
+/* 453 */,
+/* 454 */
 /*!************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-form/props.js ***!
   \************************************************************************************/
@@ -21509,12 +21511,12 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 453 */,
-/* 454 */,
 /* 455 */,
 /* 456 */,
 /* 457 */,
-/* 458 */
+/* 458 */,
+/* 459 */,
+/* 460 */
 /*!*****************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-form-item/props.js ***!
   \*****************************************************************************************/
@@ -21565,8 +21567,6 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 459 */,
-/* 460 */,
 /* 461 */,
 /* 462 */,
 /* 463 */,
@@ -21579,7 +21579,9 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* 470 */,
 /* 471 */,
 /* 472 */,
-/* 473 */
+/* 473 */,
+/* 474 */,
+/* 475 */
 /*!*******************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-radio-group/props.js ***!
   \*******************************************************************************************/
@@ -21672,14 +21674,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 474 */,
-/* 475 */,
 /* 476 */,
 /* 477 */,
 /* 478 */,
 /* 479 */,
 /* 480 */,
-/* 481 */
+/* 481 */,
+/* 482 */,
+/* 483 */
 /*!*************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-radio/props.js ***!
   \*************************************************************************************/
@@ -21751,111 +21753,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 482 */,
-/* 483 */,
 /* 484 */,
 /* 485 */,
 /* 486 */,
 /* 487 */,
 /* 488 */,
-/* 489 */
-/*!*************************************************************************************!*\
-  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-image/props.js ***!
-  \*************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
-  props: {
-    // 图片地址
-    src: {
-      type: String,
-      default: uni.$u.props.image.src },
-
-    // 裁剪模式
-    mode: {
-      type: String,
-      default: uni.$u.props.image.mode },
-
-    // 宽度，单位任意
-    width: {
-      type: [String, Number],
-      default: uni.$u.props.image.width },
-
-    // 高度，单位任意
-    height: {
-      type: [String, Number],
-      default: uni.$u.props.image.height },
-
-    // 图片形状，circle-圆形，square-方形
-    shape: {
-      type: String,
-      default: uni.$u.props.image.shape },
-
-    // 圆角，单位任意
-    radius: {
-      type: [String, Number],
-      default: uni.$u.props.image.radius },
-
-    // 是否懒加载，微信小程序、App、百度小程序、字节跳动小程序
-    lazyLoad: {
-      type: Boolean,
-      default: uni.$u.props.image.lazyLoad },
-
-    // 开启长按图片显示识别微信小程序码菜单
-    showMenuByLongpress: {
-      type: Boolean,
-      default: uni.$u.props.image.showMenuByLongpress },
-
-    // 加载中的图标，或者小图片
-    loadingIcon: {
-      type: String,
-      default: uni.$u.props.image.loadingIcon },
-
-    // 加载失败的图标，或者小图片
-    errorIcon: {
-      type: String,
-      default: uni.$u.props.image.errorIcon },
-
-    // 是否显示加载中的图标或者自定义的slot
-    showLoading: {
-      type: Boolean,
-      default: uni.$u.props.image.showLoading },
-
-    // 是否显示加载错误的图标或者自定义的slot
-    showError: {
-      type: Boolean,
-      default: uni.$u.props.image.showError },
-
-    // 是否需要淡入效果
-    fade: {
-      type: Boolean,
-      default: uni.$u.props.image.fade },
-
-    // 只支持网络资源，只对微信小程序有效
-    webp: {
-      type: Boolean,
-      default: uni.$u.props.image.webp },
-
-    // 过渡时间，单位ms
-    duration: {
-      type: [String, Number],
-      default: uni.$u.props.image.duration },
-
-    // 背景颜色，用于深色页面加载图片时，为了和背景色融合
-    bgColor: {
-      type: String,
-      default: uni.$u.props.image.bgColor } } };exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
+/* 489 */,
 /* 490 */,
-/* 491 */,
-/* 492 */,
-/* 493 */,
-/* 494 */,
-/* 495 */
+/* 491 */
 /*!**********************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-checkbox-group/props.js ***!
   \**********************************************************************************************/
@@ -21944,14 +21849,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+/* 492 */,
+/* 493 */,
+/* 494 */,
+/* 495 */,
 /* 496 */,
 /* 497 */,
 /* 498 */,
-/* 499 */,
-/* 500 */,
-/* 501 */,
-/* 502 */,
-/* 503 */
+/* 499 */
 /*!****************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-checkbox/props.js ***!
   \****************************************************************************************/
@@ -22028,14 +21933,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+/* 500 */,
+/* 501 */,
+/* 502 */,
+/* 503 */,
 /* 504 */,
 /* 505 */,
 /* 506 */,
-/* 507 */,
-/* 508 */,
-/* 509 */,
-/* 510 */,
-/* 511 */
+/* 507 */
 /*!************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-tabs/props.js ***!
   \************************************************************************************/
@@ -22107,14 +22012,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+/* 508 */,
+/* 509 */,
+/* 510 */,
+/* 511 */,
 /* 512 */,
 /* 513 */,
 /* 514 */,
-/* 515 */,
-/* 516 */,
-/* 517 */,
-/* 518 */,
-/* 519 */
+/* 515 */
 /*!***************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-divider/props.js ***!
   \***************************************************************************************/
@@ -22166,14 +22071,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+/* 516 */,
+/* 517 */,
+/* 518 */,
+/* 519 */,
 /* 520 */,
 /* 521 */,
 /* 522 */,
-/* 523 */,
-/* 524 */,
-/* 525 */,
-/* 526 */,
-/* 527 */
+/* 523 */
 /*!******************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-notice-bar/props.js ***!
   \******************************************************************************************/
@@ -22251,14 +22156,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+/* 524 */,
+/* 525 */,
+/* 526 */,
+/* 527 */,
 /* 528 */,
 /* 529 */,
 /* 530 */,
-/* 531 */,
-/* 532 */,
-/* 533 */,
-/* 534 */,
-/* 535 */
+/* 531 */
 /*!*************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-popup/props.js ***!
   \*************************************************************************************/
@@ -22345,14 +22250,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+/* 532 */,
+/* 533 */,
+/* 534 */,
+/* 535 */,
 /* 536 */,
 /* 537 */,
 /* 538 */,
-/* 539 */,
-/* 540 */,
-/* 541 */,
-/* 542 */,
-/* 543 */
+/* 539 */
 /*!***************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-toolbar/props.js ***!
   \***************************************************************************************/
@@ -22394,14 +22299,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+/* 540 */,
+/* 541 */,
+/* 542 */,
+/* 543 */,
 /* 544 */,
 /* 545 */,
 /* 546 */,
-/* 547 */,
-/* 548 */,
-/* 549 */,
-/* 550 */,
-/* 551 */
+/* 547 */
 /*!********************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-loading-icon/props.js ***!
   \********************************************************************************************/
@@ -22468,14 +22373,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+/* 548 */,
+/* 549 */,
+/* 550 */,
+/* 551 */,
 /* 552 */,
 /* 553 */,
 /* 554 */,
-/* 555 */,
-/* 556 */,
-/* 557 */,
-/* 558 */,
-/* 559 */
+/* 555 */
 /*!************************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-swiper-indicator/props.js ***!
   \************************************************************************************************/
@@ -22512,14 +22417,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+/* 556 */,
+/* 557 */,
+/* 558 */,
+/* 559 */,
 /* 560 */,
 /* 561 */,
 /* 562 */,
-/* 563 */,
-/* 564 */,
-/* 565 */,
-/* 566 */,
-/* 567 */
+/* 563 */
 /*!***************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-overlay/props.js ***!
   \***************************************************************************************/
@@ -22551,14 +22456,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+/* 564 */,
+/* 565 */,
+/* 566 */,
+/* 567 */,
 /* 568 */,
 /* 569 */,
 /* 570 */,
-/* 571 */,
-/* 572 */,
-/* 573 */,
-/* 574 */,
-/* 575 */
+/* 571 */
 /*!***********************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-gap/props.js ***!
   \***********************************************************************************/
@@ -22590,14 +22495,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+/* 572 */,
+/* 573 */,
+/* 574 */,
+/* 575 */,
 /* 576 */,
 /* 577 */,
 /* 578 */,
-/* 579 */,
-/* 580 */,
-/* 581 */,
-/* 582 */,
-/* 583 */
+/* 579 */
 /*!************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-line/props.js ***!
   \************************************************************************************/
@@ -22638,14 +22543,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+/* 580 */,
+/* 581 */,
+/* 582 */,
+/* 583 */,
 /* 584 */,
 /* 585 */,
 /* 586 */,
-/* 587 */,
-/* 588 */,
-/* 589 */,
-/* 590 */,
-/* 591 */
+/* 587 */
 /*!******************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-transition/props.js ***!
   \******************************************************************************************/
@@ -22677,7 +22582,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 592 */
+/* 588 */
 /*!***********************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-transition/transition.js ***!
   \***********************************************************************************************/
@@ -22688,7 +22593,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 36));
 
 
-var _nvueAniMap = _interopRequireDefault(__webpack_require__(/*! ./nvue.ani-map.js */ 593));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};} // 定义一个一定时间后自动成功的promise，让调用nextTick方法处，进入下一个then方法
+var _nvueAniMap = _interopRequireDefault(__webpack_require__(/*! ./nvue.ani-map.js */ 589));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};} // 定义一个一定时间后自动成功的promise，让调用nextTick方法处，进入下一个then方法
 var nextTick = function nextTick() {return new Promise(function (resolve) {return setTimeout(resolve, 1000 / 50);});}; // nvue动画模块实现细节抽离在外部文件
 
 // 定义类名，通过给元素动态切换类名，赋予元素一定的css动画样式
@@ -22842,7 +22747,7 @@ var getClassNames = function getClassNames(name) {return {
     } } };exports.default = _default;
 
 /***/ }),
-/* 593 */
+/* 589 */
 /*!*************************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-transition/nvue.ani-map.js ***!
   \*************************************************************************************************/
@@ -22918,14 +22823,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
     'leave-to': { opacity: 0, transform: 'scale(0.95)' } } };exports.default = _default;
 
 /***/ }),
+/* 590 */,
+/* 591 */,
+/* 592 */,
+/* 593 */,
 /* 594 */,
 /* 595 */,
 /* 596 */,
-/* 597 */,
-/* 598 */,
-/* 599 */,
-/* 600 */,
-/* 601 */
+/* 597 */
 /*!******************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-status-bar/props.js ***!
   \******************************************************************************************/
@@ -22941,14 +22846,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
+/* 598 */,
+/* 599 */,
+/* 600 */,
+/* 601 */,
 /* 602 */,
 /* 603 */,
 /* 604 */,
-/* 605 */,
-/* 606 */,
-/* 607 */,
-/* 608 */,
-/* 609 */
+/* 605 */
 /*!**************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/util/async-validator.js ***!
   \**************************************************************************************/
@@ -24300,10 +24205,10 @@ Schema.messages = messages;var _default =
 Schema;
 // # sourceMappingURL=index.js.map
 exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../HBuilderX.3.5.3.20220729/HBuilderX/plugins/uniapp-cli/node_modules/node-libs-browser/mock/process.js */ 610)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../HBuilderX.3.5.3.20220729/HBuilderX/plugins/uniapp-cli/node_modules/node-libs-browser/mock/process.js */ 606)))
 
 /***/ }),
-/* 610 */
+/* 606 */
 /*!********************************************************!*\
   !*** ./node_modules/node-libs-browser/mock/process.js ***!
   \********************************************************/
@@ -24334,7 +24239,7 @@ exports.binding = function (name) {
     var path;
     exports.cwd = function () { return cwd };
     exports.chdir = function (dir) {
-        if (!path) path = __webpack_require__(/*! path */ 611);
+        if (!path) path = __webpack_require__(/*! path */ 607);
         cwd = path.resolve(dir, cwd);
     };
 })();
@@ -24347,7 +24252,7 @@ exports.features = {};
 
 
 /***/ }),
-/* 611 */
+/* 607 */
 /*!***********************************************!*\
   !*** ./node_modules/path-browserify/index.js ***!
   \***********************************************/
@@ -24657,22 +24562,15 @@ var substr = 'ab'.substr(-1) === 'b'
     }
 ;
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node-libs-browser/mock/process.js */ 610)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node-libs-browser/mock/process.js */ 606)))
 
 /***/ }),
+/* 608 */,
+/* 609 */,
+/* 610 */,
+/* 611 */,
 /* 612 */,
-/* 613 */,
-/* 614 */,
-/* 615 */,
-/* 616 */,
-/* 617 */,
-/* 618 */,
-/* 619 */,
-/* 620 */,
-/* 621 */,
-/* 622 */,
-/* 623 */,
-/* 624 */
+/* 613 */
 /*!*************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-badge/props.js ***!
   \*************************************************************************************/
@@ -24752,14 +24650,14 @@ var substr = 'ab'.substr(-1) === 'b'
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 625 */,
-/* 626 */,
-/* 627 */,
-/* 628 */,
-/* 629 */,
-/* 630 */,
-/* 631 */,
-/* 632 */
+/* 614 */,
+/* 615 */,
+/* 616 */,
+/* 617 */,
+/* 618 */,
+/* 619 */,
+/* 620 */,
+/* 621 */
 /*!*********************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-column-notice/props.js ***!
   \*********************************************************************************************/
@@ -24822,14 +24720,14 @@ var substr = 'ab'.substr(-1) === 'b'
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 633 */,
-/* 634 */,
-/* 635 */,
-/* 636 */,
-/* 637 */,
-/* 638 */,
-/* 639 */,
-/* 640 */
+/* 622 */,
+/* 623 */,
+/* 624 */,
+/* 625 */,
+/* 626 */,
+/* 627 */,
+/* 628 */,
+/* 629 */
 /*!******************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-row-notice/props.js ***!
   \******************************************************************************************/
@@ -24876,14 +24774,14 @@ var substr = 'ab'.substr(-1) === 'b'
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 641 */,
-/* 642 */,
-/* 643 */,
-/* 644 */,
-/* 645 */,
-/* 646 */,
-/* 647 */,
-/* 648 */
+/* 630 */,
+/* 631 */,
+/* 632 */,
+/* 633 */,
+/* 634 */,
+/* 635 */,
+/* 636 */,
+/* 637 */
 /*!*******************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-safe-bottom/props.js ***!
   \*******************************************************************************************/
