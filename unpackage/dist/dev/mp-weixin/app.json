@@ -1,33 +1,56 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/ExpertsSay/ExpertsSay",
-    "pages/PersonCenter/PersonCenter",
-    "pages/index/integrate/integrate",
-    "pages/ExpertsSay/Component/Content",
-    "pages/login/login",
-    "pages/userCenterPages/BBS/BBS",
-    "pages/userCenterPages/myPrescription/myPrescription",
-    "pages/userCenterPages/myAddress/myAddress",
-    "pages/userCenterPages/myAddress/addeditAddress",
-    "pages/userCenterPages/myArchives/myArchives",
-    "pages/userCenterPages/myCard/myCard",
-    "pages/userCenterPages/myExperts/myExperts",
-    "pages/userCenterPages/myOrder/myOrder",
-    "pages/userCenterPages/myPrescription/prescriptionDetails/prescriptionDetails",
-    "pages/index/doctor_desc/doctor_desc",
-    "pages/index/moreDynamic/moreDynamic",
-    "pages/index/cooperation/cooperation",
-    "pages/index/coop_desc/coop_desc",
-    "pages/index/dynamic_desc/dynamic_desc",
-    "pages/index/academic/academic",
-    "pages/index/health/health",
-    "pages/index/prescription/prescription",
-    "pages/index/prescription/buyMedicine/buyMedicine",
-    "pages/index/medicalGroup/medicalGroup",
-    "pages/ExpertsSay/jump/jump"
+    "pages/index",
+    "pages/ExpertsSay",
+    "pages/PersonCenter",
+    "pages/Content",
+    "pages/integrate/integrate",
+    "pages/doctor_desc/doctor_desc",
+    "pages/buyMedicine"
   ],
-  "subPackages": [],
+  "subPackages": [
+    {
+      "root": "page_index",
+      "pages": [
+        "index/moreDynamic/moreDynamic",
+        "index/cooperation/cooperation",
+        "index/integrate/integrate",
+        "index/coop_desc/coop_desc",
+        "index/dynamic_desc/dynamic_desc",
+        "index/academic/academic",
+        "index/health/health",
+        "index/prescription/prescription",
+        "index/medicalGroup/medicalGroup"
+      ]
+    },
+    {
+      "root": "page_expressSay",
+      "pages": [
+        "ExpertsSay/jump/jump"
+      ]
+    },
+    {
+      "root": "page_login",
+      "pages": [
+        "login/login",
+        "login/userAgreement"
+      ]
+    },
+    {
+      "root": "page_userCenter",
+      "pages": [
+        "userCenterPages/BBS/BBS",
+        "userCenterPages/myPrescription/myPrescription",
+        "userCenterPages/myAddress/myAddress",
+        "userCenterPages/myAddress/addeditAddress",
+        "userCenterPages/myArchives/myArchives",
+        "userCenterPages/myCard/myCard",
+        "userCenterPages/myExperts/myExperts",
+        "userCenterPages/myOrder/myOrder",
+        "userCenterPages/myPrescription/prescriptionDetails/prescriptionDetails"
+      ]
+    }
+  ],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "uni-app",
@@ -41,19 +64,19 @@
     "backgroundColor": "#fff",
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/index",
         "iconPath": "static/image/shouye.png",
         "selectedIconPath": "static/image/shouye1.png",
         "text": "首页"
       },
       {
-        "pagePath": "pages/ExpertsSay/ExpertsSay",
+        "pagePath": "pages/ExpertsSay",
         "iconPath": "static/image/zhuanjia.png",
         "selectedIconPath": "static/image/zhuanjia1.png",
         "text": "专家说"
       },
       {
-        "pagePath": "pages/PersonCenter/PersonCenter",
+        "pagePath": "pages/PersonCenter",
         "iconPath": "static/image/wode.png",
         "selectedIconPath": "static/image/wode1.png",
         "text": "我的"

@@ -1,1 +1,0 @@
-<view><cu-custom vue-id="72c13705-1" bgColor="bg-gradual-blue" isBack="{{true}}" bind:__l="__l" vue-slots="{{['content']}}"><view slot="content">团友订单</view></cu-custom><view class="_h1">团友订单</view></view>

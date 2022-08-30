@@ -19744,157 +19744,7 @@ function editwxuserinfo(data) {
 /* 185 */,
 /* 186 */,
 /* 187 */,
-/* 188 */,
-/* 189 */,
-/* 190 */,
-/* 191 */,
-/* 192 */,
-/* 193 */,
-/* 194 */,
-/* 195 */,
-/* 196 */,
-/* 197 */,
-/* 198 */,
-/* 199 */,
-/* 200 */,
-/* 201 */,
-/* 202 */,
-/* 203 */,
-/* 204 */,
-/* 205 */,
-/* 206 */,
-/* 207 */,
-/* 208 */,
-/* 209 */,
-/* 210 */
-/*!********************************************************!*\
-  !*** D:/HANSHUAI UNIAPP/LZ_doctor/api/user_address.js ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.getUserAddress = getUserAddress;exports.getAnAddress = getAnAddress;exports.delUserAddress = delUserAddress;exports.editUserAddress = editUserAddress;exports.addUserAddress = addUserAddress;exports.getProvinces = getProvinces;exports.getCities = getCities;exports.getAreas = getAreas;var _request = __webpack_require__(/*! @/utils/request.js */ 138);
-
-
-
-//获取用户地址
-function getUserAddress(data) {
-  return (0, _request.request)({
-    url: '/my/useraddress',
-    method: 'GET',
-    data: {
-      id: data } });
-
-
-}
-
-//获取一条用户地址
-function getAnAddress(data) {
-  return (0, _request.request)({
-    url: '/my/anaddress',
-    method: 'GET',
-    data: {
-      id: data } });
-
-
-}
-
-//删除用户地址
-function delUserAddress(data) {
-  return (0, _request.request)({
-    url: '/my/deluseraddress',
-    method: 'DELETE',
-    data: {
-      id: data } });
-
-
-}
-
-//编辑用户地址
-function editUserAddress(data) {
-  return (0, _request.request)({
-    url: '/my/edituseraddress',
-    method: 'POST',
-    data: data });
-
-}
-
-//新增用户地址
-function addUserAddress(data) {
-  return (0, _request.request)({
-    url: '/my/adduseraddress',
-    method: 'POST',
-    data: data });
-
-}
-
-
-
-//获取省名称
-function getProvinces() {
-  return (0, _request.request)({
-    url: '/my/getprovinces',
-    method: 'GET' });
-
-}
-
-//获取市名称
-function getCities(data) {
-  return (0, _request.request)({
-    url: '/my/getcities',
-    method: 'GET',
-    data: {
-      provinceid: data } });
-
-
-}
-
-//获取县名称
-function getAreas(data) {
-  return (0, _request.request)({
-    url: '/my/getareas',
-    method: 'GET',
-    data: {
-      cityid: data } });
-
-
-}
-
-/***/ }),
-/* 211 */,
-/* 212 */,
-/* 213 */,
-/* 214 */,
-/* 215 */,
-/* 216 */,
-/* 217 */,
-/* 218 */,
-/* 219 */,
-/* 220 */,
-/* 221 */,
-/* 222 */,
-/* 223 */,
-/* 224 */,
-/* 225 */,
-/* 226 */,
-/* 227 */,
-/* 228 */,
-/* 229 */,
-/* 230 */,
-/* 231 */,
-/* 232 */,
-/* 233 */,
-/* 234 */,
-/* 235 */,
-/* 236 */,
-/* 237 */,
-/* 238 */,
-/* 239 */,
-/* 240 */,
-/* 241 */,
-/* 242 */,
-/* 243 */
+/* 188 */
 /*!****************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/api/mydoctor.js ***!
   \****************************************************/
@@ -19936,6 +19786,61 @@ function addMyDoctor(data) {
 }
 
 /***/ }),
+/* 189 */,
+/* 190 */,
+/* 191 */,
+/* 192 */,
+/* 193 */,
+/* 194 */,
+/* 195 */,
+/* 196 */,
+/* 197 */,
+/* 198 */,
+/* 199 */,
+/* 200 */,
+/* 201 */,
+/* 202 */,
+/* 203 */,
+/* 204 */,
+/* 205 */,
+/* 206 */,
+/* 207 */,
+/* 208 */,
+/* 209 */,
+/* 210 */,
+/* 211 */,
+/* 212 */,
+/* 213 */,
+/* 214 */,
+/* 215 */,
+/* 216 */,
+/* 217 */,
+/* 218 */,
+/* 219 */,
+/* 220 */,
+/* 221 */,
+/* 222 */,
+/* 223 */,
+/* 224 */,
+/* 225 */,
+/* 226 */,
+/* 227 */,
+/* 228 */,
+/* 229 */,
+/* 230 */,
+/* 231 */,
+/* 232 */,
+/* 233 */,
+/* 234 */,
+/* 235 */,
+/* 236 */,
+/* 237 */,
+/* 238 */,
+/* 239 */,
+/* 240 */,
+/* 241 */,
+/* 242 */,
+/* 243 */,
 /* 244 */,
 /* 245 */,
 /* 246 */,
@@ -20050,7 +19955,23 @@ function addMyDoctor(data) {
 /* 355 */,
 /* 356 */,
 /* 357 */,
-/* 358 */
+/* 358 */,
+/* 359 */,
+/* 360 */,
+/* 361 */,
+/* 362 */,
+/* 363 */,
+/* 364 */,
+/* 365 */,
+/* 366 */,
+/* 367 */,
+/* 368 */,
+/* 369 */,
+/* 370 */,
+/* 371 */,
+/* 372 */,
+/* 373 */,
+/* 374 */
 /*!**************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-picker/props.js ***!
   \**************************************************************************************/
@@ -20137,14 +20058,14 @@ function addMyDoctor(data) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 359 */,
-/* 360 */,
-/* 361 */,
-/* 362 */,
-/* 363 */,
-/* 364 */,
-/* 365 */,
-/* 366 */
+/* 375 */,
+/* 376 */,
+/* 377 */,
+/* 378 */,
+/* 379 */,
+/* 380 */,
+/* 381 */,
+/* 382 */
 /*!**************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-swiper/props.js ***!
   \**************************************************************************************/
@@ -20277,14 +20198,14 @@ function addMyDoctor(data) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 367 */,
-/* 368 */,
-/* 369 */,
-/* 370 */,
-/* 371 */,
-/* 372 */,
-/* 373 */,
-/* 374 */
+/* 383 */,
+/* 384 */,
+/* 385 */,
+/* 386 */,
+/* 387 */,
+/* 388 */,
+/* 389 */,
+/* 390 */
 /*!************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-grid/props.js ***!
   \************************************************************************************/
@@ -20311,14 +20232,14 @@ function addMyDoctor(data) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 375 */,
-/* 376 */,
-/* 377 */,
-/* 378 */,
-/* 379 */,
-/* 380 */,
-/* 381 */,
-/* 382 */
+/* 391 */,
+/* 392 */,
+/* 393 */,
+/* 394 */,
+/* 395 */,
+/* 396 */,
+/* 397 */,
+/* 398 */
 /*!*****************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-grid-item/props.js ***!
   \*****************************************************************************************/
@@ -20340,21 +20261,21 @@ function addMyDoctor(data) {
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 383 */,
-/* 384 */,
-/* 385 */,
-/* 386 */,
-/* 387 */,
-/* 388 */,
-/* 389 */,
-/* 390 */,
-/* 391 */,
-/* 392 */,
-/* 393 */,
-/* 394 */,
-/* 395 */,
-/* 396 */,
-/* 397 */
+/* 399 */,
+/* 400 */,
+/* 401 */,
+/* 402 */,
+/* 403 */,
+/* 404 */,
+/* 405 */,
+/* 406 */,
+/* 407 */,
+/* 408 */,
+/* 409 */,
+/* 410 */,
+/* 411 */,
+/* 412 */,
+/* 413 */
 /*!************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-icon/icons.js ***!
   \************************************************************************************/
@@ -20577,7 +20498,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   'uicon-en': "\uE692" };exports.default = _default;
 
 /***/ }),
-/* 398 */
+/* 414 */
 /*!************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-icon/props.js ***!
   \************************************************************************************/
@@ -20674,14 +20595,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 399 */,
-/* 400 */,
-/* 401 */,
-/* 402 */,
-/* 403 */,
-/* 404 */,
-/* 405 */,
-/* 406 */
+/* 415 */,
+/* 416 */,
+/* 417 */,
+/* 418 */,
+/* 419 */,
+/* 420 */,
+/* 421 */,
+/* 422 */
 /*!******************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-cell-group/props.js ***!
   \******************************************************************************************/
@@ -20703,14 +20624,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 407 */,
-/* 408 */,
-/* 409 */,
-/* 410 */,
-/* 411 */,
-/* 412 */,
-/* 413 */,
-/* 414 */
+/* 423 */,
+/* 424 */,
+/* 425 */,
+/* 426 */,
+/* 427 */,
+/* 428 */,
+/* 429 */,
+/* 430 */
 /*!************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-cell/props.js ***!
   \************************************************************************************/
@@ -20828,14 +20749,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 415 */,
-/* 416 */,
-/* 417 */,
-/* 418 */,
-/* 419 */,
-/* 420 */,
-/* 421 */,
-/* 422 */
+/* 431 */,
+/* 432 */,
+/* 433 */,
+/* 434 */,
+/* 435 */,
+/* 436 */,
+/* 437 */,
+/* 438 */
 /*!***********************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-tag/props.js ***!
   \***********************************************************************************/
@@ -20927,14 +20848,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 423 */,
-/* 424 */,
-/* 425 */,
-/* 426 */,
-/* 427 */,
-/* 428 */,
-/* 429 */,
-/* 430 */
+/* 439 */,
+/* 440 */,
+/* 441 */,
+/* 442 */,
+/* 443 */,
+/* 444 */,
+/* 445 */,
+/* 446 */
 /*!******************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/mixin/button.js ***!
   \******************************************************************************/
@@ -20955,7 +20876,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
     openType: String } };exports.default = _default;
 
 /***/ }),
-/* 431 */
+/* 447 */
 /*!********************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/mixin/openType.js ***!
   \********************************************************************************/
@@ -20988,7 +20909,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
     } } };exports.default = _default;
 
 /***/ }),
-/* 432 */
+/* 448 */
 /*!**************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-button/props.js ***!
   \**************************************************************************************/
@@ -21157,14 +21078,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 433 */,
-/* 434 */,
-/* 435 */,
-/* 436 */,
-/* 437 */,
-/* 438 */,
-/* 439 */,
-/* 440 */
+/* 449 */,
+/* 450 */,
+/* 451 */,
+/* 452 */,
+/* 453 */,
+/* 454 */,
+/* 455 */,
+/* 456 */
 /*!**************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-navbar/props.js ***!
   \**************************************************************************************/
@@ -21256,14 +21177,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 441 */,
-/* 442 */,
-/* 443 */,
-/* 444 */,
-/* 445 */,
-/* 446 */,
-/* 447 */,
-/* 448 */
+/* 457 */,
+/* 458 */,
+/* 459 */,
+/* 460 */,
+/* 461 */,
+/* 462 */,
+/* 463 */,
+/* 464 */
 /*!*************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-input/props.js ***!
   \*************************************************************************************/
@@ -21453,12 +21374,12 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 449 */,
-/* 450 */,
-/* 451 */,
-/* 452 */,
-/* 453 */,
-/* 454 */
+/* 465 */,
+/* 466 */,
+/* 467 */,
+/* 468 */,
+/* 469 */,
+/* 470 */
 /*!************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-form/props.js ***!
   \************************************************************************************/
@@ -21511,12 +21432,12 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 455 */,
-/* 456 */,
-/* 457 */,
-/* 458 */,
-/* 459 */,
-/* 460 */
+/* 471 */,
+/* 472 */,
+/* 473 */,
+/* 474 */,
+/* 475 */,
+/* 476 */
 /*!*****************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-form-item/props.js ***!
   \*****************************************************************************************/
@@ -21567,21 +21488,21 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 461 */,
-/* 462 */,
-/* 463 */,
-/* 464 */,
-/* 465 */,
-/* 466 */,
-/* 467 */,
-/* 468 */,
-/* 469 */,
-/* 470 */,
-/* 471 */,
-/* 472 */,
-/* 473 */,
-/* 474 */,
-/* 475 */
+/* 477 */,
+/* 478 */,
+/* 479 */,
+/* 480 */,
+/* 481 */,
+/* 482 */,
+/* 483 */,
+/* 484 */,
+/* 485 */,
+/* 486 */,
+/* 487 */,
+/* 488 */,
+/* 489 */,
+/* 490 */,
+/* 491 */
 /*!*******************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-radio-group/props.js ***!
   \*******************************************************************************************/
@@ -21674,14 +21595,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 476 */,
-/* 477 */,
-/* 478 */,
-/* 479 */,
-/* 480 */,
-/* 481 */,
-/* 482 */,
-/* 483 */
+/* 492 */,
+/* 493 */,
+/* 494 */,
+/* 495 */,
+/* 496 */,
+/* 497 */,
+/* 498 */,
+/* 499 */
 /*!*************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-radio/props.js ***!
   \*************************************************************************************/
@@ -21753,186 +21674,6 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 484 */,
-/* 485 */,
-/* 486 */,
-/* 487 */,
-/* 488 */,
-/* 489 */,
-/* 490 */,
-/* 491 */
-/*!**********************************************************************************************!*\
-  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-checkbox-group/props.js ***!
-  \**********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
-  props: {
-    // 标识符
-    name: {
-      type: String,
-      default: uni.$u.props.checkboxGroup.name },
-
-    // 绑定的值
-    value: {
-      type: Array,
-      default: uni.$u.props.checkboxGroup.value },
-
-    // 形状，circle-圆形，square-方形
-    shape: {
-      type: String,
-      default: uni.$u.props.checkboxGroup.shape },
-
-    // 是否禁用全部checkbox
-    disabled: {
-      type: Boolean,
-      default: uni.$u.props.checkboxGroup.disabled },
-
-
-    // 选中状态下的颜色，如设置此值，将会覆盖parent的activeColor值
-    activeColor: {
-      type: String,
-      default: uni.$u.props.checkboxGroup.activeColor },
-
-    // 未选中的颜色
-    inactiveColor: {
-      type: String,
-      default: uni.$u.props.checkboxGroup.inactiveColor },
-
-
-    // 整个组件的尺寸，默认px
-    size: {
-      type: [String, Number],
-      default: uni.$u.props.checkboxGroup.size },
-
-    // 布局方式，row-横向，column-纵向
-    placement: {
-      type: String,
-      default: uni.$u.props.checkboxGroup.placement },
-
-    // label的字体大小，px单位
-    labelSize: {
-      type: [String, Number],
-      default: uni.$u.props.checkboxGroup.labelSize },
-
-    // label的字体颜色
-    labelColor: {
-      type: [String],
-      default: uni.$u.props.checkboxGroup.labelColor },
-
-    // 是否禁止点击文本操作
-    labelDisabled: {
-      type: Boolean,
-      default: uni.$u.props.checkboxGroup.labelDisabled },
-
-    // 图标颜色
-    iconColor: {
-      type: String,
-      default: uni.$u.props.checkboxGroup.iconColor },
-
-    // 图标的大小，单位px
-    iconSize: {
-      type: [String, Number],
-      default: uni.$u.props.checkboxGroup.iconSize },
-
-    // 勾选图标的对齐方式，left-左边，right-右边
-    iconPlacement: {
-      type: String,
-      default: uni.$u.props.checkboxGroup.iconPlacement },
-
-    // 竖向配列时，是否显示下划线
-    borderBottom: {
-      type: Boolean,
-      default: uni.$u.props.checkboxGroup.borderBottom } } };exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
-/* 492 */,
-/* 493 */,
-/* 494 */,
-/* 495 */,
-/* 496 */,
-/* 497 */,
-/* 498 */,
-/* 499 */
-/*!****************************************************************************************!*\
-  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-checkbox/props.js ***!
-  \****************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
-  props: {
-    // checkbox的名称
-    name: {
-      type: [String, Number, Boolean],
-      default: uni.$u.props.checkbox.name },
-
-    // 形状，square为方形，circle为圆型
-    shape: {
-      type: String,
-      default: uni.$u.props.checkbox.shape },
-
-    // 整体的大小
-    size: {
-      type: [String, Number],
-      default: uni.$u.props.checkbox.size },
-
-    // 是否默认选中
-    checked: {
-      type: Boolean,
-      default: uni.$u.props.checkbox.checked },
-
-    // 是否禁用
-    disabled: {
-      type: [String, Boolean],
-      default: uni.$u.props.checkbox.disabled },
-
-    // 选中状态下的颜色，如设置此值，将会覆盖parent的activeColor值
-    activeColor: {
-      type: String,
-      default: uni.$u.props.checkbox.activeColor },
-
-    // 未选中的颜色
-    inactiveColor: {
-      type: String,
-      default: uni.$u.props.checkbox.inactiveColor },
-
-    // 图标的大小，单位px
-    iconSize: {
-      type: [String, Number],
-      default: uni.$u.props.checkbox.iconSize },
-
-    // 图标颜色
-    iconColor: {
-      type: String,
-      default: uni.$u.props.checkbox.iconColor },
-
-    // label提示文字，因为nvue下，直接slot进来的文字，由于特殊的结构，无法修改样式
-    label: {
-      type: [String, Number],
-      default: uni.$u.props.checkbox.label },
-
-    // label的字体大小，px单位
-    labelSize: {
-      type: [String, Number],
-      default: uni.$u.props.checkbox.labelSize },
-
-    // label的颜色
-    labelColor: {
-      type: String,
-      default: uni.$u.props.checkbox.labelColor },
-
-    // 是否禁止点击提示语选中复选框
-    labelDisabled: {
-      type: [String, Boolean],
-      default: uni.$u.props.checkbox.labelDisabled } } };exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
 /* 500 */,
 /* 501 */,
 /* 502 */,
@@ -21941,6 +21682,65 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* 505 */,
 /* 506 */,
 /* 507 */
+/*!***************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-divider/props.js ***!
+  \***************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  props: {
+    // 是否虚线
+    dashed: {
+      type: Boolean,
+      default: uni.$u.props.divider.dashed },
+
+    // 是否细线
+    hairline: {
+      type: Boolean,
+      default: uni.$u.props.divider.hairline },
+
+    // 是否以点替代文字，优先于text字段起作用
+    dot: {
+      type: Boolean,
+      default: uni.$u.props.divider.dot },
+
+    // 内容文本的位置，left-左边，center-中间，right-右边
+    textPosition: {
+      type: String,
+      default: uni.$u.props.divider.textPosition },
+
+    // 文本内容
+    text: {
+      type: [String, Number],
+      default: uni.$u.props.divider.text },
+
+    // 文本大小
+    textSize: {
+      type: [String, Number],
+      default: uni.$u.props.divider.textSize },
+
+    // 文本颜色
+    textColor: {
+      type: String,
+      default: uni.$u.props.divider.textColor },
+
+    // 线条颜色
+    lineColor: {
+      type: String,
+      default: uni.$u.props.divider.lineColor } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 508 */,
+/* 509 */,
+/* 510 */,
+/* 511 */,
+/* 512 */,
+/* 513 */,
+/* 514 */,
+/* 515 */
 /*!************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-tabs/props.js ***!
   \************************************************************************************/
@@ -22009,65 +21809,6 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
     keyName: {
       type: String,
       default: uni.$u.props.tabs.keyName } } };exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
-
-/***/ }),
-/* 508 */,
-/* 509 */,
-/* 510 */,
-/* 511 */,
-/* 512 */,
-/* 513 */,
-/* 514 */,
-/* 515 */
-/*!***************************************************************************************!*\
-  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-divider/props.js ***!
-  \***************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
-  props: {
-    // 是否虚线
-    dashed: {
-      type: Boolean,
-      default: uni.$u.props.divider.dashed },
-
-    // 是否细线
-    hairline: {
-      type: Boolean,
-      default: uni.$u.props.divider.hairline },
-
-    // 是否以点替代文字，优先于text字段起作用
-    dot: {
-      type: Boolean,
-      default: uni.$u.props.divider.dot },
-
-    // 内容文本的位置，left-左边，center-中间，right-右边
-    textPosition: {
-      type: String,
-      default: uni.$u.props.divider.textPosition },
-
-    // 文本内容
-    text: {
-      type: [String, Number],
-      default: uni.$u.props.divider.text },
-
-    // 文本大小
-    textSize: {
-      type: [String, Number],
-      default: uni.$u.props.divider.textSize },
-
-    // 文本颜色
-    textColor: {
-      type: String,
-      default: uni.$u.props.divider.textColor },
-
-    // 线条颜色
-    lineColor: {
-      type: String,
-      default: uni.$u.props.divider.lineColor } } };exports.default = _default;
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
@@ -22164,6 +21905,186 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* 529 */,
 /* 530 */,
 /* 531 */
+/*!**********************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-checkbox-group/props.js ***!
+  \**********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  props: {
+    // 标识符
+    name: {
+      type: String,
+      default: uni.$u.props.checkboxGroup.name },
+
+    // 绑定的值
+    value: {
+      type: Array,
+      default: uni.$u.props.checkboxGroup.value },
+
+    // 形状，circle-圆形，square-方形
+    shape: {
+      type: String,
+      default: uni.$u.props.checkboxGroup.shape },
+
+    // 是否禁用全部checkbox
+    disabled: {
+      type: Boolean,
+      default: uni.$u.props.checkboxGroup.disabled },
+
+
+    // 选中状态下的颜色，如设置此值，将会覆盖parent的activeColor值
+    activeColor: {
+      type: String,
+      default: uni.$u.props.checkboxGroup.activeColor },
+
+    // 未选中的颜色
+    inactiveColor: {
+      type: String,
+      default: uni.$u.props.checkboxGroup.inactiveColor },
+
+
+    // 整个组件的尺寸，默认px
+    size: {
+      type: [String, Number],
+      default: uni.$u.props.checkboxGroup.size },
+
+    // 布局方式，row-横向，column-纵向
+    placement: {
+      type: String,
+      default: uni.$u.props.checkboxGroup.placement },
+
+    // label的字体大小，px单位
+    labelSize: {
+      type: [String, Number],
+      default: uni.$u.props.checkboxGroup.labelSize },
+
+    // label的字体颜色
+    labelColor: {
+      type: [String],
+      default: uni.$u.props.checkboxGroup.labelColor },
+
+    // 是否禁止点击文本操作
+    labelDisabled: {
+      type: Boolean,
+      default: uni.$u.props.checkboxGroup.labelDisabled },
+
+    // 图标颜色
+    iconColor: {
+      type: String,
+      default: uni.$u.props.checkboxGroup.iconColor },
+
+    // 图标的大小，单位px
+    iconSize: {
+      type: [String, Number],
+      default: uni.$u.props.checkboxGroup.iconSize },
+
+    // 勾选图标的对齐方式，left-左边，right-右边
+    iconPlacement: {
+      type: String,
+      default: uni.$u.props.checkboxGroup.iconPlacement },
+
+    // 竖向配列时，是否显示下划线
+    borderBottom: {
+      type: Boolean,
+      default: uni.$u.props.checkboxGroup.borderBottom } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 532 */,
+/* 533 */,
+/* 534 */,
+/* 535 */,
+/* 536 */,
+/* 537 */,
+/* 538 */,
+/* 539 */
+/*!****************************************************************************************!*\
+  !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-checkbox/props.js ***!
+  \****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default = {
+  props: {
+    // checkbox的名称
+    name: {
+      type: [String, Number, Boolean],
+      default: uni.$u.props.checkbox.name },
+
+    // 形状，square为方形，circle为圆型
+    shape: {
+      type: String,
+      default: uni.$u.props.checkbox.shape },
+
+    // 整体的大小
+    size: {
+      type: [String, Number],
+      default: uni.$u.props.checkbox.size },
+
+    // 是否默认选中
+    checked: {
+      type: Boolean,
+      default: uni.$u.props.checkbox.checked },
+
+    // 是否禁用
+    disabled: {
+      type: [String, Boolean],
+      default: uni.$u.props.checkbox.disabled },
+
+    // 选中状态下的颜色，如设置此值，将会覆盖parent的activeColor值
+    activeColor: {
+      type: String,
+      default: uni.$u.props.checkbox.activeColor },
+
+    // 未选中的颜色
+    inactiveColor: {
+      type: String,
+      default: uni.$u.props.checkbox.inactiveColor },
+
+    // 图标的大小，单位px
+    iconSize: {
+      type: [String, Number],
+      default: uni.$u.props.checkbox.iconSize },
+
+    // 图标颜色
+    iconColor: {
+      type: String,
+      default: uni.$u.props.checkbox.iconColor },
+
+    // label提示文字，因为nvue下，直接slot进来的文字，由于特殊的结构，无法修改样式
+    label: {
+      type: [String, Number],
+      default: uni.$u.props.checkbox.label },
+
+    // label的字体大小，px单位
+    labelSize: {
+      type: [String, Number],
+      default: uni.$u.props.checkbox.labelSize },
+
+    // label的颜色
+    labelColor: {
+      type: String,
+      default: uni.$u.props.checkbox.labelColor },
+
+    // 是否禁止点击提示语选中复选框
+    labelDisabled: {
+      type: [String, Boolean],
+      default: uni.$u.props.checkbox.labelDisabled } } };exports.default = _default;
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+
+/***/ }),
+/* 540 */,
+/* 541 */,
+/* 542 */,
+/* 543 */,
+/* 544 */,
+/* 545 */,
+/* 546 */,
+/* 547 */
 /*!*************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-popup/props.js ***!
   \*************************************************************************************/
@@ -22250,14 +22171,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 532 */,
-/* 533 */,
-/* 534 */,
-/* 535 */,
-/* 536 */,
-/* 537 */,
-/* 538 */,
-/* 539 */
+/* 548 */,
+/* 549 */,
+/* 550 */,
+/* 551 */,
+/* 552 */,
+/* 553 */,
+/* 554 */,
+/* 555 */
 /*!***************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-toolbar/props.js ***!
   \***************************************************************************************/
@@ -22299,14 +22220,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 540 */,
-/* 541 */,
-/* 542 */,
-/* 543 */,
-/* 544 */,
-/* 545 */,
-/* 546 */,
-/* 547 */
+/* 556 */,
+/* 557 */,
+/* 558 */,
+/* 559 */,
+/* 560 */,
+/* 561 */,
+/* 562 */,
+/* 563 */
 /*!********************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-loading-icon/props.js ***!
   \********************************************************************************************/
@@ -22373,14 +22294,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 548 */,
-/* 549 */,
-/* 550 */,
-/* 551 */,
-/* 552 */,
-/* 553 */,
-/* 554 */,
-/* 555 */
+/* 564 */,
+/* 565 */,
+/* 566 */,
+/* 567 */,
+/* 568 */,
+/* 569 */,
+/* 570 */,
+/* 571 */
 /*!************************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-swiper-indicator/props.js ***!
   \************************************************************************************************/
@@ -22417,14 +22338,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 556 */,
-/* 557 */,
-/* 558 */,
-/* 559 */,
-/* 560 */,
-/* 561 */,
-/* 562 */,
-/* 563 */
+/* 572 */,
+/* 573 */,
+/* 574 */,
+/* 575 */,
+/* 576 */,
+/* 577 */,
+/* 578 */,
+/* 579 */
 /*!***************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-overlay/props.js ***!
   \***************************************************************************************/
@@ -22456,14 +22377,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 564 */,
-/* 565 */,
-/* 566 */,
-/* 567 */,
-/* 568 */,
-/* 569 */,
-/* 570 */,
-/* 571 */
+/* 580 */,
+/* 581 */,
+/* 582 */,
+/* 583 */,
+/* 584 */,
+/* 585 */,
+/* 586 */,
+/* 587 */
 /*!***********************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-gap/props.js ***!
   \***********************************************************************************/
@@ -22495,14 +22416,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 572 */,
-/* 573 */,
-/* 574 */,
-/* 575 */,
-/* 576 */,
-/* 577 */,
-/* 578 */,
-/* 579 */
+/* 588 */,
+/* 589 */,
+/* 590 */,
+/* 591 */,
+/* 592 */,
+/* 593 */,
+/* 594 */,
+/* 595 */
 /*!************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-line/props.js ***!
   \************************************************************************************/
@@ -22543,14 +22464,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 580 */,
-/* 581 */,
-/* 582 */,
-/* 583 */,
-/* 584 */,
-/* 585 */,
-/* 586 */,
-/* 587 */
+/* 596 */,
+/* 597 */,
+/* 598 */,
+/* 599 */,
+/* 600 */,
+/* 601 */,
+/* 602 */,
+/* 603 */
 /*!******************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-transition/props.js ***!
   \******************************************************************************************/
@@ -22582,7 +22503,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 588 */
+/* 604 */
 /*!***********************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-transition/transition.js ***!
   \***********************************************************************************************/
@@ -22593,7 +22514,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 36));
 
 
-var _nvueAniMap = _interopRequireDefault(__webpack_require__(/*! ./nvue.ani-map.js */ 589));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};} // 定义一个一定时间后自动成功的promise，让调用nextTick方法处，进入下一个then方法
+var _nvueAniMap = _interopRequireDefault(__webpack_require__(/*! ./nvue.ani-map.js */ 605));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};} // 定义一个一定时间后自动成功的promise，让调用nextTick方法处，进入下一个then方法
 var nextTick = function nextTick() {return new Promise(function (resolve) {return setTimeout(resolve, 1000 / 50);});}; // nvue动画模块实现细节抽离在外部文件
 
 // 定义类名，通过给元素动态切换类名，赋予元素一定的css动画样式
@@ -22747,7 +22668,7 @@ var getClassNames = function getClassNames(name) {return {
     } } };exports.default = _default;
 
 /***/ }),
-/* 589 */
+/* 605 */
 /*!*************************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-transition/nvue.ani-map.js ***!
   \*************************************************************************************************/
@@ -22823,14 +22744,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
     'leave-to': { opacity: 0, transform: 'scale(0.95)' } } };exports.default = _default;
 
 /***/ }),
-/* 590 */,
-/* 591 */,
-/* 592 */,
-/* 593 */,
-/* 594 */,
-/* 595 */,
-/* 596 */,
-/* 597 */
+/* 606 */,
+/* 607 */,
+/* 608 */,
+/* 609 */,
+/* 610 */,
+/* 611 */,
+/* 612 */,
+/* 613 */
 /*!******************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-status-bar/props.js ***!
   \******************************************************************************************/
@@ -22846,14 +22767,14 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 598 */,
-/* 599 */,
-/* 600 */,
-/* 601 */,
-/* 602 */,
-/* 603 */,
-/* 604 */,
-/* 605 */
+/* 614 */,
+/* 615 */,
+/* 616 */,
+/* 617 */,
+/* 618 */,
+/* 619 */,
+/* 620 */,
+/* 621 */
 /*!**************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/libs/util/async-validator.js ***!
   \**************************************************************************************/
@@ -24205,10 +24126,10 @@ Schema.messages = messages;var _default =
 Schema;
 // # sourceMappingURL=index.js.map
 exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../HBuilderX.3.5.3.20220729/HBuilderX/plugins/uniapp-cli/node_modules/node-libs-browser/mock/process.js */ 606)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../HBuilderX.3.5.3.20220729/HBuilderX/plugins/uniapp-cli/node_modules/node-libs-browser/mock/process.js */ 622)))
 
 /***/ }),
-/* 606 */
+/* 622 */
 /*!********************************************************!*\
   !*** ./node_modules/node-libs-browser/mock/process.js ***!
   \********************************************************/
@@ -24239,7 +24160,7 @@ exports.binding = function (name) {
     var path;
     exports.cwd = function () { return cwd };
     exports.chdir = function (dir) {
-        if (!path) path = __webpack_require__(/*! path */ 607);
+        if (!path) path = __webpack_require__(/*! path */ 623);
         cwd = path.resolve(dir, cwd);
     };
 })();
@@ -24252,7 +24173,7 @@ exports.features = {};
 
 
 /***/ }),
-/* 607 */
+/* 623 */
 /*!***********************************************!*\
   !*** ./node_modules/path-browserify/index.js ***!
   \***********************************************/
@@ -24562,15 +24483,15 @@ var substr = 'ab'.substr(-1) === 'b'
     }
 ;
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node-libs-browser/mock/process.js */ 606)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node-libs-browser/mock/process.js */ 622)))
 
 /***/ }),
-/* 608 */,
-/* 609 */,
-/* 610 */,
-/* 611 */,
-/* 612 */,
-/* 613 */
+/* 624 */,
+/* 625 */,
+/* 626 */,
+/* 627 */,
+/* 628 */,
+/* 629 */
 /*!*************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-badge/props.js ***!
   \*************************************************************************************/
@@ -24650,14 +24571,14 @@ var substr = 'ab'.substr(-1) === 'b'
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 614 */,
-/* 615 */,
-/* 616 */,
-/* 617 */,
-/* 618 */,
-/* 619 */,
-/* 620 */,
-/* 621 */
+/* 630 */,
+/* 631 */,
+/* 632 */,
+/* 633 */,
+/* 634 */,
+/* 635 */,
+/* 636 */,
+/* 637 */
 /*!*********************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-column-notice/props.js ***!
   \*********************************************************************************************/
@@ -24720,14 +24641,14 @@ var substr = 'ab'.substr(-1) === 'b'
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 622 */,
-/* 623 */,
-/* 624 */,
-/* 625 */,
-/* 626 */,
-/* 627 */,
-/* 628 */,
-/* 629 */
+/* 638 */,
+/* 639 */,
+/* 640 */,
+/* 641 */,
+/* 642 */,
+/* 643 */,
+/* 644 */,
+/* 645 */
 /*!******************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-row-notice/props.js ***!
   \******************************************************************************************/
@@ -24774,14 +24695,14 @@ var substr = 'ab'.substr(-1) === 'b'
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
 
 /***/ }),
-/* 630 */,
-/* 631 */,
-/* 632 */,
-/* 633 */,
-/* 634 */,
-/* 635 */,
-/* 636 */,
-/* 637 */
+/* 646 */,
+/* 647 */,
+/* 648 */,
+/* 649 */,
+/* 650 */,
+/* 651 */,
+/* 652 */,
+/* 653 */
 /*!*******************************************************************************************!*\
   !*** D:/HANSHUAI UNIAPP/LZ_doctor/uni_modules/uview-ui/components/u-safe-bottom/props.js ***!
   \*******************************************************************************************/
